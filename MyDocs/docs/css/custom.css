@@ -1,0 +1,13 @@
+/* Exemple : changer la couleur des blocs de code */
+.codehilite {
+    background-color:#eb891a;
+    border-radius: 5px;
+    padding: 1em;
+    border: 1px solid #e1e4e8;
+}
+
+/* Exemple : personnaliser les onglets */
+.md-tabs {
+    background-color: #eb891a;
+    border-radius: 5px;
+}

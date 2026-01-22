@@ -8,17 +8,55 @@ nav:
   - Home: index.md
   - About: about.md
   - Javascript:
-      - Introduction: javascript/introduction.md
-      - Installation: javascript/installation.md
-      - Usage: javascript/usage.md
+      - Base: javascript/base.md
 
 
 # Thème du site :
 theme:
-  name: mkdocs           # mkdocs,readthedocs
+  name: material            # mkdocs,readthedocs, material
   language: fr
+  palette:
+    - scheme: default
+      primary: red
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: red
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: images/favicon.ico
+  custom_dir: overrides   # Dossier pour les fichiers personnalisés
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
 
 # Configuration des versions :
 extra:
   version: 1.0.0
   copyright: MyDocs Copyright (c) 2026 Alex Lamizana
+
+extra_css:
+  - css/custom.css

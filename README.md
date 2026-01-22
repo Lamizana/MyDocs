@@ -71,6 +71,7 @@ Voici la liste des thèmes disponibles par défaut avec MkDocs :
     readthedocs
     material (nécessite une installation supplémentaire)
     windmill
+    bootstrap
     slate
     cyborg
     simplex
@@ -87,67 +88,11 @@ Voici la liste des thèmes disponibles par défaut avec MkDocs :
     spacelab
 ```
 
----
-## Déploiement
-
-Pour déployer le site sur Github.io voici les différentes étapes.
-
-### 1. Prérequis
-
-* Un dépot Github.
-* Mkdocs installé.
-* Un fichier mkdocs.yml.
-
-### 2. Configuration de mkdocs
-
-S'assurer que notre mkdocs aie une configuration minimale :
-
-```yaml
-site_name: MyDocs
-theme: mkdocs
-```
-
-### 3. Générer le site
-
-Dans le terminal à la racine du projet :
+Pour installer un théme :
 
 ```bash
-> python -m mkdocs build
+pip install mkdocs-material     #instale le theme material
 ```
-
-Cela créer un dossier `site/` contenant le site statique qui sera utilisé.
-
-### 4. Déployer sur Github Pages
-
-Pour cela on va utililser le plugin `mkdocs gh-deploy`
-
-Installation du plugin :
-
-```bash
-pip install mkdocs ghp-import
-```
-
-Pour lancer le déploiement :
-
-```bash
-python -m mkdocs gh-deploy
-```
-
-* Cela crée ou met à jour la branche `gh-pages` et push le contenu du dossier `site`.
-
-### 5. Aciver GitHub Pages
-
-* Aller dans les paramètres du dépôt GitHub ( `Settings > Pages` ).
-* Sélectionner la branche `gh-pages` comme source.
-* Le site sera alors à l'addresse:
-`[https](https://mon-utilisateur.github.io/mon-depot/)`
-
-
-```bash
-mkdocs gh-deploy --clean
-```
-
-Le site est actuellement sur : <https://lamizana.github.io/manuel-next/>.
 
 ---
 
