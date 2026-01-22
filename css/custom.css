@@ -1,7 +1,8 @@
+/* =========================== Gestion des textes =========================== */
 /* Titre principal */
 .h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.8em;
     font-weight: 900; 
     margin: 1em 0;
     display: block; 
@@ -19,3 +20,11 @@
     background-color: #eb891a;
     border-radius: 5px;
 }
+
+
+/* =========================== Gestion des images =========================== */
+.shadowed-image {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+  border-radius: 15px !important;
+}
+
