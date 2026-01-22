@@ -9,11 +9,12 @@ nav:
   - About: about.md
   - Javascript:
       - Base: javascript/base.md
-
+  - Mkdocs:
+      - Bases: mkdocs/bases.md
 
 # Thème du site :
 theme:
-  name: material            # mkdocs,readthedocs, material
+  name: material # mkdocs,readthedocs, material
   language: fr
   palette:
     - scheme: default
@@ -39,8 +40,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: images/favicon.ico
-  custom_dir: overrides   # Dossier pour les fichiers personnalisés
-
+  custom_dir: overrides # Dossier pour les fichiers personnalisés
 
 markdown_extensions:
   - pymdownx.highlight:

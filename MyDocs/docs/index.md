@@ -1,4 +1,4 @@
-<h1 align="center"><strong>MyDocs</strong></h1>
+# <span class="h1">MyDocs</span>
 
 <p align="center"><em>Le pouvoir du savoir...</em></p>
 
@@ -7,11 +7,15 @@ Ce site contient différents cours et approche sur la programmation.
 
 > *« Grandir ensemble en bâtissant de nouveaux espaces plus spacieux, plus coopératifs, plus beaux ! »*
 
-## Pourquoi ?
+---
+
+## <span class="h2">Pourquoi ?</span>
 
 Ce site me permet d'acceder en direct a toutes les informations acquise au cours de mes diverse experience dans la programmation
 
-## A qui il s'addresse
+---
+
+## <span class="h2">A qui il s'addresse ?</span>
 
 A tout ce désireux d'en savoir plus sur les différents langage de programmation.
 
