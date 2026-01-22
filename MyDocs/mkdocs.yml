@@ -1,0 +1,24 @@
+# Configuration du site :
+site_name: MyDocs
+site_author: Alex Lamizana
+site_description: Documentation sur la programmation
+
+# Configuration de la navigation :
+nav:
+  - Home: index.md
+  - About: about.md
+  - Javascript:
+      - Introduction: javascript/introduction.md
+      - Installation: javascript/installation.md
+      - Usage: javascript/usage.md
+
+
+# Thème du site :
+theme:
+  name: mkdocs           # mkdocs,readthedocs
+  language: fr
+
+# Configuration des versions :
+extra:
+  version: 1.0.0
+  copyright: MyDocs Copyright (c) 2026 Alex Lamizana
