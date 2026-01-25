@@ -1,16 +1,18 @@
-# ================== Configuration du site =====================
+# =========================== DESCRIPTION DU SITE =============================
 site_name: MyDocs
 site_author: Alex Lamizana
 site_url: https://lamizana.github.io/MyDocs/
 site_description: Documentation sur la programmation
 
-# ===================== Configuration de la navigation ========================
+
+# =============================== NAVIGATION ==================================
 nav:
   - Home: index.md
 
   - Projets:
     - projets/index.md
-    - So_Long: projets/so_long.md
+    - So Long: projets/so_long.md
+    - Push Swap: projets/push_swap.md
 
   - Javascript:
       - Bases: javascript/bases.md
@@ -26,7 +28,7 @@ nav:
   - About: about.md
 
 
-# ============================== Thème du site ================================
+# =============================== THEME DU SITE ================================
 theme:
   name: material # mkdocs,readthedocs, material
   language: fr
@@ -74,9 +76,12 @@ theme:
   # Dossier pour les fichiers personnalisés
   custom_dir: overrides
 
-# ============================ Extensions Markdown ============================
+
+# ============================ EXTENSIONS MARKDOWN =============================
 markdown_extensions:
   # Python Markdown
+  - attr_list
+  - md_in_html
 
   # Python Markdown Extensions
   - pymdownx.highlight:
@@ -93,11 +98,12 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - attr_list
-  - md_in_html
 
+
+# ==================================== CSS ====================================
 extra_css:
   - css/custom.css
+
 
 # ======================== Configuration des versions =========================
 extra:
