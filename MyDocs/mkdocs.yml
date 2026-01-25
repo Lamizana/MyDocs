@@ -1,36 +1,50 @@
-# Configuration du site :
+# ================== Configuration du site =====================
 site_name: MyDocs
 site_author: Alex Lamizana
+site_url: https://lamizana.github.io/MyDocs/
 site_description: Documentation sur la programmation
 
-# Configuration de la navigation :
+# ===================== Configuration de la navigation ========================
 nav:
   - Home: index.md
   - Javascript:
       - Bases: javascript/bases.md
   - Mkdocs:
       - Bases: mkdocs/bases.md
+      - Material: mkdocs/material.md
   - So_Long:
       - Jeux: so_long/jeux.md
   - About: about.md
 
-# Thème du site :
+# ============================== Thème du site ================================
 theme:
   name: material # mkdocs,readthedocs, material
   language: fr
   palette:
-    - scheme: default
-      primary: red
-      accent: indigo
+    # Toogle automatique de la palette :
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Toogle Mode clair :
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
         name: Passer en mode sombre
-    - scheme: slate
-      primary: red
-      accent: indigo
+
+    # Toogle Mode sombre :
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: purple
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: Passer en mode clair
+
   features:
     - navigation.tabs
     - navigation.sections
@@ -38,15 +52,26 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - content.code.copy
+
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: favicon.png
-  custom_dir: overrides # Dossier pour les fichiers personnalisés
 
+  icon:
+    logo: material/bat
+
+  favicon: favicon.png
+
+  # Dossier pour les fichiers personnalisés
+  custom_dir: overrides
+
+# ============================ Extensions Markdown ============================
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
@@ -56,10 +81,20 @@ markdown_extensions:
       alternate_style: true
   - attr_list
 
-# Configuration des versions :
+extra_css:
+  - css/custom.css
+
+# ======================== Configuration des versions =========================
 extra:
   version: 1.0.0
   copyright: MyDocs Copyright (c) 2026 Alex Lamizana
 
-extra_css:
-  - css/custom.css
+  # Consentement pour resencement :
+  consent:
+    title: Consentement aux cookies
+    description: >-
+      Nous utilisons des cookies pour reconnaître vos visites répétées et vos préférences, ainsi que pour mesurer l'efficacité de notre documentation et déterminer si les utilisateurs trouvent ce qu'ils recherchent. En donnant votre consentement, vous nous aidez à améliorer notre documentation.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false

@@ -31,14 +31,6 @@
 }
 
 
-
-/* Exemple : personnaliser les onglets */
-.md-tabs {
-    background-color: #eb891a;
-    border-radius: 5px;
-}
-
-
 /* =========================== Gestion des images =========================== */
 .shadowed-image {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;

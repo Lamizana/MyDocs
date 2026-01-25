@@ -686,7 +686,7 @@
   <a href="#presentation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Presentation
+        🎮 Présentation
       
     </span>
   </a>
@@ -697,7 +697,7 @@
   <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installation
+        💻 Installation
       
     </span>
   </a>
@@ -708,7 +708,29 @@
   <a href="#comment-jouer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Comment jouer
+        🎮 Comment jouer
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cartes-disponibles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📜 Cartes disponibles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes-supplementairess" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📝 Notes supplémentairess
       
     </span>
   </a>
@@ -777,43 +799,92 @@
 
 <h1 id="so-long"><span class="h1">So Long</span></h1>
 <p><img alt="player" class="player-solong" src="../../images/player-solong.png" /></p>
-<p align="center"><em>Petit jeux 2D avec la minilibx 42</em></p>
+<p class="intro">
+    Petit jeu 2D développé en <strong>C</strong> avec la <strong>minilibx 42</strong>.
+</p>
 
 <hr />
-<h2 id="presentation"><span class="h2">Presentation</span></h2>
-<p>L'objectif est de créer un jeux 2D en <strong><em>C</em></strong> avec la minilibx.</p>
+<h2 id="presentation"><span class="h2">🎮 Présentation</span></h2>
+<div class="presentation">
+    <p style="color: #333; line-height: 1.6;">
+        <strong>So Long</strong> est un petit jeu 2D où le joueur doit collecter tous les objets sur une carte avant de sortir. Le projet a été développé en <strong>C</strong> en utilisant la bibliothèque graphique <strong>minilibx</strong>, fournie par l'école 42.
+    </p>
+    <p style="color: #333; line-height: 1.6;">
+        L'objectif principal est de gérer les entrées clavier, les collisions, et l'affichage graphique de manière fluide et optimisée.
+    </p>
+</div>
+
 <hr />
-<h2 id="installation"><span class="h2">Installation</span></h2>
-<p>Pour commencer il faut cloner le dépôt :</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&gt;<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/Lamizana/So-long.git
+<h2 id="installation"><span class="h2">💻 Installation</span></h2>
+<p>Pour installer et exécuter le projet, suivez ces étapes :</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Cloner le dépôt</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/Lamizana/So-long.git
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1"># Accéder au projet</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="nb">cd</span><span class="w"> </span>So-long
 </code></pre></div>
 <p>Accéder ensuite aux exécutables :</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>&gt;<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>so_long
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>&gt;<span class="w"> </span>ls
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>&gt;<span class="w"> </span>so_long<span class="w"> </span>git:<span class="o">(</span>main<span class="o">)</span><span class="w"> </span>✗<span class="w"> </span>ls
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>carte_01.ber<span class="w">  </span>carte_03.ber<span class="w">        </span>carte_04_bonus.ber<span class="w">  </span>ft_errors.c<span class="w">      </span>ft_inits.c<span class="w">  </span>ft_parse_road.c<span class="w">  </span>gnl<span class="w">     </span>main.c<span class="w">    </span>mlx_linux<span class="w">  </span>so_long_bonus<span class="w">  </span>so_long.h
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>carte_02.ber<span class="w">  </span>carte_03_bonus.ber<span class="w">  </span>ft_display.c<span class="w">        </span>ft_event_move.c<span class="w">  </span>ft_move.c<span class="w">   </span>ft_parsing.c<span class="w">     </span>images<span class="w">  </span>Makefile<span class="w">  </span>so_long<span class="w">    </span>solong_bonus<span class="w">   </span>so_long_utils.c
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>&gt;<span class="w"> </span>ls
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>&gt;<span class="w"> </span>so_long<span class="w"> </span>git:<span class="o">(</span>main<span class="o">)</span><span class="w"> </span>✗<span class="w"> </span>ls
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>carte_01.ber<span class="w">  </span>carte_03.ber<span class="w">        </span>carte_04_bonus.ber<span class="w">  </span>ft_errors.c<span class="w">      </span>ft_inits.c<span class="w">  </span>ft_parse_road.c<span class="w">  </span>gnl<span class="w">     </span>main.c<span class="w">    </span>mlx_linux<span class="w">  </span>so_long_bonus<span class="w">  </span>so_long.h
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>carte_02.ber<span class="w">  </span>carte_03_bonus.ber<span class="w">  </span>ft_display.c<span class="w">        </span>ft_event_move.c<span class="w">  </span>ft_move.c<span class="w">   </span>ft_parsing.c<span class="w">     </span>images<span class="w">  </span>Makefile<span class="w">  </span>so_long<span class="w">    </span>solong_bonus<span class="w">   </span>so_long_utils.c
 </code></pre></div>
-<p>Il y a 2 types de So Long :</p>
+<p>Le projet contient deux versions du jeu :</p>
 <ul>
-<li><code>so_long</code>: le So Long de base qui fonctionne avec les map standard :</li>
-<li><code>solong-bonus</code>: Fonctionne avec les cartes Bonus.</li>
+<li><strong><em><code>so_long</code></em></strong>: Version de base, compatible avec les cartes standard.</li>
+<li><strong><em><code>solong-bonus</code></em></strong>: Version bonus avec des fonctionnalités supplémentaires.</li>
 </ul>
 <hr />
-<h2 id="comment-jouer"><span class="h2">Comment jouer</span></h2>
-<p>Pour lancer le <code>solong</code>:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>&gt;<span class="w"> </span>./so_long<span class="w"> </span>carte_03.ber<span class="w">             </span><span class="c1"># à la racine du projet</span>
+<h2 id="comment-jouer"><span class="h2">🎮 Comment jouer</span></h2>
+<p>Pour lancer le jeu, utilisez les commandes suivantes :</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># Lancer la version de base</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>./so_long<span class="w"> </span>carte_03.ber
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1"># Lancer la version bonus</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>./solong_bonus<span class="w"> </span>carte_03.ber
 </code></pre></div>
-<p>Pour lancer le <code>solong</code>:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>&gt;<span class="w"> </span>./solong_bonus<span class="w"> </span>carte_03.ber<span class="w">        </span><span class="c1"># à la racine du projet</span>
-</code></pre></div>
-<p>Le jeux se lance alors dans une fenétre indépendante :</p>
-<!-- ![./so_long carte_03.ber](../images/so_long.png){.shadowed-image} -->
+<p>Le jeu s'ouvre dans une fenêtre indépendante.</p>
+<ul>
+<li>Utilisez les <strong>flèches directionnelles</strong> pour déplacer le personnage.</li>
+</ul>
+<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px; max-width: 48%;">
+    <p style="text-align: center; font-weight: bold; margin-bottom: 10px;">Version Standard</p>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);">
+      <video class="video" controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        <source src="../videos/soLong.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+    </div>
+  </div>
+  <div style="flex: 1; min-width: 300px; max-width: 48%;">
+    <p style="text-align: center; font-weight: bold; margin-bottom: 10px;">Version Bonus</p>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);">
+      <video class="video" controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        <source src="../videos/soLong_bonus.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+    </div>
+  </div>
+</div>
 
-<video width="100%" controls>
-  <source src="../videos/solLong.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la vidéo.
-</video>
+<hr />
+<h2 id="cartes-disponibles"><span class="h2">📜 Cartes disponibles</span></h2>
+<p>Voici les cartes disponibles dans le projet :</p>
+<ul>
+<li><strong>carte_01.ber</strong> : Carte de base simple.</li>
+<li><strong>carte_02.ber</strong> : Carte avec des obstacles.</li>
+<li><strong>carte_03.ber</strong> : Carte recommandée pour commencer.</li>
+<li><strong>carte_03_bonus.ber</strong>: Carte bonus avec des fonctionnalités supplémentaires.</li>
+<li><strong>carte_04_bonus.ber</strong>: Carte bonus avec map différente.</li>
+</ul>
+<hr />
+<h2 id="notes-supplementairess"><span class="h2">📝 Notes supplémentaires</span>s</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Ce projet a été réalisé dans le cadre de la formation à <strong>l'école 42</strong>. Il met en avant les compétences en gestion de projet, en programmation système, et en utilisation de bibliothèques graphiques.</p>
+<p>N'hésitez pas à contribuer ou à signaler des bugs sur le <a href="https://github.com/Lamizana/So-long" style="color: #42a5f5;">dépôt GitHub</a> !</p>
+</div>
 
 
 

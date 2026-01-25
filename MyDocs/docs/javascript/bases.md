@@ -1,3 +1,7 @@
+---
+icon: material/emoticon-happy 
+---
+
 # <span class="h1">Programmation en javascript</span>
 
 <p align="center"><em>Découverte de <strong>javascript</strong> et réalisation d'un site fonctionnel et dynamique avec openclassroom</em></p>
@@ -17,8 +21,8 @@
 
 ## installation des dépendances
 
-```bash
-npm install
+``` js
+> npm install
 ```
 
 Compiler et executer un fichier jacascript :
