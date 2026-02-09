@@ -1,3 +1,9 @@
+---
+title: Blog
+---
+
+Bienvenue sur le blog.
+
 # <span class="h1">MyBlog</span>
 
 <p align="center"><em>Le pouvoir du savoir...</em></p>
