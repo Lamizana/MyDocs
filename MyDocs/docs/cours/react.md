@@ -36,6 +36,8 @@ icon: material/react
 
 ## <span class="h2">Appréhender la logique React</span>
 
+[Cour OpenClassroom : Débuter avec React](https://openclassrooms.com/fr/courses/8710331-debutez-avec-react)
+
 C'est un **framework front-end**.
 
 !!! note "Note"

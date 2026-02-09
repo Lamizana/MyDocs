@@ -43,3 +43,7 @@ Voici les différentes couleurs pour les thèmes :
 - blue grey
 - black
 - white
+
+---
+
+## <span class="h2">Plugin RSS</span>

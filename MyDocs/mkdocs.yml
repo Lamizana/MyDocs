@@ -7,6 +7,8 @@ site_description: Documentation sur la programmation
 # =============================== NAVIGATION ==================================
 nav:
   - Home: index.md
+  - Blog:
+      - blog/index.md
 
   - Projets:
       - projets/index.md
@@ -26,12 +28,13 @@ nav:
       - mkdocs/index.md
       - Bases: mkdocs/bases.md
       - Material: mkdocs/material.md
+      - Blog: mkdocs/blog.md
 
   - About: about.md
 
 # =============================== THEME DU SITE ================================
 theme:
-  name: material # mkdocs,readthedocs, material
+  name: material # mkdocs,readthedocs, material, pyodide-mkdocs-theme
   language: fr
   palette:
     # Toogle Mode clair :
@@ -61,6 +64,7 @@ theme:
     - navigation.sections
     - navigation.prune
     - navigation.indexes
+    - navigation.footer
 
     # - toc.integrate
     - search.suggest
@@ -98,17 +102,22 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator:
-        !!python/name:material.extensions.emoji.to_svg # ==================================== CSS ====================================
-
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
   - css/custom.css
+
+plugins:
+  - blog:
+      blog_toc: true
 
 # ======================== Configuration des versions =========================
 extra:
   version: 1.0.0
   copyright: MyDocs Copyright (c) 2026 Alex Lamizana
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<email-address>
 
   # Consentement pour resencement :
   consent:
