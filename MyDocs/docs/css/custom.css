@@ -60,3 +60,17 @@
     border-radius: 10px;
     box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
 }
+
+
+/* ================================== BLOG ================================== */
+.poem {
+  font-style: italic;
+  text-align: center !important;
+  margin-left: 1rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.poem strong {
+  color: var(--md-primary-fg-color);
+  font-weight: 500;
+}

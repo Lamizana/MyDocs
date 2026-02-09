@@ -1,8 +1,6 @@
 ---
-title: Blog
+title: MyBlog
 ---
-
-Bienvenue sur le blog.
 
 # <span class="h1">MyBlog</span>
 
@@ -10,14 +8,13 @@ Bienvenue sur le blog.
 
 ---
 !!! info "Information"
-    Bienvenue sur **MyBlog**,
-   
-## <span class="h2">Pourquoi ?</span>
-
-Ce site me permet d'acceder en direct a toutes les informations acquise au cours de mes diverse experience dans la programmation
+    Bienvenue sur **MyBlog**,  
+    Ce site me permet d'acceder en direct a toutes les informations acquises au cours de ma courte existence..
 
 ---
 
 ## <span class="h2">A qui il s'addresse ?</span>
 
-A tous désireux d'en savoir plus.
+A tous désireux d'en savoir plus...
+
+---
