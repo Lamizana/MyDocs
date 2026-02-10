@@ -30,6 +30,8 @@ nav:
       - Material: mkdocs/material.md
       - Blog: mkdocs/blog.md
 
+  - Audrey:
+    - audrey/index.md
   - About: about.md
 
 # =============================== THEME DU SITE ================================
