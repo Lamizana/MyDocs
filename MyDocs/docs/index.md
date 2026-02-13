@@ -1,6 +1,6 @@
 # <span class="h1">MyDocs</span>
 
-<p align="center"><em>Le pouvoir du savoir...</em></p>
+<p align="center"><em>Salut</em></p>
 
 ---
 !!! info "Information"

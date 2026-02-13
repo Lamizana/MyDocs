@@ -23,6 +23,7 @@ pin: true
 
   Entre<br>
   ce que vous avez envie d’entendre,<br>
+  ce que vous croyez entendre,<br>
   ce que vous entendez,<br>
   ce que vous avez envie de comprendre,<br>
   ce que vous comprenez,<br>

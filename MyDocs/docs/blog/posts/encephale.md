@@ -87,14 +87,13 @@ Ces caractéristiques en font l’un des **mammifères les plus étudiés** en n
 
 ## <span class="h2">✨ Conclusion</span>
 
-L’étude du **cerveau** et de l’**encéphale** nous rappelle que l’intelligence ne se résume pas à la taille d’un organe.
+L’étude du **cerveau** et de l’**encéphale** nous rappelle que ***l’intelligence ne se résume pas à la taille d’un organe.***
 
 Elle émerge de la **complexité des connexions**, de l’**interaction avec l’environnement**, et du **vivant dans son ensemble**.
 
 ---
 
-## <span class="h2">📚 Sources</span>
-
-- [Encéphale — Wikipédia](https://fr.wikipedia.org/wiki/Enc%C3%A9phale)
-- [Cerveau humain — Wikipédia](https://fr.wikipedia.org/wiki/Cerveau_humain)
-- [Intelligence des cétacés — Wikipédia](https://fr.wikipedia.org/wiki/Intelligence_des_c%C3%A9tac%C3%A9s)
+???+ abstract "Sources"
+    - [Wikipédia — **Encéphale**](https://fr.wikipedia.org/wiki/Enc%C3%A9phale)
+    - [Wikipédia — **Cerveau humain**](https://fr.wikipedia.org/wiki/Cerveau_humain)
+    - [Wikipédia — **Intelligence des cétacés**](https://fr.wikipedia.org/wiki/Intelligence_des_c%C3%A9tac%C3%A9s)
