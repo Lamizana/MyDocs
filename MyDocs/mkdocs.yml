@@ -30,8 +30,12 @@ nav:
       - Material: mkdocs/material.md
       - Blog: mkdocs/blog.md
 
+  - Strudel:
+    - strudel/index.md
+    
   - Audrey:
     - audrey/index.md
+
   - About: about.md
 
 # =============================== THEME DU SITE ================================
