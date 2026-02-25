@@ -20,7 +20,13 @@ nav:
       - Javascript: cours/javascript.md
       - Redux: cours/redux.md
       - React: cours/react.md
-
+      - Python:
+          - cours/python/index.md
+          - Variables: cours/python/variables.md
+          - Fonctions: cours/python/fonctions.md
+          - Exercices:
+              - cours/python/exercices/index.md
+              - Chaine de caractère: cours/python/exercices/string.md
   - GitHub:
       - github/github.md
 
@@ -31,10 +37,10 @@ nav:
       - Blog: mkdocs/blog.md
 
   - Strudel:
-    - strudel/index.md
-    
+      - strudel/index.md
+
   - Audrey:
-    - audrey/index.md
+      - audrey/index.md
 
   - About: about.md
 

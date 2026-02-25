@@ -1,3 +1,7 @@
+---
+icon: material/function
+---
+
 # <span class="h1">Fonctions</span>
 
 ---

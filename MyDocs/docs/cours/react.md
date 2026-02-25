@@ -330,7 +330,7 @@ const ShoppingList = () => {
           {plant.name}
         </li>
       ))}
-    </ul>
+    </ul>****
   )
 }
 ```
