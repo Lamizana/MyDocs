@@ -3,3 +3,4 @@
 .vscode/
 MyDocs/.cache/
 MyDocs/site/
+.aider*
