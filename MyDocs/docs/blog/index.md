@@ -1,5 +1,6 @@
 ---
 title: MyBlog
+icon: fontawesome/solid/blog
 ---
 
 # <span class="h1">MyBlog</span>

@@ -37,7 +37,7 @@
 ???- tip "Solution"
     ```python
     print("---------------------------------------------------------------------")
-    print("Exos 1-1: Message personnel.")
+    print("MESSAGE PERSONNEL.")
 
     name = "Alex"
     message = f"Bonjour {name}, voudrais-tu apprendre un peu de python?"
@@ -61,7 +61,7 @@
 ???- tip "Solution"
     ```python
     print("---------------------------------------------------------------------")
-    print("Exos 2-4: Casse d'un nom.")
+    print("CASSE D'UN NOM.")
 
     name = "alex"
     print(f"Nom en minuscule: {name.lower()}.")
@@ -87,7 +87,7 @@
 ???- tip "Solution"
     ```python
     print("---------------------------------------------------------------------")
-    print("Exos 2-5: Célèbre citation.")
+    print("CELEBRE CITATION.")
 
     name = "Mere Theresa"
     citation = " La vie est une opportunité, profitez-en. \nLa vie est belle, admirez la. \nLa vie est un rêve, réalisez-la. \nLa vie est un devoir, complètez-la. \nLa vie est un jeu, jouez-la."
@@ -113,7 +113,7 @@
 ??? - tip "Solution"
     ```python
     print("---------------------------------------------------------------------")
-    print("Exos 2-7: Supprimer des espaces dans un nom.")
+    print("SUPPRIMER DES ESPACES DANS UN NOM.")
 
     name = "  \t \n Alex  \n\t"
     print(f"Nom initial (avec espaces): {name} .")

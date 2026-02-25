@@ -28,7 +28,7 @@ nav:
               - cours/python/exercices/index.md
               - Chaine de caractère: cours/python/exercices/string.md
   - GitHub:
-      - github/github.md
+      - github/index.md
 
   - Mkdocs:
       - mkdocs/index.md

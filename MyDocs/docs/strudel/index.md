@@ -1,6 +1,6 @@
-<!-- ---
-icon: material/gamepad-square
---- -->
+---
+icon: material/music
+---
 
 # <span class="h1">Strudel</span>
 

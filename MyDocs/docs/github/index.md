@@ -4,7 +4,9 @@ icon: material/github
 
 # <span class="h1"> GitHub</span>
 
-<p align="center"><em>Outil central du développement moderne pour le versionnement, la collaboration et le partage de code.</em></p>
+<p class="intro">
+    Outil central du développement moderne pour le versionnement, la collaboration et le partage de code.
+</p>
 
 ---
 

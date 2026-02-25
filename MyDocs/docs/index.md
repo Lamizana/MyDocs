@@ -1,3 +1,7 @@
+---
+icon: material/home
+---
+
 # <span class="h1">MyDocs</span>
 
 <p align="center"><em>Le pouvoir du savoir...</em></p>
@@ -6,6 +10,8 @@
 !!! info "Information"
     Bienvenue sur **MyDocs**,
     Ce site contient différents cours et approche sur la programmation.
+
+---
 
 ## <span class="h2">Pourquoi ?</span>
 
