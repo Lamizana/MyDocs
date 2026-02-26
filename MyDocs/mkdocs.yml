@@ -92,7 +92,8 @@ theme:
   favicon: favicon.png
 
   # Dossier pour les fichiers personnalisés
-  custom_dir: overrides
+  # custom_dir: overrides
+  custom_dir: my_theme_customizations
 
 # ============================ EXTENSIONS MARKDOWN =============================
 markdown_extensions:
@@ -116,8 +117,11 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+extra_javascript:
+  - https://pyscript.net/releases/2024.1.1/core.js
 extra_css:
   - css/custom.css
+  - https://pyscript.net/releases/2024.1.1/core.css
 
 plugins:
   - search
@@ -133,6 +137,11 @@ plugins:
       categories:
         - categories
         - tags
+
+  - mkdocs-jupyter:
+      execute: true # Permet d'exécuter le code lors de la génération
+      include_source: true # Permet de voir le code source
+      download_link: true # Ajoute un bouton pour télécharger le .ipynb
 
 # ======================== Configuration des versions =========================
 extra:
@@ -153,3 +162,5 @@ extra:
         provider: google
         checked: false
         property: G-74MZWWS1RR
+
+repo_url: https://github.com/Lamizana/MyDocs

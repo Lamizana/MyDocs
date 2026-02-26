@@ -35,7 +35,7 @@
     ```
 
 ???- tip "Solution"
-    ```python
+    ```python title="string.py"
     print("---------------------------------------------------------------------")
     print("MESSAGE PERSONNEL.")
 
@@ -59,7 +59,7 @@
     - En majuscule initial.
 
 ???- tip "Solution"
-    ```python
+    ```python title="string.py"
     print("---------------------------------------------------------------------")
     print("CASSE D'UN NOM.")
 
@@ -85,7 +85,7 @@
     ```
 
 ???- tip "Solution"
-    ```python
+    ```python title="string.py"
     print("---------------------------------------------------------------------")
     print("CELEBRE CITATION.")
 
@@ -111,7 +111,7 @@
         - *`strip()`*: Supprime les espaces à gauche et à droite.
 
 ??? - tip "Solution"
-    ```python
+    ```python title="string.py"
     print("---------------------------------------------------------------------")
     print("SUPPRIMER DES ESPACES DANS UN NOM.")
 
@@ -122,3 +122,9 @@
     print(f"Nom sans espace: {name.strip()} .")
     print("---------------------------------------------------------------------")
     ```
+
+
+# Console Python Interactive
+
+Utilisez le terminal ci-dessous pour tester vos propres commandes Python. 
+Tapez votre code et appuyez sur le bouton "Exécuter" (icône lecture) ou faites `Shift + Entrée`.

@@ -181,7 +181,7 @@ Il n'existe pas de constantes native dans python mais la convention est d'écrir
 
 ### Exercices sur les nombres
 
-[Lien exercices sur les nombres:](/base/variables/nombres.py) 2-8 à 2-9
+[Lien exercices sur les nombres:](exercices/nombres.md) 2-8 à 2-9
 
 ---
 
@@ -222,5 +222,3 @@ print("Bonjour tout le monde.")
 ### Quel type de commentaires écrire?
 
 ### Exercices commentaires
-
-[Lien exercices sur les commentaires:](/base/variables/commentaires.py) 2-10
