@@ -74,3 +74,15 @@
   color: var(--md-primary-fg-color);
   font-weight: 500;
 }
+
+
+/* Style pour les pastilles de couleur */
+.patch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+  border: 1px solid rgba(0,0,0,0.1);
+  vertical-align: middle;
+}
