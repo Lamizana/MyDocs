@@ -28,6 +28,7 @@ icon: material/variable-box
 
 [Lien exercices sur les chaine de caractères](exercices/string.md)
 
+
 ---
 
 ## <span class="h2">Nombres</span>
@@ -218,7 +219,3 @@ Commmentaire sur plusieurs lignes:
 """
 print("Bonjour tout le monde.")
 ```
-
-### Quel type de commentaires écrire?
-
-### Exercices commentaires

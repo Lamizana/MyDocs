@@ -29,6 +29,7 @@ nav:
               - Chaine de caractère: cours/python/exercices/string.md
   - GitHub:
       - github/index.md
+      - Commandes: github/commandes.md
 
   - Mkdocs:
       - mkdocs/index.md
@@ -92,8 +93,7 @@ theme:
   favicon: favicon.png
 
   # Dossier pour les fichiers personnalisés
-  # custom_dir: overrides
-  custom_dir: my_theme_customizations
+  custom_dir: overrides
 
 # ============================ EXTENSIONS MARKDOWN =============================
 markdown_extensions:
@@ -119,12 +119,17 @@ markdown_extensions:
 
 extra_javascript:
   - https://pyscript.net/releases/2024.1.1/core.js
+
 extra_css:
   - css/custom.css
   - https://pyscript.net/releases/2024.1.1/core.css
 
+extra_templates:
+  - scripts/casse_nom.txt
+
 plugins:
   - search
+  - termynal
   - blog:
       authors_file: "{blog}/.authors.yml"
       blog_dir: blog
@@ -137,11 +142,6 @@ plugins:
       categories:
         - categories
         - tags
-
-  - mkdocs-jupyter:
-      execute: true # Permet d'exécuter le code lors de la génération
-      include_source: true # Permet de voir le code source
-      download_link: true # Ajoute un bouton pour télécharger le .ipynb
 
 # ======================== Configuration des versions =========================
 extra:

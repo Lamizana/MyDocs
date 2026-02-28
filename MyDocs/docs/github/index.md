@@ -2,7 +2,7 @@
 icon: material/github
 ---
 
-# <span class="h1"> GitHub</span>
+# <span class="h1">GitHub</span>
 
 <p class="intro">
     Outil central du développement moderne pour le versionnement, la collaboration et le partage de code.
@@ -10,7 +10,7 @@ icon: material/github
 
 ---
 
-## <span class="h2">🧩 Qu’est-ce que GitHub ?</span>
+## <span class="h2">Qu’est-ce que GitHub ?</span>
 
 !!! info "Information"
     **GitHub** est une plateforme basée sur le système de gestion de versions **Git**.
@@ -27,7 +27,7 @@ Aujourd’hui, GitHub est un **standard de fait** dans le monde du développemen
 
 ---
 
-## <span class="h2">🚀 Est-t-il essentiel pour les développeurs ?</span>
+## <span class="h2">Est-t-il essentiel pour les développeurs ?</span>
 
 GitHub joue un rôle clé à plusieurs niveaux :
 
@@ -57,5 +57,5 @@ GitHub joue un rôle clé à plusieurs niveaux :
 
 ---
 
-## <span class="h2">⌨️ Commandes Git de base</span>
+## <span class="h2">Commandes Git de base</span>
 

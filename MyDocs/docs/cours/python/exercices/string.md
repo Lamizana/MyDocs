@@ -23,6 +23,14 @@
 
 ---
 
+## <span class="h2">Console Python Interactive</span>
+
+Pour accéder à un terminal python dans le navigateur nous allons utiliser **Basthon**:
+
+[:material-play-circle: Ouvrir le terminal dans Basthon](https://console.basthon.fr/){ target="_blank" .md-button .md-button--primary }
+
+---
+
 ## <span class="h2">Messages personnel</span>
 
 !!! abstract "Sujet"
@@ -35,15 +43,12 @@
     ```
 
 ???- tip "Solution"
-    ```python title="string.py"
-    print("---------------------------------------------------------------------")
-    print("MESSAGE PERSONNEL.")
-
+    ```python
     name = "Alex"
     message = f"Bonjour {name}, voudrais-tu apprendre un peu de python?"
     print(message)
-    print("---------------------------------------------------------------------")
     ```
+
 
 ---
 
@@ -59,15 +64,12 @@
     - En majuscule initial.
 
 ???- tip "Solution"
-    ```python title="string.py"
-    print("---------------------------------------------------------------------")
-    print("CASSE D'UN NOM.")
-
+    ```python
     name = "alex"
+
     print(f"Nom en minuscule: {name.lower()}.")
     print(f"Nom en majuscule: {name.upper()}.")
     print(f"Nom en majuscule initiale: {name.title()}.")
-    print("---------------------------------------------------------------------")
     ```
 
 ---
@@ -85,15 +87,11 @@
     ```
 
 ???- tip "Solution"
-    ```python title="string.py"
-    print("---------------------------------------------------------------------")
-    print("CELEBRE CITATION.")
-
+    ```python
     name = "Mere Theresa"
     citation = " La vie est une opportunité, profitez-en. \nLa vie est belle, admirez la. \nLa vie est un rêve, réalisez-la. \nLa vie est un devoir, complètez-la. \nLa vie est un jeu, jouez-la."
 
     print(f'{name} a dit "{citation}"')
-    print("---------------------------------------------------------------------")
     ```
 
 ---
@@ -111,20 +109,11 @@
         - *`strip()`*: Supprime les espaces à gauche et à droite.
 
 ??? - tip "Solution"
-    ```python title="string.py"
-    print("---------------------------------------------------------------------")
-    print("SUPPRIMER DES ESPACES DANS UN NOM.")
-
+    ```python
     name = "  \t \n Alex  \n\t"
+
     print(f"Nom initial (avec espaces): {name} .")
     print(f"Nom sans espace à gauche: {name.lstrip()} .")
     print(f"Nom sans espace à droite: {name.rstrip()} .")
     print(f"Nom sans espace: {name.strip()} .")
-    print("---------------------------------------------------------------------")
     ```
-
-
-# Console Python Interactive
-
-Utilisez le terminal ci-dessous pour tester vos propres commandes Python. 
-Tapez votre code et appuyez sur le bouton "Exécuter" (icône lecture) ou faites `Shift + Entrée`.
