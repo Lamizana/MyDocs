@@ -1,5 +1,5 @@
 ---
-icon: material/language-python
+title: Exercices
 ---
 
 # <span class="h1">Programmation en Python</span>

@@ -1,5 +1,5 @@
 ---
-icon: material/function
+title: Fonctions
 ---
 
 # <span class="h1">Fonctions</span>

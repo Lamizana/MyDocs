@@ -75,19 +75,6 @@ Algorithme de tri optimisé
 | SQL | VS Code | Clean Code |
 | JavaScript | MkDocs | CI/CD |
 
----
-
-## <span class="h2">Me Contacter</span>
-
-<p align="center">
-
-[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button }
-
-[:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/alex-lamizana){ .md-button }
-
-[:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
-
-</p>
 
 ---
 

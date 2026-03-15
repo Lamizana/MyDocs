@@ -1,6 +1,5 @@
 ---
 title: Pandas
-icon: material/panda
 ---
 
 # <span class="h1">Pandas</span>

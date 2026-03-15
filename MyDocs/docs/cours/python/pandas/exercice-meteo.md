@@ -1,6 +1,5 @@
 ---
 title: Exercices Météo
-icon: material/weather-cloudy
 ---
 
 # <span class="h1">Exercices Météo avec Pandas</span>

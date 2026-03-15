@@ -1,6 +1,5 @@
 ---
 title: NumPy
-icon: simple/numpy
 ---
 
 # <span class="h1">NumPy</span>

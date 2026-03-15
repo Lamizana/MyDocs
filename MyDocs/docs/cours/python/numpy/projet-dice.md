@@ -1,6 +1,5 @@
 ---
 title: Analyse de Dés
-icon: material/dice-6-outline
 ---
 
 # <span class="h1">Analyse de Dés avec NumPy</span>

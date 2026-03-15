@@ -1,6 +1,5 @@
 ---
 title: Analyse Météo
-icon: material/weather-cloudy
 ---
 
 # <span class="h1">Analyse Météo avec Pandas</span>

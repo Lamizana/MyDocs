@@ -24,11 +24,12 @@ nav:
       - Python:
           - cours/python/index.md
           - Bases:
-              - Variables: cours/python/variables.md
-              - Fonctions: cours/python/fonctions.md
-              - Exercices:
-                  - cours/python/exercices/index.md
-                  - Chaine de caractère: cours/python/exercices/string.md
+              - Variables: cours/python/bases/tutoriel-variables.md
+              - Types de données: cours/python/bases/tutoriel-types.md
+              - Opérateurs: cours/python/bases/tutoriel-operateurs.md
+              - Chaînes: cours/python/bases/tutoriel-chaines.md
+              - Exercices: cours/python/bases/exercice-bases.md
+          - Fonctions: cours/python/fonctions.md
           - Librairies:
               - Pandas: 
                   - cours/python/pandas/index.md
@@ -65,7 +66,7 @@ nav:
           - Patterns: strudel/tutoriel-patterns.md
           - Effets: strudel/tutoriel-effets.md
       - Exercices:
-          - Exercices: strudel/exercice-strudel.md
+          - strudel/exercice-strudel.md
 
   - Audrey:
       - audrey/index.md

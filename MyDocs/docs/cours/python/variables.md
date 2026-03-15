@@ -1,5 +1,5 @@
 ---
-icon: material/variable-box
+title: Variables
 ---
 
 # <span class="h1">Variables</span>

@@ -1,5 +1,5 @@
 ---
-icon: material/language-python
+title: Python
 ---
 
 # <span class="h1">Programmation en Python</span>

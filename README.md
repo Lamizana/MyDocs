@@ -58,6 +58,7 @@ pip install -r requirements.txt
 ```bash
 # Serveur local
 mkdocs serve --dev-addr=127.0.0.1:8001
+mkdocs serve --dev-addr=127.0.0.1:8001 --livereload
 
 # Déploiement
 mkdocs gh-deploy
