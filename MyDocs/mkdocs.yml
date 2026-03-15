@@ -12,8 +12,11 @@ nav:
 
   - Projets:
       - projets/index.md
-      - So Long: projets/so_long.md
+      - ft_transcendence: projets/ft_transcendence.md
+      - Minishell: projets/minishell.md
+      - ft_irc: projets/ft_irc.md
       - Push Swap: projets/push_swap.md
+      - So Long: projets/so_long.md
 
   - Cours:
       - cours/index.md
@@ -24,6 +27,9 @@ nav:
           - cours/python/index.md
           - Variables: cours/python/variables.md
           - Fonctions: cours/python/fonctions.md
+          - Pandas: cours/python/pandas.md
+          - NumPy: cours/python/numpy.md
+          - Scikit-learn: cours/python/scikit-learn.md
           - Exercices:
               - cours/python/exercices/index.md
               - Chaine de caractère: cours/python/exercices/string.md

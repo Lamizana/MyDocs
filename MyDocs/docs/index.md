@@ -2,24 +2,95 @@
 icon: material/home
 ---
 
-# <span class="h1">MyDocs</span>
+# <span class="h1">Alex Lamizana</span>
 
-<p align="center"><em>Le pouvoir du savoir...</em></p>
-
----
-!!! info "Information"
-    Bienvenue sur **MyDocs**,
-    Ce site contient différents cours et approche sur la programmation.
+<p align="center">
+  <em>Étudiant en informatique • Spécialisation Data & IA</em>
+</p>
 
 ---
 
-## <span class="h2">Pourquoi ?</span>
+## <span class="h2">Bienvenue sur MyDocs</span>
 
-Ce site me permet d'acceder en direct a toutes les informations acquise au cours de mes diverse experience dans la programmation
+Ce site regroupe mes cours, projets et ressources autour de la programmation.
 
 ---
 
-## <span class="h2">A qui il s'addresse ?</span>
+## <span class="h2">Mon Parcours</span>
 
-A tous désireux d'en savoir plus sur les différents langage de programmation.
+<div class="grid cards" markdown>
 
+:fontawesome-brands-python: **Python & Data**
+
+: C, C++, Algorithms
+
+:fontawesome-brands-js: **Web Dev**
+
+: JavaScript, HTML/CSS
+
+:material-brain: **IA & ML**
+
+: Scikit-learn, Pandas, NumPy
+
+</div>
+
+---
+
+## <span class="h2">Projets en Vedette</span>
+
+<div class="grid cards" markdown>
+
+[:material-rocket-launch: **ft_transcendence**](projets/ft_transcendence.md)
+
+Application web - Pong multiplayer en temps réel
+
+---
+
+[:material-console: **Minishell**](projets/minishell.md)
+
+Interpréteur de commandes en C
+
+---
+
+[:material-web: **ft_irc**](projets/ft_irc.md)
+
+Serveur IRC en C++
+
+---
+
+[:material-sort: **Push Swap**](projets/push_swap.md)
+
+Algorithme de tri optimisé
+
+</div>
+
+---
+
+## <span class="h2">Compétences Techniques</span>
+
+| Langages | Outils | Méthodologies |
+|----------|--------|---------------|
+| Python | Git, Docker | Agile/Scrum |
+| C/C++ | Linux, Vim | GitFlow |
+| SQL | VS Code | Clean Code |
+| JavaScript | MkDocs | CI/CD |
+
+---
+
+## <span class="h2">Me Contacter</span>
+
+<p align="center">
+
+[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button }
+
+[:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/alex-lamizana){ .md-button }
+
+[:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
+
+</p>
+
+---
+
+!!! info "À propos de ce site"
+    Ce site est conçu avec [MkDocs](https://www.mkdocs.org) et le thème [Material](https://squidfunk.github.io/mkdocs-material/).
+    Il est hébergé sur GitHub Pages.

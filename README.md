@@ -1,55 +1,73 @@
 # MyDocs
 
+Site documentaire sur la programmation - Propulsé par MkDocs et Material theme.
+
 ---
 
-## Installation
+## 🛠️ Stack Technique
 
-Créer un dossier .env pour y télécharger les librairies :
+- **Site**: MkDocs + Material for MkDocs
+- **Hébergement**: GitHub Pages
+- **Cours**: Python, JavaScript, React, Git, Data/IA
+
+---
+
+## 📚 Contenu
+
+### Projets
+
+- **ft_transcendence** - Application web Pong multiplayer
+- **Minishell** - Interpréteur de commandes
+- **ft_irc** - Serveur IRC en C++
+- **Push Swap** - Algorithme de tri optimisé
+- **So Long** - Jeu 2D en C
+
+### Cours
+
+- Python (bases, pandas, numpy, scikit-learn)
+- JavaScript, React, Redux
+- Git & GitHub
+- MkDocs
+
+---
+
+## 🚀 Installation Locale
 
 ```bash
+# Créer un environnement virtuel
 python3 -m venv .env
-```
 
-Pour activer l'environement virtuel :
+# Activer l'environnement
+source .env/bin/activate
 
-```bash
-source .env/bin/activate 
-```
-
-Une fois l'environnemt activé il ne reste plus qu'à y installer les dépendances :
-
-```bash
-pip install --upgrade pip           # met à jour pip
+# Installer les dépendances
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 ---
 
-## Commandes
+## 📖 Commandes
 
-* `mkdocs new [nom-dossier]` - Créez un nouveau projet.
-* `mkdocs serve` - Démarrez le serveur de documentation avec rechargement en direct.
-* `mkdocs build` - Générez le site de documentation.
-* `mkdocs -h` - Affichez le message d'aide et quittez.
-
-```bash
-> mkdocs serve --dev-addr=127.0.0.1:8001    # Lance le serveur.
-> mkdocs build                              # Génére le site de documentation.
-```
-
-Si mkdocs n'est pas disponible alors il faut passer par python :
+| Commande | Description |
+|----------|-------------|
+| `mkdocs serve` | Serveur local avec hot-reload |
+| `mkdocs build` | Générer le site statique |
+| `mkdocs gh-deploy` | Déployer sur GitHub Pages |
 
 ```bash
-python -m pip install mkdocs        # installe la commande
-python -m mkdocs                    # préface de chaque commande mkdocs
+# Serveur local
+mkdocs serve --dev-addr=127.0.0.1:8001
+
+# Déploiement
+mkdocs gh-deploy
 ```
 
-Pour faire en sorte que le serveur se mette automatiquement à jour lors d'un changement, lancer le serveur avec la commande :
+---
 
-```bash
-python -m mkdocs serve --livereload
-```
+## 👤 À Propos
 
-```bash
-python -m mkdocs gh-deploy
-```
+Développé par **Alex Lamizana** - Étudiant 42 Angoulême, spécialisation Data & IA.
+
+- [Voir le site](https://lamizana.github.io/MyDocs/)
+- [Mon profil GitHub](https://github.com/Lamizana)
