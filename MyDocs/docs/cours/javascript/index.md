@@ -2,7 +2,7 @@
 icon: material/language-javascript 
 ---
 
-# <span class="h1">Programmation en javascript</span>
+# <span class="h1">Javascript</span>
 
 <p align="center"><em>Découverte de <strong>javascript</strong> et réalisation d'un site fonctionnel et dynamique avec openclassroom</em></p>
 
