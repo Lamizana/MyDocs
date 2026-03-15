@@ -32,10 +32,12 @@ nav:
                   - cours/python/exercices/index.md
                   - Chaine de caractère: cours/python/exercices/string.md
           - Librairies:
-              - Pandas: cours/python/pandas.md
+              - Pandas: 
+                  - cours/python/pandas/index.md
+                  - Cours Météo: cours/python/pandas/tutoriel-meteo.md
+                  - Exercices Météo: cours/python/pandas/exercice-meteo.md
               - NumPy: 
                   - cours/python/numpy/index.md
-                  # - Projet Dés: cours/python/numpy/projet-dice.md
                   - Projet Dés: cours/python/numpy/exercice-dice.md
               - Scikit-learn: cours/python/scikit-learn.md
           
