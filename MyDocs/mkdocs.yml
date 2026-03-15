@@ -25,16 +25,20 @@ nav:
       - React: cours/react.md
       - Python:
           - cours/python/index.md
-          - Variables: cours/python/variables.md
-          - Fonctions: cours/python/fonctions.md
-          - Pandas: cours/python/pandas.md
-          - NumPy: 
-              - cours/python/numpy/index.md
-              - Projet Dés: cours/python/numpy/projet-dice.md
-          - Scikit-learn: cours/python/scikit-learn.md
-          - Exercices:
-              - cours/python/exercices/index.md
-              - Chaine de caractère: cours/python/exercices/string.md
+          - Bases:
+              - Variables: cours/python/variables.md
+              - Fonctions: cours/python/fonctions.md
+              - Exercices:
+                  - cours/python/exercices/index.md
+                  - Chaine de caractère: cours/python/exercices/string.md
+          - Librairies:
+              - Pandas: cours/python/pandas.md
+              - NumPy: 
+                  - cours/python/numpy/index.md
+                  # - Projet Dés: cours/python/numpy/projet-dice.md
+                  - Projet Dés: cours/python/numpy/exercice-dice.md
+              - Scikit-learn: cours/python/scikit-learn.md
+          
   - GitHub:
       - github/index.md
       - Commandes: github/commandes.md
@@ -86,7 +90,7 @@ theme:
     - navigation.prune
     - navigation.indexes
     - navigation.footer
-
+    - navigation.expand
     # - toc.integrate
     - search.suggest
     - search.highlight
