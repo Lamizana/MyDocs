@@ -31,22 +31,22 @@ nav:
               - Exercices: cours/python/bases/exercice-bases.md
           - Fonctions: cours/python/fonctions.md
           - Librairies:
-              - Pandas: 
+              - Pandas:
                   - cours/python/pandas/index.md
                   - Cours Météo: cours/python/pandas/tutoriel-meteo.md
                   - Exercices Météo: cours/python/pandas/exercice-meteo.md
-              - NumPy: 
+              - NumPy:
                   - cours/python/numpy/index.md
                   - Projet Dés: cours/python/numpy/exercice-dice.md
               - Scikit-learn: cours/python/scikit-learn.md
 
       - Javascript:
           - cours/javascript/index.md
-          - Redux: 
+          - Redux:
               - cours/javascript/redux.md
           - React:
               - cours/javascript/react.md
-          
+
   - GitHub:
       - github/index.md
       - Commandes: github/commandes.md
@@ -158,7 +158,6 @@ extra_templates:
 
 plugins:
   - search
-  - termynal
   - blog:
       authors_file: "{blog}/.authors.yml"
       blog_dir: blog
