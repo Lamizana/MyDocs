@@ -2,118 +2,202 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://lamizana.github.io/MyDocs/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/about/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/audrey/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/blog/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/blog/2026/02/06/-lart-de-parler-et-d%C3%A9couter/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/blog/2026/02/06/-capacit%C3%A9-enc%C3%A9phallique/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/cours/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/cours/javascript/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
-         <loc>https://lamizana.github.io/MyDocs/cours/react/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <loc>https://lamizana.github.io/MyDocs/cours/javascript/react/</loc>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
-         <loc>https://lamizana.github.io/MyDocs/cours/redux/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <loc>https://lamizana.github.io/MyDocs/cours/javascript/redux/</loc>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/cours/python/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/cours/python/fonctions/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/scikit-learn/</loc>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/cours/python/variables/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/bases/exercice-bases/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/bases/tutoriel-chaines/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/bases/tutoriel-operateurs/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/bases/tutoriel-types/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/bases/tutoriel-variables/</loc>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/cours/python/exercices/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/cours/python/exercices/nombres/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/cours/python/exercices/string/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/numpy/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/numpy/exercice-dice/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/numpy/projet-dice/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/pandas/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/pandas/exercice-meteo/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/cours/python/pandas/tutoriel-meteo/</loc>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/github/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/github/commandes/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/mkdocs/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/mkdocs/bases/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/mkdocs/blog/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/mkdocs/material/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/projets/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/projets/ft_irc/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/projets/ft_transcendence/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/projets/minishell/</loc>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/projets/push_swap/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/projets/so_long/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/strudel/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/strudel/exercice-strudel/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/strudel/tutoriel-effets/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/strudel/tutoriel-intro/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/strudel/tutoriel-notes/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/strudel/tutoriel-patterns/</loc>
+         <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+         <loc>https://lamizana.github.io/MyDocs/strudel/tutoriel-sons/</loc>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/blog/archive/2026/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/blog/category/-culture/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
     <url>
          <loc>https://lamizana.github.io/MyDocs/blog/category/-science/</loc>
-         <lastmod>2026-02-28</lastmod>
+         <lastmod>2026-03-17</lastmod>
     </url>
 </urlset>
