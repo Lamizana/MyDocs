@@ -10,8 +10,6 @@ icon: material/language-javascript
 
 ## Objectifs pédagogique
 
-[Cour OpenClassroom](https://openclassrooms.com/fr/courses/7696886-apprenez-a-programmer-avec-javascript)
-
 - Manipuler des données avec javascript
 - Ecrire un fichier javascript
 - Faire intéragir javascript avec une page Web

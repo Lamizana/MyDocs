@@ -14,15 +14,63 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 
 ---
 
-## <span class="h2">Formation & Spécilisation</span>
+<div class="grid cards" markdown>
 
-### Cursus 42
+:fontawesome-brands-python: **Python & Data**
 
-- **Spécialisation**: Data Analysis & Intelligence Artificielle
-- **Langages maîtrisés**: C, C++, Python
-- **Projets completed**: +15 projets techniques
+: C, C++, Algorithms
 
-### Compétences Techniques
+:fontawesome-brands-js: **Web Dev**
+
+: JavaScript, HTML/CSS
+
+:material-brain: **IA & ML**
+
+: Scikit-learn, Pandas, NumPy
+
+</div>
+
+---
+
+## <span class="h2">Projets en Vedette</span>
+
+<div class="grid cards" markdown>
+
+[:material-rocket-launch: **ft_transcendence**](projets/ft_transcendence.md)
+
+Application web - Pong multiplayer en temps réel
+
+---
+
+[:material-console: **Minishell**](projets/minishell.md)
+
+Interpréteur de commandes en C
+
+---
+
+[:material-web: **ft_irc**](projets/ft_irc.md)
+
+Serveur IRC en C++
+
+---
+
+[:material-sort: **Push Swap**](projets/push_swap.md)
+
+Algorithme de tri optimisé
+
+</div>
+
+---
+
+## <span class="h2">Compétences Techniques</span>
+
+| Langages | Outils | Méthodologies |
+|----------|--------|---------------|
+| Python | Git, Docker | Agile/Scrum |
+| C/C++ | Linux, Vim | GitFlow |
+| SQL | VS Code | Clean Code |
+| JavaScript | MkDocs | CI/CD |
+
 
 | Domaine | Technologies |
 |---------|--------------|
@@ -46,7 +94,6 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 
 - **Musique** : Guitare
 - **Dessin** : Création artistique
-- **Jeux vidéo** : Intérêt pour le développement de jeux
 - **Lecture** : Documentation technique, sujets variés
 
 ---
@@ -63,15 +110,7 @@ Je suis actuellement à la recherche :
 
 ## <span class="h2">Me Contacter</span>
 
-<p align="center">
-
-[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary }
-
-[:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/alex-lamizana){ .md-button }
-
-[:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
-
-</p>
+[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary } [:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
 
 ---
 
