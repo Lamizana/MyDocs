@@ -1,117 +1,608 @@
 ---
-icon: material/account
+hide:
+  - navigation
+  - footer
+  - toc
 ---
 
-# <span class="h1">À Propos de Moi</span>
+<style>
+.hero-container {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: white;
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.4);
+}
 
----
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
 
-## <span class="h2">Mon Parcours</span>
+.hero-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  object-fit: cover;
+}
 
-Ancien conducteur d'engins de terrassement et grutier, j'ai choisi de me reconvertir dans la programmation après avoir découvert ma passion pour la technologie et la résolution de problèmes logiques.
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
 
-Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours traditionnels où l'apprentissage par projets est au cœur de la méthode.
+.hero-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  margin: 0;
+}
 
----
+.hero-tagline {
+  font-size: 1rem;
+  opacity: 0.9;
+  font-style: italic;
+  max-width: 600px;
+}
 
-<div class="grid cards" markdown>
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+  
+  .hero-photo {
+    width: 100px;
+    height: 100px;
+  }
+}
+</style>
 
-:fontawesome-brands-python: **Python & Data**
-
-: C, C++, Algorithms
-
-:fontawesome-brands-js: **Web Dev**
-
-: JavaScript, HTML/CSS
-
-:material-brain: **IA & ML**
-
-: Scikit-learn, Pandas, NumPy
-
+<div class="hero-container">
+  <div class="hero-content">
+    <img src="images/zehd.png" alt="Alex Lamizana" class="hero-photo">
+    <h1 class="hero-title">Alex Lamizana</h1>
+    <p class="hero-tagline">Ancien conducteur d'engins → Étudiant développeur à 42 Angoulême</p>
+    <p class="hero-subtitle">"Le pouvoir du savoir..."</p>
+  </div>
 </div>
 
 ---
 
-## <span class="h2">Projets en Vedette</span>
+<style>
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
-<div class="grid cards" markdown>
+.journey-section {
+  background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
 
-[:material-rocket-launch: **ft_transcendence**](projets/ft_transcendence.md)
+[data-md-color-scheme="slate"] .journey-section {
+  background: linear-gradient(145deg, #2d2d44, #1e1e2e);
+}
 
-Application web - Pong multiplayer en temps réel
+.journey-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
 
----
+.journey-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
 
-[:material-console: **Minishell**](projets/minishell.md)
+[data-md-color-scheme="slate"] .journey-card {
+  background: #3d3d5c;
+}
 
-Interpréteur de commandes en C
+.journey-card:hover {
+  transform: translateY(-5px);
+}
 
----
+.journey-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
 
-[:material-web: **ft_irc**](projets/ft_irc.md)
+.journey-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  margin: 0 0 0.5rem 0;
+}
 
-Serveur IRC en C++
+.journey-text {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+  margin: 0;
+  line-height: 1.6;
+}
+</style>
 
----
+## :map: Mon Parcours
 
-[:material-sort: **Push Swap**](projets/push_swap.md)
-
-Algorithme de tri optimisé
-
+<div class="journey-section">
+  <div class="journey-grid">
+    
+    <div class="journey-card">
+      <div class="journey-icon">🚜</div>
+      <h3 class="journey-title">Avant</h3>
+      <p class="journey-text">Conducteur d'engins de terrassement et grutier. Découverte de ma passion pour la technologie.</p>
+    </div>
+    
+    <div class="journey-card">
+      <div class="journey-icon">🔄</div>
+      <h3 class="journey-title">Reconversion</h3>
+      <p class="journey-text">Choisi de me reconvertir après avoir découvert ma passion pour la résolution de problèmes logiques.</p>
+    </div>
+    
+    <div class="journey-card">
+      <div class="journey-icon">🎓</div>
+      <h3 class="journey-title">Aujourd'hui</h3>
+      <p class="journey-text">Étudiant à <strong>42 Angoulême</strong>, école sans cours traditionnels où l'apprentissage par projets est roi.</p>
+    </div>
+    
+  </div>
 </div>
 
 ---
 
-## <span class="h2">Compétences Techniques</span>
+<style>
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
 
-| Langages | Outils | Méthodologies |
-|----------|--------|---------------|
-| Python | Git, Docker | Agile/Scrum |
-| C/C++ | Linux, Vim | GitFlow |
-| SQL | VS Code | Clean Code |
-| JavaScript | MkDocs | CI/CD |
+.project-card {
+  background: linear-gradient(145deg, #ffffff, #f5f7fa);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
 
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
 
-| Domaine | Technologies |
-|---------|--------------|
-| **Langages** | Python, C, C++, JavaScript, SQL |
-| **Data/IA** | Pandas, NumPy, Scikit-learn, Jupyter |
-| **Outils** | Git, Docker, Linux, Vim |
-| **Web** | HTML/CSS, React, Node.js |
+[data-md-color-scheme="default"] .project-card {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+[data-md-color-scheme="default"] .project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(102, 126, 234, 0.3);
+}
+
+[data-md-color-scheme="slate"] .project-card {
+  background: linear-gradient(145deg, #1e1e2e, #2d2d44);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+[data-md-color-scheme="slate"] .project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(102, 126, 234, 0.4);
+}
+
+.project-card.ft_transcendence::before { background: linear-gradient(90deg, #ff6b6b, #feca57); }
+.project-card.minishell::before { background: linear-gradient(90deg, #48dbfb, #0abde3); }
+.project-card.ft_irc::before { background: linear-gradient(90deg, #5f27cd, #341f97); }
+.project-card.push_swap::before { background: linear-gradient(90deg, #00d2d3, #01a3a4); }
+
+.project-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: var(--md-primary-fg-color);
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+## :rocket: Projets en Vedette
+
+<div class="projects-grid">
+  
+  <a href="projets/ft_transcendence.md" class="project-card ft_transcendence">
+    <div class="project-icon">🏓</div>
+    <h3 class="project-title">ft_transcendence</h3>
+    <p class="project-desc">Pong multiplayer en temps réel avec matchmaking et chat.</p>
+  </a>
+  
+  <a href="projets/minishell.md" class="project-card minishell">
+    <div class="project-icon">💻</div>
+    <h3 class="project-title">Minishell</h3>
+    <p class="project-desc">Interpréteur de commandes simulant bash.</p>
+  </a>
+  
+  <a href="projets/ft_irc.md" class="project-card ft_irc">
+    <div class="project-icon">💬</div>
+    <h3 class="project-title">ft_irc</h3>
+    <p class="project-desc">Serveur IRC en C++ avec channels et DMs.</p>
+  </a>
+  
+  <a href="projets/push_swap.md" class="project-card push_swap">
+    <div class="project-icon">📊</div>
+    <h3 class="project-title">Push Swap</h3>
+    <p class="project-desc">Algorithme de tri optimisé.</p>
+  </a>
+  
+</div>
 
 ---
 
-## <span class="h2">Soft Skills</span>
+<style>
+.skills-section {
+  margin: 2rem 0;
+}
 
-- **Autonomie** : Apprentissage autodidacte, capacité à résoudre des problèmes seul
-- **Persévérance** : Parcours de reconversion, détermination
-- **Travail d'équipe** : Projets collaboratifs à 42, peer-learning
-- **Adaptabilité** : Transition d'un métier manuel vers le développement
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.2s;
+  cursor: default;
+}
+
+.skill-badge:hover {
+  transform: scale(1.05);
+}
+
+.skill-python { background: linear-gradient(135deg, #306998, #FFD43B); color: white; }
+.skill-c { background: linear-gradient(135deg, #A8B9CC, #555555); color: white; }
+.skill-cpp { background: linear-gradient(135deg, #00599C, #004482); color: white; }
+.skill-javascript { background: linear-gradient(135deg, #F7DF1E, #333333); color: #333; }
+.skill-react { background: linear-gradient(135deg, #61DAFB, #20232A); color: white; }
+.skill-git { background: linear-gradient(135deg, #F05032, #333333); color: white; }
+.skill-docker { background: linear-gradient(135deg, #2496ED, #384D54); color: white; }
+.skill-sql { background: linear-gradient(135deg, #4479A1, #336791); color: white; }
+</style>
+
+## :wrench: Compétences Techniques
+
+<div class="skills-section">
+  <div class="skills-grid">
+    <span class="skill-badge skill-python">🐍 Python</span>
+    <span class="skill-badge skill-c">🔧 C</span>
+    <span class="skill-badge skill-cpp">⚡ C++</span>
+    <span class="skill-badge skill-javascript">💛 JavaScript</span>
+    <span class="skill-badge skill-react">⚛️ React</span>
+    <span class="skill-badge skill-git">📦 Git</span>
+    <span class="skill-badge skill-docker">🐳 Docker</span>
+    <span class="skill-badge skill-sql">🗃️ SQL</span>
+  </div>
+</div>
 
 ---
 
-## <span class="h2">Loisirs & Intérêts</span>
+<style>
+.soft-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
 
-- **Musique** : Guitare
-- **Dessin** : Création artistique
-- **Lecture** : Documentation technique, sujets variés
+.soft-skill-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+[data-md-color-scheme="slate"] .soft-skill-card {
+  background: #2d2d44;
+}
+
+.soft-skill-card:hover {
+  transform: translateX(5px);
+}
+
+.soft-skill-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.soft-skill-content h4 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+  color: var(--md-primary-fg-color);
+}
+
+.soft-skill-content p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
+</style>
+
+## :bulb: Soft Skills
+
+<div class="soft-skills-grid">
+  
+  <div class="soft-skill-card">
+    <div class="soft-skill-icon">🎯</div>
+    <div class="soft-skill-content">
+      <h4>Autonomie</h4>
+      <p>Apprentissage autodidacte, résolution de problèmes seul</p>
+    </div>
+  </div>
+  
+  <div class="soft-skill-card">
+    <div class="soft-skill-icon">💪</div>
+    <div class="soft-skill-content">
+      <h4>Persévérance</h4>
+      <p>Parcours de reconversion, détermination</p>
+    </div>
+  </div>
+  
+  <div class="soft-skill-card">
+    <div class="soft-skill-icon">🤝</div>
+    <div class="soft-skill-content">
+      <h4>Travail d'équipe</h4>
+      <p>Projets collaboratifs à 42, peer-learning</p>
+    </div>
+  </div>
+  
+  <div class="soft-skill-card">
+    <div class="soft-skill-icon">🔄</div>
+    <div class="soft-skill-content">
+      <h4>Adaptabilité</h4>
+      <p>Transition d'un métier manuel vers le dev</p>
+    </div>
+  </div>
+  
+</div>
 
 ---
 
-## <span class="h2">Objectifs Professionnels</span>
+<style>
+.hobbies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
 
-Je suis actuellement à la recherche :
+.hobby-card {
+  background: linear-gradient(145deg, #ffffff, #f5f7fa);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
 
-- ✅ d'une **alternance** en développement backend ou Data
-- ✅ d'un **stage** technique
-- ✅ de missions **freelance** en Python/SQL
+[data-md-color-scheme="slate"] .hobby-card {
+  background: linear-gradient(145deg, #2d2d44, #3d3d5c);
+}
+
+.hobby-card:hover {
+  transform: scale(1.05);
+}
+
+.hobby-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hobby-title {
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  margin: 0;
+}
+
+.hobby-desc {
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+  margin: 0.25rem 0 0 0;
+}
+</style>
+
+## :game_controller: Loisirs & Intérêts
+
+<div class="hobbies-grid">
+  
+  <div class="hobby-card">
+    <div class="hobby-icon">🎸</div>
+    <h4 class="hobby-title">Musique</h4>
+    <p class="hobby-desc">Guitare</p>
+  </div>
+  
+  <div class="hobby-card">
+    <div class="hobby-icon">✏️</div>
+    <h4 class="hobby-title">Dessin</h4>
+    <p class="hobby-desc">Création artistique</p>
+  </div>
+  
+  <div class="hobby-card">
+    <div class="hobby-icon">📚</div>
+    <h4 class="hobby-title">Lecture</h4>
+    <p class="hobby-desc">Docs techniques</p>
+  </div>
+  
+</div>
 
 ---
 
-## <span class="h2">Me Contacter</span>
+<style>
+.goals-section {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem 0;
+  color: white;
+}
 
-[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary } [:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
+[data-md-color-scheme="slate"] .goals-section {
+  background: linear-gradient(135deg, #0f4c3a 0%, #1e6f50 100%);
+}
+
+.goals-title {
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+}
+
+.goals-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.goal-badge {
+  background: rgba(255,255,255,0.2);
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.2s;
+}
+
+.goal-badge:hover {
+  background: rgba(255,255,255,0.3);
+}
+</style>
+
+## :trophy: Objectifs Professionnels
+
+<div class="goals-section">
+  <h3 class="goals-title">Actuellement à la recherche de :</h3>
+  <div class="goals-grid">
+    <span class="goal-badge">✅ Alternance Backend / Data</span>
+    <span class="goal-badge">✅ Stage technique</span>
+    <span class="goal-badge">✅ Missions Freelance</span>
+  </div>
+</div>
 
 ---
+
+<style>
+.contact-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+  color: white;
+  margin: 2rem 0;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s;
+}
+
+.contact-btn:hover {
+  transform: translateY(-3px);
+}
+
+.contact-btn-primary {
+  background: white;
+  color: #667eea;
+}
+
+.contact-btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+</style>
+
+<div class="contact-section">
+  <h2 class="contact-title">📬 Me Contacter</h2>
+  <div class="contact-buttons">
+    <a href="https://github.com/Lamizana" class="contact-btn contact-btn-primary" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      GitHub
+    </a>
+    <a href="mailto:alex.lamizana@42angouleme.fr" class="contact-btn contact-btn-outline">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Email
+    </a>
+  </div>
+</div>
 
 > *"Le pouvoir du savoir..."* — Ma philosophie: chaque jour est une opportunité d'apprendre quelque chose de nouveau.
