@@ -84,8 +84,8 @@ hide:
 
 <div class="hero-container">
   <div class="hero-content">
-    <img src="../images/zehd.png" alt="Alex Lamizana" class="hero-photo">
-    <h1 class="hero-title">Alex Lamizana</h1>
+    <img src="images/zehd.png" alt="Alex Lamizana" class="hero-photo">
+    <h1 class="hero-title">MyDocs</h1>
     <p class="hero-subtitle">Le pouvoir du savoir...</p>
     <div class="hero-buttons">
       <a href="https://github.com/Lamizana" class="hero-btn hero-btn-primary" target="_blank">
