@@ -165,8 +165,6 @@ hide:
 .project-card.ft_transcendence::before { background: linear-gradient(90deg, #ff6b6b, #feca57); }
 .project-card.minishell::before { background: linear-gradient(90deg, #48dbfb, #0abde3); }
 .project-card.ft_irc::before { background: linear-gradient(90deg, #5f27cd, #341f97); }
-.project-card.push_swap::before { background: linear-gradient(90deg, #00d2d3, #01a3a4); }
-.project-card.so_long::before { background: linear-gradient(90deg, #ff9ff3, #f368e0); }
 
 .project-icon {
   font-size: 2.5rem;
@@ -239,27 +237,14 @@ hide:
       </div>
     </a>
     
-    <a href="projets/push_swap/" class="project-card push_swap">
-      <div class="project-icon">📊</div>
-      <h3 class="project-title">Push Swap</h3>
-      <p class="project-desc">Algorithme de tri optimisé nécessitant un minimum d'opérations.</p>
-      <div class="project-tags">
-        <span class="project-tag">C</span>
-        <span class="project-tag">Algorithmie</span>
-      </div>
-    </a>
-    
-    <a href="projets/so_long/" class="project-card so_long">
-      <div class="project-icon">🎮</div>
-      <h3 class="project-title">So Long</h3>
-      <p class="project-desc">Jeu 2D en C avec graphismes MiniLibX et collecte de collectibles.</p>
-      <div class="project-tags">
-        <span class="project-tag">C</span>
-        <span class="project-tag">Game Dev</span>
-      </div>
-    </a>
-    
   </div>
+</div>
+
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="projets/" class="cta-btn cta-btn-light" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; border-radius: 50px; text-decoration: none; font-weight: 600; background: linear-gradient(135deg, #667eea, #764ba2); color: white; transition: transform 0.2s;">
+    🚀 Voir tous mes projets
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  </a>
 </div>
 
 ---
