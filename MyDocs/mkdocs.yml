@@ -158,6 +158,10 @@ extra_templates:
 
 plugins:
   - search
+  - social:
+      cards_layout_options:
+          font_family: Noto Sans SC
+
   - blog:
       authors_file: "{blog}/.authors.yml"
       blog_dir: blog
