@@ -71,7 +71,6 @@ Algorithme de tri optimisé
 | SQL | VS Code | Clean Code |
 | JavaScript | MkDocs | CI/CD |
 
-
 | Domaine | Technologies |
 |---------|--------------|
 | **Langages** | Python, C, C++, JavaScript, SQL |
@@ -111,7 +110,3 @@ Je suis actuellement à la recherche :
 ## <span class="h2">Me Contacter</span>
 
 [:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary } [:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
-
----
-
-> *"Le pouvoir du savoir..."* — Ma philosophie: chaque jour est une opportunité d'apprendre quelque chose de nouveau.
