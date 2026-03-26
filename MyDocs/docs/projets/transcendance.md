@@ -1,8 +1,8 @@
 ---
-title: ft_transcendence
+title: Transcendance
 ---
 
-# <span class="h1">ft_transcendence</span>
+# <span class="h1">Transcendance</span>
 
 ## Description
 

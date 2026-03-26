@@ -1,5 +1,5 @@
 ---
-title: 🎭 L’art de parler et d’écouter
+title: L’art de parler et d’écouter
 date: 2026-02-06
 authors:
   - zehd

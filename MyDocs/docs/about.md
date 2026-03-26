@@ -14,12 +14,10 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 
 ---
 
----
-
 ## <span class="h2">Stack Technique</span>
 
 <div class="badge-section">
-<p class="badge-category">📚 Langages</p>
+<p class="badge-category">Langages</p>
 <div class="badge-row">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
     <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C">
@@ -31,7 +29,7 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 </div>
 
 <div class="badge-section">
-<p class="badge-category">🛠️ Outils</p>
+<p class="badge-category">Outils</p>
 <div class="badge-row">
     <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
     <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
@@ -41,7 +39,7 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 </div>
 
 <div class="badge-section">
-<p class="badge-category">⚛️ Frameworks</p>
+<p class="badge-category">Frameworks</p>
 <div class="badge-row">
     <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
     <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
@@ -102,26 +100,22 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 <div class="soft-skills-grid">
 
 <div class="soft-skill-card">
-    <span class="soft-skill-icon">🎯</span>
-    <span class="soft-skill-title">Autonomie</span>
+    <span class="soft-skill-title">Autonomie</span><br><br>
     <span class="soft-skill-desc">Apprentissage autodidacte, capacité à résoudre des problèmes seul</span>
 </div>
 
 <div class="soft-skill-card">
-    <span class="soft-skill-icon">🔥</span>
-    <span class="soft-skill-title">Persévérance</span>
+    <span class="soft-skill-title">Persévérance</span><br><br>
     <span class="soft-skill-desc">Parcours de reconversion, détermination face aux défis</span>
 </div>
 
 <div class="soft-skill-card">
-    <span class="soft-skill-icon">🤝</span>
-    <span class="soft-skill-title">Travail d'équipe</span>
+    <span class="soft-skill-title">Travail d'équipe</span><br><br>
     <span class="soft-skill-desc">Projets collaboratifs à 42, peer-learning</span>
 </div>
 
 <div class="soft-skill-card">
-    <span class="soft-skill-icon">🔄</span>
-    <span class="soft-skill-title">Adaptabilité</span>
+    <span class="soft-skill-title">Adaptabilité</span><br><br>
     <span class="soft-skill-desc">Transition d'un métier manuel vers le développement</span>
 </div>
 
@@ -168,7 +162,7 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 
 <div class="objectif-badge">
 <span class="check">✅</span>
-<span>Missions Freelance Python/SQL</span>
+<span>Missions Freelance Base de donnée / IA</span>
 </div>
 
 </div>
@@ -177,10 +171,4 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 
 ## <span class="h2">Me Contacter</span>
 
-<div class="contact-buttons">
-
-[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary }
-
-[:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
-
-</div>
+[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary } [:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }

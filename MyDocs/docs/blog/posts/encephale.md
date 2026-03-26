@@ -1,5 +1,5 @@
 ---
-title: 🧠 Capacité encéphallique
+title: Capacité encéphallique
 date: 2026-02-06
 authors:
   - zehd
@@ -7,13 +7,14 @@ categories:
   - 🧪 Science
 ---
 
+
 > **Encéphale**  
 > Masse nerveuse contenue dans la boîte crânienne, comprenant **le cerveau, le cervelet et le tronc cérébral**.  
 > Il constitue le centre de contrôle du système nerveux central.
 
 ---
 
-## <span class="h2">🧠 Le cerveau : un organe hors norme</span>
+## <span class="h2">Le cerveau : un organe hors norme</span>
 
 Le **cerveau** est sans doute l’organe le plus complexe du vivant.  
 Chez l’humain, il pèse en moyenne **1,3 à 1,4 kg**, soit environ **2 % du poids du corps**, mais consomme à lui seul près de **20 % de l’énergie totale**.
@@ -31,7 +32,7 @@ Mais l’humain n’est pas seul à posséder un cerveau remarquable.
 
 ---
 
-## <span class="h2">🧬 Comparaison des capacités encéphaliques</span>
+## <span class="h2">Comparaison des capacités encéphaliques</span>
 
 ???+ abstract "🎧 Quelques ordres de grandeur"
 
@@ -49,7 +50,7 @@ La **structure**, la **densité neuronale** et les **connexions** jouent un rôl
 
 ---
 
-## <span class="h2">🐬 Dauphins : intelligence et communication</span>
+## <span class="h2">Dauphins : intelligence et communication</span>
 
 On ne le soupçonne pas toujours, mais les **dauphins** possèdent une **communication acoustique très élaborée**.
 
@@ -72,7 +73,7 @@ Les dauphins, eux, communiquent sur une **plage bien plus large**, incluant des 
 
 ---
 
-## <span class="h2">🤝 Un psychisme social développé</span>
+## <span class="h2">Un psychisme social développé</span>
 
 Les dauphins présentent :
 
@@ -85,7 +86,7 @@ Ces caractéristiques en font l’un des **mammifères les plus étudiés** en n
 
 ---
 
-## <span class="h2">✨ Conclusion</span>
+## <span class="h2">Conclusion</span>
 
 L’étude du **cerveau** et de l’**encéphale** nous rappelle que ***l’intelligence ne se résume pas à la taille d’un organe.***
 

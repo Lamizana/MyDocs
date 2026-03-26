@@ -10,7 +10,7 @@ nav:
 
   - Projets:
       - projets/index.md
-      - ft_transcendence: projets/ft_transcendence.md
+      - ft_transcendence: projets/transcendance.md
       - Minishell: projets/minishell.md
       - ft_irc: projets/ft_irc.md
       - Push Swap: projets/push_swap.md
@@ -113,6 +113,7 @@ theme:
     - search.highlight
     - content.code.copy
     - header.autohide
+    - material.experimental.cards
 
   font:
     text: Roboto

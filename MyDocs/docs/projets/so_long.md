@@ -12,7 +12,7 @@ icon: material/gamepad-square
 
 ---
 
-## <span class="h2">🎮 Présentation</span>
+## <span class="h2">:material-presentation: Présentation</span>
 
 <div class="presentation">
     <p style="color: #333; line-height: 1.6;">
@@ -25,7 +25,7 @@ icon: material/gamepad-square
 
 ---
 
-## <span class="h2">💻 Installation</span>
+## <span class="h2">:fontawesome-solid-computer: Installation</span>
 
 Pour installer et exécuter le projet, suivez ces étapes :
 
@@ -53,7 +53,7 @@ Le projet contient deux versions du jeu :
 
 ---
 
-## <span class="h2">🎮 Comment jouer</span>
+## <span class="h2">:fontawesome-regular-circle-play: Comment jouer</span>
 
 Pour lancer le jeu, utilisez les commandes suivantes :
 
@@ -92,7 +92,7 @@ Le jeu s'ouvre dans une fenêtre indépendante.
 
 ---
 
-## <span class="h2">📜 Cartes disponibles</span>
+## <span class="h2">:fontawesome-regular-map: Cartes disponibles</span>
 
 Voici les cartes disponibles dans le projet :
   
@@ -104,7 +104,7 @@ Voici les cartes disponibles dans le projet :
 
 ---
 
-## <span class="h2">📝 Notes supplémentaires</span>s
+## <span class="h2">:material-note-text: Notes supplémentaires</span>
 
 !!! note "Note"
     Ce projet a été réalisé dans le cadre de la formation à **l'école 42**. Il met en avant les compétences en gestion de projet, en programmation système, et en utilisation de bibliothèques graphiques.

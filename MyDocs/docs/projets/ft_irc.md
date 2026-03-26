@@ -1,8 +1,9 @@
 ---
-title: ft_irc
+title: Irc
+icon: simple/googlechat
 ---
 
-# <span class="h1">ft_irc</span>
+# <span class="h1">Irc</span>
 
 ## Description
 
