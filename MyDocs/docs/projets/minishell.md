@@ -1,6 +1,5 @@
 ---
 title: Minishell
-icon: material/powershell
 ---
 
 # <span class="h1">Minishell</span>

@@ -10,12 +10,11 @@ nav:
 
   - Projets:
       - projets/index.md
-      - ft_transcendence: projets/transcendance.md
+      - Transcendence: projets/transcendance.md
       - Minishell: projets/minishell.md
-      - ft_irc: projets/ft_irc.md
+      - Irc: projets/ft_irc.md
       - Push Swap: projets/push_swap.md
       - So Long: projets/so_long.md
-
 
   - Dashboard:
       - dashboard/index.md

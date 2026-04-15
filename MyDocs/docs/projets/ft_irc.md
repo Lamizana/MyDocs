@@ -1,6 +1,5 @@
 ---
 title: Irc
-icon: simple/googlechat
 ---
 
 # <span class="h1">Irc</span>

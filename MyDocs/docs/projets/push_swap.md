@@ -1,5 +1,5 @@
 ---
-icon: material/sort
+title: Push Swap
 ---
 
 # <span class="h1">:material-sort: Push Swap</span>

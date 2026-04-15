@@ -1,5 +1,5 @@
 ---
-icon: material/gamepad-square
+title: So Long
 ---
 
 # <span class="h1">So Long</span>
