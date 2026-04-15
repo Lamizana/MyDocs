@@ -16,9 +16,10 @@ nav:
       - Push Swap: projets/push_swap.md
       - So Long: projets/so_long.md
 
-  - Blog:
-      - blog/index.md
 
+  - Dashboard:
+      - dashboard/index.md
+      
   - Cours:
       - cours/index.md
       - Python:
@@ -67,6 +68,9 @@ nav:
           - Effets: strudel/tutoriel-effets.md
       - Exercices:
           - strudel/exercice-strudel.md
+
+  - Blog:
+      - blog/index.md
 
   - Audrey:
       - audrey/index.md
