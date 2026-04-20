@@ -33,8 +33,7 @@ Ce projet a pour but d'analyser les vrais chiffres de la population (données pu
 
 ---
 
-## Technologies utilisées
-
+## <span class="h2">Technologies utilisées</span>
 
 <div class="soft-skills-grid">
 
@@ -67,41 +66,15 @@ Ce projet a pour but d'analyser les vrais chiffres de la population (données pu
 
 ---
 
-## Dashboard
+## <span class="h2">INSEE (Institut National de la Statistique et des Études Économiques)</span>
 
-<style>
-    .dashboard-container {
-        position: relative;
-        width: 100%;
-        height: 85vh;  /* Hauteur adaptative */
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    .dashboard-container iframe {
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-    .loading-message {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #666;
-        font-family: sans-serif;
-    }
-</style>
+!!! note "Note"
+    C’est **la source officielle** des données démographiques, économiques et sociales en France.
 
-<div class="dashboard-container">
-    <iframe 
-        src="https://dashboard-population-france.streamlit.app/?embed=true"
-        loading="lazy"
-        title="Dashboard Population France">
-    </iframe>
-</div>
+- C’est **l’organisme producteur** des données (par exemple les fichiers des décès, naissances, recensements, revenus, etc.). 
+- Les données sont **certifiées**, **contrôlées** et **documentées** par des statisticiens publics.
+- C’est **la référence** pour les chiffres “officiels” utilisés par le gouvernement, les chercheurs et les médias.
+- Les fichiers bruts (`naissances`, `décès`, `recensements`) viennent directement de l’état civil.
 
----
+**Site officiel :** [insee.fr](https://www.insee.fr)
 
-*Source : INSEE | data.gouv.fr*

@@ -10,7 +10,7 @@ nav:
 
   - Projets:
       - projets/index.md
-      - Transcendence: projets/transcendance.md
+      - Transcendance: projets/transcendance.md
       - Minishell: projets/minishell.md
       - Irc: projets/ft_irc.md
       - Push Swap: projets/push_swap.md
@@ -18,6 +18,7 @@ nav:
 
   - Dashboard:
       - dashboard/index.md
+      - Population france: dashboard/population-france.md
       
   - Cours:
       - cours/index.md
