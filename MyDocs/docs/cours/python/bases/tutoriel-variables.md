@@ -23,12 +23,12 @@ taille = 1.75
 
 ### Convention de nommage
 
-| Règle | Correct | Incorrect |
-|-------|---------|-----------|
-| Minuscules | `mon_nom` | `monNom` |
-| Pas d'espace | `age_utilisateur` | `age utilisateur` |
-| Pas de chiffre au début | `age1` | `1age` |
-| Pas de mot réservé | `print_` | `print` |
+| Règle                   | Correct           | Incorrect         |
+|-------------------------|-------------------|-------------------|
+| Minuscules              | `mon_nom`         | `monNom`          |
+| Pas d'espace            | `age_utilisateur` | `age utilisateur` |
+| Pas de chiffre au début | `age1`            | `1age`            |
+| Pas de mot réservé      | `print_`          | `print`           |
 
 !!! tip "Bonnes pratiques"
     Utilisez le **snake_case** : `mon_nom_de_variable`

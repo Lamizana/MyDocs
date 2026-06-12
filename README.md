@@ -4,7 +4,7 @@ Site documentaire sur la programmation - Propulsé par MkDocs et Material theme.
 
 ---
 
-## 🛠️ Stack Technique
+## Stack Technique
 
 - **Site**: MkDocs + Material for MkDocs
 - **Hébergement**: GitHub Pages
@@ -12,11 +12,11 @@ Site documentaire sur la programmation - Propulsé par MkDocs et Material theme.
 
 ---
 
-## 📚 Contenu
+## Contenu
 
 ### Projets
 
-- **ft_transcendence** - Application web Pong multiplayer
+- **Transcendence** - Application web Pong multiplayer
 - **Minishell** - Interpréteur de commandes
 - **ft_irc** - Serveur IRC en C++
 - **Push Swap** - Algorithme de tri optimisé
@@ -31,7 +31,7 @@ Site documentaire sur la programmation - Propulsé par MkDocs et Material theme.
 
 ---
 
-## 🚀 Installation Locale
+## Installation locale
 
 ```bash
 # Créer un environnement virtuel
@@ -47,18 +47,22 @@ pip install -r requirements.txt
 
 ---
 
-## 📖 Commandes
+## Commandes
 
-| Commande | Description |
-|----------|-------------|
-| `mkdocs serve` | Serveur local avec hot-reload |
-| `mkdocs build` | Générer le site statique |
-| `mkdocs gh-deploy` | Déployer sur GitHub Pages |
+| Commande           | Description                   |
+|--------------------|-------------------------------|
+| `mkdocs serve`     | Serveur local avec hot-reload |
+| `mkdocs build`     | Générer le site statique      |
+| `mkdocs gh-deploy` | Déployer sur GitHub Pages     |
 
 ```bash
 # Serveur local
 mkdocs serve --dev-addr=127.0.0.1:8001
 mkdocs serve --dev-addr=127.0.0.1:8001 --livereload
+
+# Si les commandes ne fonctionne pas, essayer :
+python3 -m mkdocs serve --dev-addr=127.0.0.1:8001
+python3 -m mkdocs serve --dev-addr=127.0.0.1:8001 --livereload
 
 # Déploiement
 mkdocs gh-deploy
@@ -66,7 +70,7 @@ mkdocs gh-deploy
 
 ---
 
-## 👤 À Propos
+## À Propos
 
 Développé par **Alex Lamizana** - Étudiant 42 Angoulême, spécialisation Data & IA.
 
