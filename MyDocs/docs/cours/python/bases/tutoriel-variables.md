@@ -11,6 +11,18 @@ Les variables sont des **conteneurs** qui permettent de stocker des données en 
 
 ---
 
+## <span class="h2">Prérequis</span>
+
+- Python 3.8+
+
+***ou***
+
+Essayer l'exercice directement sur:
+
+[Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" .md-button }
+
+---
+
 ## <span class="h2">Créer une Variable</span>
 
 En Python, créer une variable est simple :
