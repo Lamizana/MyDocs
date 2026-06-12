@@ -51,12 +51,12 @@ $ python3
 
 En programmation nous pouvons faire différents calculs:
 
-| Opération | Opérateur | Syntaxe Python | Résultat |
-| :--- | :---: | :--- | :--- |
-| **Addition** | `+` | `5 + 3` | `8` |
-| **Soustraction** | `-` | `10 - 4` | `6` |
-| **Multiplication** | `*` | `3 * 7` | `21` |
-| **Division** | `/` | `10 / 2` | `5.0` |
+| Opération          | Opérateur | Syntaxe Python | Résultat |
+|:-------------------|:---------:|:---------------|:---------|
+| **Addition**       |    `+`    | `5 + 3`        | `8`      |
+| **Soustraction**   |    `-`    | `10 - 4`       | `6`      |
+| **Multiplication** |    `*`    | `3 * 7`        | `21`     |
+| **Division**       |    `/`    | `10 / 2`       | `5.0`    |
 
 ??? - note "Exemples"
     ````python

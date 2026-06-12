@@ -16,9 +16,7 @@ nav:
       - Push Swap: projets/push_swap.md
       - So Long: projets/so_long.md
 
-  - Dashboard:
-      - dashboard/index.md
-      - Population france: dashboard/population-france.md
+
       
   - Cours:
       - cours/index.md
@@ -48,6 +46,8 @@ nav:
               - cours/javascript/redux.md
           - React:
               - cours/javascript/react.md
+
+  - Dashboard: dashboard/index.md
 
   - GitHub:
       - github/index.md

@@ -1,4 +1,12 @@
+---
+title: Variables
+---
+
 # <span class="h1">Variables et Affectation</span>
+
+<p class="intro">
+    Apprentissage des Variables et des diffèrents types de données en Python.
+</p>
 
 ---
 
