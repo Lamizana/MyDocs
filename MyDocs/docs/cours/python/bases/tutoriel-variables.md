@@ -179,7 +179,7 @@ Lorsqu'il y a plus d'un opérateur dans une expression, l'ordre dans les opérat
 précis, on appelle ça les **régles de priorités**. En Python, elles sont les mêmes qui sont appliquées en 
 mathématique.
 
-!!! tip "À connaitre"
+!!! abstract "À connaitre"
     Pour les mémoriser à l'aide d'un moyen mnémotechnique, l'acronyme **`PEMDAS`**:
 
     - ***`P` pour parenthése***. Ce sont elles qui ont la plus haute priorité. Elles permettent de "forcer" 
