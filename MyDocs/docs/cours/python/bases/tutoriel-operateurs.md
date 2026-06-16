@@ -18,15 +18,15 @@ Python en propose plusieurs catégories.
 
 Voici la liste de tous les opérateurs logique :
 
-| Opérateur | Description | Exemple | Résultat |
-|-----------|-------------|---------|----------|
-| `+` | Addition | `5 + 3` | `8` |
-| `-` | Soustraction | `10 - 4` | `6` |
-| `*` | Multiplication | `3 * 7` | `21` |
-| `/` | Division | `15 / 4` | `3.75` |
-| `//` | Division entière | `15 // 4` | `3` |
-| `%` | Modulo (reste) | `15 % 4` | `3` |
-| `**` | Exponentiation | `2 ** 3` | `8` |
+| Opérateur | Description      | Exemple   | Résultat |
+|-----------|------------------|-----------|----------|
+| `+`       | Addition         | `5 + 3`   | `8`      |
+| `-`       | Soustraction     | `10 - 4`  | `6`      |
+| `*`       | Multiplication   | `3 * 7`   | `21`     |
+| `/`       | Division         | `15 / 4`  | `3.75`   |
+| `//`      | Division entière | `15 // 4` | `3`      |
+| `%`       | Modulo (reste)   | `15 % 4`  | `3`      |
+| `**`      | Exponentiation   | `2 ** 3`  | `8`      |
 
 ### Exemples
 
@@ -211,14 +211,14 @@ print(5 in nombres)     # False
 
 ## <span class="h2">Résumé</span>
 
-| Catégorie | Opérateurs |
-|-----------|------------|
+| Catégorie     | Opérateurs                          |
+|---------------|-------------------------------------|
 | Arithmétiques | `+`, `-`, `*`, `/`, `//`, `%`, `**` |
-| Comparaison | `==`, `!=`, `>`, `<`, `>=`, `<=` |
-| Logiques | `and`, `or`, `not` |
-| Assignation | `=`, `+=`, `-=`, `*=`, `/=` |
-| Identité | `is`, `is not` |
-| Appartenance | `in`, `not in` |
+| Comparaison   | `==`, `!=`, `>`, `<`, `>=`, `<=`    |
+| Logiques      | `and`, `or`, `not`                  |
+| Assignation   | `=`, `+=`, `-=`, `*=`, `/=`         |
+| Identité      | `is`, `is not`                      |
+| Appartenance  | `in`, `not in`                      |
 
 ---
 

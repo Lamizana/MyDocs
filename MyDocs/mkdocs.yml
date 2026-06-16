@@ -16,9 +16,7 @@ nav:
       - Push Swap: projets/push_swap.md
       - So Long: projets/so_long.md
 
-
-      
-  - Cours:
+  - Programmation:
       - cours/index.md
       - Python:
           - cours/python/index.md
@@ -155,6 +153,7 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.mark
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences

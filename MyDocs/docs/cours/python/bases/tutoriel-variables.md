@@ -17,19 +17,29 @@ Les variables sont des **conteneurs** qui permettent de stocker des données en 
 !!! info "Analogie"
     Une variable c'est comme une boîte avec une étiquette. On met une valeur dans la boîte, et on peut la récupérer grâce à l'étiquette.
 
+Pour tester votre code, vous avez plusieurs facons :
+
+- [:material-play-circle: Basthon-Console](https://console.basthon.fr){ target="_blank" }
+- Ou dans votre terminal.
+
 ---
 
-## <span class="h2">Créer une Variable</span>
+## <span class="h2">Données et variables</span>
 
-En Python, créer une variable est simple :
+L'essentiel du travail effectue par un programme d'ordimnateur consisite à manipuler des **donnees**. Ces données 
+peuvent etre diverses, mais dans la mémoire de l'ordinateur, elles se ramènent toujours en definitive à **une suite 
+finie de nombres binaires**.
 
-```python
-nom = "Alex"
-age = 25
-taille = 1.75
-```
+Pour pouvoir y accéder, le programme fait usage de **variables** de differents types.
 
-### Convention de nommage
+!!! warning "Important"
+    - Une variable apparait dans la majorité des langages de programmations sous un **nom de variable** quelconque, mais pour l'ordinateur, **il s'agit d'une _référence_ designant une adresse mémoire**, c'est-à-dire un emplacement précis dans la mémoire vive.
+    - A cet emplacement est stocké une **valeur** bien déterminée, c'est la donnée qui est stocké sous la forme 
+    d'_une suite de nombres binaires_.
+
+---
+
+## <span class="h2">Convention de nommage</span>
 
 | Règle                   | Correct           | Incorrect         |
 |-------------------------|-------------------|-------------------|
@@ -43,45 +53,175 @@ taille = 1.75
 
 ---
 
-## <span class="h2">Affectation Multiple</span>
+## <span class="h2">Affectation (ou assignation) d'une variable</span>
 
-Python permet d'affecter plusieurs variables en une ligne :
+Nous allons voir à présent comment **définir** une variable et lui **affecter** une valeur.
 
-```python
-x, y, z = 1, 2, 3
-print(x)  # 1
-print(y)  # 2
-print(z)  # 3
+> Les termes "affecter une valeur" ou "assigner une valeur" à une variable sont équivalents. Ils désignent 
+l'opération par laquelle on établit un lien entre le nom de la variable et sa valeur.
+
+- En python comme dans beaucoup d'autres lngages de programmation, l'opération d'affectation est representé par le 
+  signe égal (`=`)
+
+``` py
+>>> nom = "Alex"    # affecter la valeur "Alex" à nom
+>>> age = 25        # définir la variable "age" et lui donner la valeur 25
+>>> taille = 1.75   # assigner sa valeur à la variable "taille"
 ```
+Les exemples ci desssus montrent des _instructions d'affectation_ Python. Apres qu'on les ait exécutées, ils existent 
+dans la mémoire de l'ordinateur, à des endroits différents :
 
-### Initialiser à la même valeur
+- 3 noms de variables : `nom`, `age` et `taille`.
+- 3 séquences d'octets où sont encodées les valeurs des variables.
 
-```python
-a = b = c = 0
-print(a, b, c)  # 0 0 0
-```
+???+ note "A savoir"
+    - Ces 3 instuctions ont pour effet de réaliser plusieurs actions dans la mémoire de l'ordinateur :
+
+          - Créer et mémoriser un **nom de variable**.
+          - Attribuer un **type** bien déterminé.
+          - Créer et mémoriser une **valeur** particulière.
+          - Etablir un lien (par un système de **pointeur**) entre le nom de la variable et l'emplacement mémoire de la 
+          valeur correspondante.
+
+    !!! info
+        Les trois noms de variables sont des _références_.
 
 ---
 
-## <span class="h2">Modifier une Variable</span>
+## <span class="h2">Typage des variables</span>
 
-On peut modifier la valeur d'une variable à tout moment :
+En Python, il n'est pas nécessaire de préciser le type de variables avant de pouvoir les utiliser. Il suffit 
+d'assigner une valeur à un nom de variable avant de pouvoir l'utiliser:
 
-```python
-compteur = 0
-print(compteur)  # 0
+- On dit alors que celle-ci est _automatiquement créé avec le type qui correspond au mieux à la valeur fournit_.
 
-compteur = 1
-print(compteur)  # 1
+De plus on dira que le _typage des variables sous Python est dynamique_, par opposition au _typage statique_ qui est de 
+mise en `C` ou `C++`.
+
+???+ note "A savoir"
+    === "Typage dynamique"
+        - Le typage statique est preférable dans les langages compilés tels que le `C`. Il permet _l'opération de 
+        compilation_.
+
+    === "Typage statique"
+        - Le typage dynamique pernet d'écrire plus aisément des constructions logique de niveaux elevé, en particulier 
+        dans le contexte de la programmation orienté objet.
+
+---
+
+## <span class="h2">Affectation Multiple</span>
+
+Python nous permet d'assigner une valeur à plusieurs variables simultanément :
+``` py
+>>> x = y = 7
+>>> x
+7
+>>> y
+7
 ```
 
-### Opérations combinées
-
-```python
-x = 5
-x = x + 1  # x = 6
-x += 3     # x = 9 (forme abrégée)
+On peut aussi faire des affectations paralléles ;
+``` py
+>>> a, b = 4, 1.33
+>>> a
+4
+>>> b
+1.33
 ```
+
+> Dans cette exmple, les variables `a` et `b` prennent respectivement les valeurs `4` et `1.33`
+
+---
+
+## <span class="h2">Operateurs et expressions</span>
+
+On manipule les valeurs et les variables qui les référence en les combinant avec des **opérateurs** pour former des 
+**expressions** :
+
+``` python
+>>> a, b = 7.3, 12
+>>> y = 3 * a + b / 5
+>>> y
+24.299999999999997
+```
+
+1. Ici, nous commençons à affecter aux variables `a` et `b` deux valeurs distinctes, `7.3` et `12`.
+2. La seconde ligne consiste à affecter à une nouvelle variable `y` le résultat d'une **expression** qui combine les 
+   **opérateurs** `*`,`+` et `/` avec les opérandes `a`, `b`, `3` et `5`.
+
+<div class="soft-skills-grid">
+    <div class="soft-skill-card">
+        <span class="soft-skill-title">Opérateurs</span><br><br>
+        <span class="soft-skill-desc">Symboles spéciaux utilisés pour representer les opérations mathématiques.</span>
+    </div>
+    
+    <div class="soft-skill-card">
+        <span class="soft-skill-title">Opérandes</span><br><br>
+        <span class="soft-skill-desc">Ce sont les valeurs combinées à l'aide des opérateurs</span>
+    </div>
+</div>
+
+### 1. Liste des opérateurs logique
+
+| Opérateur | Description      | Exemple   | Résultat |
+|-----------|------------------|-----------|----------|
+| `+`       | Addition         | `5 + 3`   | `8`      |
+| `-`       | Soustraction     | `10 - 4`  | `6`      |
+| `*`       | Multiplication   | `3 * 7`   | `21`     |
+| `/`       | Division         | `15 / 4`  | `3.75`   |
+| `//`      | Division entière | `15 // 4` | `3`      |
+| `%`       | Modulo (reste)   | `15 % 4`  | `3`      |
+| `**`      | Exponentiation   | `2 ** 3`  | `8`      |
+
+### 2. Priorité des opérations
+
+Lorsqu'il y a plus d'un opérateur dans une expression, l'ordre dans les opérations doivent s'effectuer suit un shéma 
+précis, on appelle ça les **régles de priorités**. En Python, elles sont les mêmes qui sont appliquées en 
+mathématique.
+
+!!! tip "À connaitre"
+    Pour les mémoriser à l'aide d'un moyen mnémotechnique, l'acronyme **`PEMDAS`**:
+
+    - ***`P` pour parenthése***. Ce sont elles qui ont la plus haute priorité. Elles permettent de "forcer" 
+    l'évaluation d'une expression dans l'ordre souhaité.
+        - Ainsi: `2 * (3 - 1) = 4`, et `(1 + 1) ** (5 - 2) = 8`
+    - **_`E` pour exposants_**. Ils sont evalué ensuite, avant les autres opérations.
+        - Ainsi: `2 ** 1 + 1 = 3` (et non 4), et `3 * 1 ** 10 = 3` (et non 59049).
+    - **`M` et `D` pour _multiplication_ et _division_**. Elles ont la même priorité. Elles sont evaluées avant 
+    _addition `A`_ et la _soustraction `S`_, ces dernière étant effectuées en dernier lieu.
+        - Ainsi: `2 * 3 - 1 = 5` (et non 4), et `2 / 3 - 1 =  -0.33333...` (et non 1.0).
+    - Si deux opérateurs ont la même priorité, l'évaluation est effectuée de gauche à droite.
+        - Ainsi dans: `59 * 100 // 60`, la multiplication se fait en première, suivi de la division.
+
+---
+
+## <span class="h2">Composition</span>
+
+Une des grandes forces d'un langage de programmation de haut niveau est qu'il permet de construire des instructions 
+complexes par assemblage de plusieurs instructions. Par exemple, on sait comment additionner deux nombres et comment 
+afficher une valeur, on peut donc combiner ses instructions en une seule :
+
+``` python
+>>> print(3 + 5)
+8
+```
+
+Cette fonctionnalité va permettre de programmer des algorithmes complexes de facon claire et concise :
+
+``` python
+>>> h, m, s = 15, 27, 34
+>>> print("nombre de secondes ecoule depuis minuit = ", h * 3600 + m * 60 + s)
+nombre de secondes ecoule depuis minuit 55654
+```
+
+!!! warning "Attention"
+    Il y a une limite à ce que l'on peut combiner :
+    Dans une expression, ce qui est placé à gauche du signe égal et toujours une variable, et non une expression.
+    
+    - En programmation le signe égal (`=`) est un **symbole d'affectation et non un symbole d'égalité**.
+        - Exemple: l'instruction `m + 1 = b` est fausse.
+    - Par contre, écrire `a = a + 1` est très fréquent en programmation. Cela signifie "_augmenter la valeur `a` de 
+    1_" ou encore **"incrémenter `a`"**.
 
 ---
 
@@ -89,10 +229,10 @@ x += 3     # x = 9 (forme abrégée)
 
 Une **constante** est une variable dont la valeur ne doit pas changer. Python n'a pas de vraies constantes, mais par convention :
 
-```python
-MAX_SCORE = 100
-TAUX_TVA = 0.20
-PI = 3.14159
+``` python
+>>> MAX_SCORE = 100
+>>> TAUX_TVA = 0.20
+>>> PI = 3.14159
 ```
 
 !!! warning "Important"
@@ -100,66 +240,11 @@ PI = 3.14159
 
 ---
 
-## <span class="h2">Supprimer une Variable</span>
-
-```python
-nom = "Alex"
-print(nom)  # Alex
-
-del nom
-print(nom)  # Erreur: name 'nom' is not defined
-```
-
----
-
-## <span class="h2">Afficher une Variable</span>
-
-```python
-nom = "Alex"
-print(nom)           # Alex
-print("Bonjour", nom)  # Bonjour Alex
-```
-
----
-
 ## <span class="h2">Résumé</span>
 
-| Concept | Description |
-|---------|-------------|
-| `x = 5` | Créer une variable |
+| Concept       | Description          |
+|---------------|----------------------|
+| `x = 5`       | Créer une variable   |
 | `x, y = 1, 2` | Affectation multiple |
-| `x += 1` | Incrémentation |
-| `del x` | Supprimer |
-| `MAJUSCULES` | Convention constante |
-
----
-
-## <span class="h2">Exemples</span>
-
-### Exemple 1: Gestion d'un score
-
-```python
-score = 0
-print("Score initial:", score)
-
-score += 10
-print("Après bonus:", score)
-
-score -= 3
-print("Après pénalité:", score)
-```
-
-### Exemple 2: Échanger deux variables
-
-```python
-a = 5
-b = 10
-
-# Méthode classique
-temp = a
-a = b
-b = temp
-
-# En Python (plus simple)
-a, b = b, a
-```
+| `x += 1`      | Incrémentation       |
+| `MAJUSCULES`  | Convention constante |
