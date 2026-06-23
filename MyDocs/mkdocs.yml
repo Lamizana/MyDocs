@@ -45,6 +45,17 @@ nav:
           - React:
               - cours/javascript/react.md
 
+  - Systeme:
+      - systeme/index.md
+      - systeme/nettoyage-disque.md
+      - Linux:
+          - systeme/linux/index.md
+          - Commandes: systeme/linux/commandes.md
+          - Bash: systeme/linux/bash.md
+      - Windows:
+          - systeme/windows/index.md
+          - Commandes: systeme/windows/commandes.md
+
   - Dashboard: dashboard/index.md
 
   - GitHub:
@@ -162,8 +173,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      # emoji_index: !!python/name:material.extensions.emoji.twemoji
+      # emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_javascript:
   - https://pyscript.net/releases/2024.1.1/core.js
