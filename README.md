@@ -43,6 +43,9 @@ source .env/bin/activate
 # Installer les dépendances
 pip install --upgrade pip
 pip install -r requirements.txt
+
+# Rajouter des depandances dans le fichier requirements.txt
+pip freeze > requirements .txt
 ```
 
 ---

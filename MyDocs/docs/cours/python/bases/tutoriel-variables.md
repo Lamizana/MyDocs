@@ -239,12 +239,3 @@ Une **constante** est une variable dont la valeur ne doit pas changer. Python n'
     Par convention, les constantes s'écrivent en **MAJUSCULES**.
 
 ---
-
-## <span class="h2">Résumé</span>
-
-| Concept       | Description          |
-|---------------|----------------------|
-| `x = 5`       | Créer une variable   |
-| `x, y = 1, 2` | Affectation multiple |
-| `x += 1`      | Incrémentation       |
-| `MAJUSCULES`  | Convention constante |
