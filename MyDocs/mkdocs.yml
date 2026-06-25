@@ -47,7 +47,7 @@ nav:
           - React:
               - cours/javascript/react.md
 
-  - Systeme:
+  - Système:
       - systeme/index.md
       - systeme/nettoyage-disque.md
       - Linux:
