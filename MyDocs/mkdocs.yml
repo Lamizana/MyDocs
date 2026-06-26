@@ -23,11 +23,11 @@ nav:
           - Bases:
 
               - Mise en place: cours/python/bases/mise-en-place.md
-              - Variables: cours/python/bases/tutoriel-variables.md
+              - Variables: cours/python/bases/variables.md
               - Flux d'exécution: cours/python/bases/flux-execution.md
-              - Types de données: cours/python/bases/tutoriel-types.md
-              - Opérateurs: cours/python/bases/tutoriel-operateurs.md
-              - Chaînes: cours/python/bases/tutoriel-chaines.md
+              - Types de données: cours/python/bases/types.md
+              - Opérateurs: cours/python/bases/operateurs.md
+              - Chaînes: cours/python/bases/chaines.md
               - Exercices: cours/python/bases/exercice-bases.md
           - Fonctions: cours/python/fonctions.md
           - Librairies:
