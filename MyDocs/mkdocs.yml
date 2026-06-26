@@ -52,11 +52,9 @@ nav:
       - systeme/nettoyage-disque.md
       - Linux:
           - systeme/linux/index.md
-          - Commandes: systeme/linux/commandes.md
-          - Bash: systeme/linux/bash.md
       - Windows:
           - systeme/windows/index.md
-          - Commandes: systeme/windows/commandes.md
+
 
   - Dashboard: dashboard/index.md
 
