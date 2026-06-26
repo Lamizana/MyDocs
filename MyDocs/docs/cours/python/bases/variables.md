@@ -239,3 +239,37 @@ Une **constante** est une variable dont la valeur ne doit pas changer. Python n'
     Par convention, les constantes s'écrivent en **MAJUSCULES**.
 
 ---
+
+## <span class="h2">Commentaires</span>
+
+Les commentaires sont extrémement utile dans la majorité des langages de programmation.
+Dans les programmes plus long et complexe il est recommendé d'ajouter des notes expliquant la démarche que l'on a suivit.
+
+!!! note "Note"
+    Un commentaire permet d'écrire des notes dans un programme sans que cela affecte ce dernier>
+
+---
+
+### Comment écrire des commentaires
+
+Dans Python, le croisillon (#) ***désigne un commentaire***, l'interpréteur Python *ignore tout ce qui suit ce caractère*.
+
+```python
+# commentaires.py
+
+# Dire bonjour a tout le monde:
+print("Bonjour tout le monde.")
+```
+
+Pour un commentaire sur plusieurs lignes:
+
+```python
+# commentaires.py
+
+"""
+Commmentaire sur plusieurs lignes:
+    - pour afficher plus d'informations.
+    - Dire bonjour à tout le monde.
+"""
+print("Bonjour tout le monde.")
+```
