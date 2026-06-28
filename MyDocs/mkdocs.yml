@@ -20,10 +20,11 @@ nav:
       - cours/index.md
       - Python:
           - cours/python/index.md
-          - Bases:
+          - Bien débuter:
               - Mise en place: cours/python/bases/mise-en-place.md
               - Variables: cours/python/bases/variables.md
               - Flux d'exécution: cours/python/bases/flux-execution.md
+              - Instructions répétitives: cours/python/bases/instructions-repetitives.md
               - Types de données: cours/python/bases/types.md
               - Opérateurs: cours/python/bases/operateurs.md
               - Chaînes: cours/python/bases/chaines.md
@@ -53,7 +54,6 @@ nav:
           - systeme/linux/index.md
       - Windows:
           - systeme/windows/index.md
-
 
   - Dashboard: dashboard/index.md
 

@@ -17,10 +17,10 @@ Les variables sont des **conteneurs** qui permettent de stocker des données en 
 !!! info "Analogie"
     Une variable c'est comme une boîte avec une étiquette. On met une valeur dans la boîte, et on peut la récupérer grâce à l'étiquette.
 
-Pour tester votre code, vous avez plusieurs facons :
+???+ note "Note"
+    Comme d'habitude, si vous n'avez pas ou la flemme de créer un environnement python :
 
-- [:material-play-circle: Basthon-Console](https://console.basthon.fr){ target="_blank" }
-- Ou dans votre terminal.
+    [Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" .md-button }
 
 ---
 
