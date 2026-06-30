@@ -42,5 +42,5 @@ Il est permis de *ré-affecter une nouvelle valeur à une même variable*, et ce
 !!! warning "Attention"
     Le symbole "égale" (`=`) utilisé sous Python ne doit en aucun cas être confondu avec le symbole d'égalité tel qu'il est compris en mathématique. Il est tentant d'interpréter l'instruction `altitude = 150` comme instruction d'égalité, mais ce n'en est pas une !
 
-- L'égalité est ***commutative***, alors que l'affectation ne l'est pas. Ainsi, en mathématique, écrire `a = 7` ou  `7 = a ` sont équivalentes, alors qu'une instruction de programmation telle que `375 = altitude `serait interdite.
+- L'égalité est ***commutative***, alors que l'affectation ne l'est pas. Ainsi, en mathématique, écrire `a = 7` ou  `7 = a ` sont équivalentes, alors qu'une instruction de programmation telle que `375 = altitude`serait interdite.
 - L'égalité est ***permanente***, alors que l'affectation peut-être remplacé. Lorsqu'en mathématique, nous affirmons une égalité telle que `a = b` au début d'un raisonnement, alors `a` continue à être égale à `b` durant tout le déroulement qui suit.

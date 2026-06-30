@@ -1,8 +1,4 @@
----
-icon: material/react
----
-
-# <span class="h1">Débuter avec React</span>
+# <span class="h1">Framework React</span>
 
  <p class="intro">
     Comprendre la logique de <strong>React</strong> pour construire une application interactive et dynamique..
@@ -10,17 +6,12 @@ icon: material/react
 
 ---
 
-## <span class="h2">Présentation</span>
+## <span class="h2">Introduction</span>
 
-<div class="presentation">
-    <p style="color: #333; line-height: 1.6;">
-        Développer une application de prise de commande pour un restaurant de type fast food en utilisant <strong>Redux</strong> et <strong>redux Toolkit</strong>.
-    </p>
-    <p style="color: #333; line-height: 1.6;">
-        L'objectif principal est d'intégrer <strong>Redux</strong> à une application <strong>React</strong>.
-        Redux est une <strong>bibliothèque JavaScript de gestion d'état</strong>. Elle permet de centraliser et structurer les données d'une application.
-    </p>
-</div>
+Développer une application de prise de commande pour un restaurant de type fast food en utilisant **Redux** et **redux Toolkit**.
+
+L'objectif principal est d'intégrer **Redux** à une application **React**.
+Redux est une **bibliothèque JavaScript de gestion d'état**. Elle permet de centraliser et structurer les données d'une application.
 
 ---
 
@@ -340,3 +331,8 @@ Il existe une syntaxe encore plus élégante pour afficher quelque chose ***seul
 ```jsx
 {plant.isBestSale && <span>🔥 </span>}
 ```
+
+---
+
+> *Date de création: 12.03.2026 / Mise à jour: 30.06.2026*
+

@@ -178,7 +178,7 @@ Sous Python, les instructions composées on toujours la même structure :
 
 - Une ligne d'en-tête terminé par un double point, suivi d'une ou plusieurs instructions indentées sous cette ligne d'en-tête.
 
-*Un bloc d'instruction est une suite d'instruction formant un ensemble **logique***, qui n'est exécuté que dans certaines conditions définies dans la ligne d'en-tête.
+*Un bloc d'instruction est une suite d'instruction formant un ensemble logique*, qui n'est exécuté que dans certaines conditions définies dans la ligne d'en-tête.
 
 ---
 

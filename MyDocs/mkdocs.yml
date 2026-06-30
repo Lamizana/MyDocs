@@ -42,11 +42,7 @@ nav:
 
       - Javascript:
           - cours/javascript/index.md
-          - Redux:
-              - cours/javascript/redux.md
-          - React:
-              - cours/javascript/react.md
-
+      
   - Système:
       - systeme/index.md
       - systeme/nettoyage-disque.md
@@ -55,11 +51,25 @@ nav:
       - Windows:
           - systeme/windows/index.md
 
-  - Dashboard: dashboard/index.md
+#  - Dashboard: dashboard/index.md
+  
+  - Web:
+      - web/index.md
+      - Web 2.0: 
+        - web/web2/index.md
+        - Framework React: web/web2/react.md
+
+      - Web 3.0:
+        - web/web3/index.md
+        - web/web3/blockchain.md
+        - web/web3/etherscan.md
 
   - GitHub:
       - github/index.md
       - Commandes: github/commandes.md
+
+  - Blog:
+      - blog/index.md
 
   - Mkdocs:
       - mkdocs/index.md
@@ -77,12 +87,6 @@ nav:
           - Effets: strudel/tutoriel-effets.md
       - Exercices:
           - strudel/exercice-strudel.md
-
-  - Blog:
-      - blog/index.md
-
-  - Audrey:
-      - audrey/index.md
 
   - About: about.md
 
