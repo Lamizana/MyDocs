@@ -1,6 +1,7 @@
 ---
 title: MyBlog
 icon: fontawesome/solid/blog
+
 ---
 
 # <span class="h1">MyBlog</span>
@@ -10,12 +11,12 @@ icon: fontawesome/solid/blog
 ---
 !!! info "Information"
     Bienvenue sur **MyBlog**,  
-    Ce site me permet d'acceder en direct a toutes les informations acquises au cours de ma courte existence..
+    Ce site me permet d'accéder en direct à toutes les informations acquises au cours de ma courte existence.
 
 ---
 
-## <span class="h2">A qui il s'addresse ?</span>
+## <span class="h2">À qui s'adresse-t-il ?</span>
 
-A tous désireux d'en savoir plus...
+À tous ceux qui désirent en savoir plus...
 
 ---

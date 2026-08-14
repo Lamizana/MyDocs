@@ -1,19 +1,19 @@
 ---
 title: Exercices
+description: "Exercices pratiques en Python pour consolider vos acquis."
 ---
 
-# <span class="h1">Programmation en Python</span>
+# <span class="h1">Exercices Python</span>
 
-<p align="center"><em>Découverte de <strong>python</strong> et réalisation d'un site fonctionnel et dynamique avec openclassroom</em></p>
-
----
-
-# <span class="h1">Python</span>
+<p align="center"><em>Pratiquez pour consolider vos connaissances.</em></p>
 
 ---
 
-???- warning "ATTENTION"
-    Page en cours de construction...
+## <span class="h2">Au programme</span>
 
----
+- **Nombres** : opérations arithmétiques et manipulations numériques.
+- **Chaînes de caractères** : manipulation du texte en Python.
 
+!!! warning "Conseil"
+    Essayez chaque exercice par vous-même avant de regarder la réponse :
+    c'est en pratiquant que l'on progresse !

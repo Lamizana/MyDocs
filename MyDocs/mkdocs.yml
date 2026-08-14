@@ -29,6 +29,10 @@ nav:
               - Opérateurs: cours/python/bases/operateurs.md
               - Chaînes: cours/python/bases/chaines.md
               - Exercices: cours/python/bases/exercice-bases.md
+          - Exercices:
+              - cours/python/exercices/index.md
+              - Nombres: cours/python/exercices/nombres.md
+              - Chaînes de caractères: cours/python/exercices/string.md
           - Fonctions: cours/python/fonctions.md
           - Librairies:
               - Pandas:
@@ -130,7 +134,6 @@ theme:
     - search.highlight
     - content.code.copy
     - header.autohide
-    - material.experimental.cards
 
   font:
     text: Roboto
@@ -179,42 +182,40 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-extra_javascript:
-  - https://pyscript.net/releases/2024.1.1/core.js
-
 extra_css:
   - css/custom.css
-  - https://pyscript.net/releases/2024.1.1/core.css
-
-extra_templates:
-  - scripts/casse_nom.txt
 
 plugins:
   - search
   - social:
       cards_layout_options:
-          font_family: Noto Sans SC
+          font_family: Noto Sans
 
   - blog:
       authors_file: "{blog}/.authors.yml"
       blog_dir: blog
-      # archive_toc: true
 
-  # - rss:
-  #     match_path: blog/posts/.*
-  #     date_from_meta:
-  #       as_creation: date
-  #     categories:
-  #       - categories
-  #       - tags
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+
+exclude_docs: |
+  audrey/index.md
+  dashboard/index.md
 
 # ======================== Configuration des versions =========================
 extra:
-  version: 1.0.0
   copyright: MyDocs Copyright (c) 2026 Alex Lamizana
   social:
     - icon: fontawesome/solid/paper-plane
-      link: mailto:<email-address>
+      link: mailto:alex.lamizana@42angouleme.fr
+  analytics:
+    provider: google
+    property: G-74MZWWS1RR
 
   # Consentement pour resencement :
   consent:

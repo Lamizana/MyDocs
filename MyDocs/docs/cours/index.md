@@ -1,4 +1,6 @@
 ---
+title: Cours
+description: "Cours de programmation : Python, JavaScript, données et plus encore, avec une console interactive Basthon."
 icon: material/school
 ---
 
@@ -10,7 +12,7 @@ icon: material/school
 
 Pour accéder à un terminal dans le navigateur, nous allons utiliser **Basthon**:
 
-**Basthon est un site Bac** à sable permettant d'exécuter du code directement dans le navigateur.
+**Basthon est un site bac à sable** permettant d'exécuter du code directement dans le navigateur.
 
 Il prend en charge les langages suivants:
 

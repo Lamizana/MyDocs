@@ -1,4 +1,6 @@
 ---
+title: Strudel
+description: "Apprenez à créer de la musique avec du code grâce à Strudel, un langage de musique algorithmique."
 icon: material/music
 ---
 

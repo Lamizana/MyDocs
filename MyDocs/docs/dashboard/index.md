@@ -1,6 +1,7 @@
 ---
 title: Dashboard
 icon: material/view-dashboard
+
 ---
 
 # <span class="h1">Population française</span>

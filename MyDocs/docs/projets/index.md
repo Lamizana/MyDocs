@@ -1,6 +1,7 @@
 ---
 title: Projets
 icon: material/rocket-launch
+
 ---
 
 
@@ -10,5 +11,5 @@ icon: material/rocket-launch
 
 ---
 !!! info "Information"
-    Contient les diff€rents projets.
+    Contient les différents projets.
 

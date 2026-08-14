@@ -1,4 +1,6 @@
 ---
+title: À Propos
+description: "Mon parcours de reconversion, ma stack technique, mes projets et mes objectifs professionnels."
 icon: material/account
 ---
 

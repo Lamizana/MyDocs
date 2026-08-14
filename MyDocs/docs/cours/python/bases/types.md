@@ -1,3 +1,8 @@
+---
+title: Types de données
+description: "Les différents types de données en Python : entiers, flottants, chaînes, booléens, listes."
+---
+
 # <span class="h1">Types de Données</span>
 
 ---

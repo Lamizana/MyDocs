@@ -1,5 +1,6 @@
 ---
 title: Syntaxe des Patterns
+
 ---
 
 # <span class="h1">Syntaxe des Patterns (Mini-notation)</span>

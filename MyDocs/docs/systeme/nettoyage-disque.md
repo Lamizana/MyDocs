@@ -1,3 +1,8 @@
+---
+title: Nettoyage de Disque
+description: "Guide pas à pas pour réparer et formater une clé USB inaccessible ou impossible à formater."
+---
+
 # <span class="h1">Nettoyage de Disque</span>
 
 <p class="intro">

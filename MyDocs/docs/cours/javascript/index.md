@@ -1,5 +1,7 @@
 ---
-icon: material/language-javascript 
+title: Javascript
+description: "Cours de JavaScript : variables, manipulation de données et création d'un site dynamique."
+icon: material/language-javascript
 ---
 
 # <span class="h1">Javascript</span>

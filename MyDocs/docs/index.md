@@ -1,4 +1,6 @@
 ---
+title: Accueil
+description: "MyDocs, site de documentation sur la programmation propulsé par MkDocs et Material for MkDocs."
 icon: material/home
 ---
 

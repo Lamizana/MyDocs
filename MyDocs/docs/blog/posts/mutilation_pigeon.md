@@ -6,6 +6,7 @@ authors:
 categories:
   - 📚 Culture
 pin: true
+
 ---
 
 # <span class="h1">L'homme et ses déchets</span>

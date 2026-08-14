@@ -1,3 +1,8 @@
+---
+title: Etherscan
+description: "Etherscan, l'explorateur de blocs Ethereum : suivre les transactions et consulter la blockchain."
+---
+
 # <span class="h1">Etherscan</span>
 
 <p class="intro">

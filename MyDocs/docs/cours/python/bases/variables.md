@@ -1,5 +1,6 @@
 ---
 title: Variables
+
 ---
 
 # <span class="h1">Variables et Affectation</span>

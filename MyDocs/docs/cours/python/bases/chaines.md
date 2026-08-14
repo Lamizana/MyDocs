@@ -1,3 +1,8 @@
+---
+title: Chaînes de caractères
+description: "Manipuler le texte en Python : chaînes de caractères (strings), méthodes et formatage."
+---
+
 # <span class="h1">Chaînes de Caractères</span>
 
 ---

@@ -1,3 +1,8 @@
+---
+title: Exercices - Bases Python
+description: "Exercices pratiques pour consolider les bases du langage Python."
+---
+
 # <span class="h1">Exercices - Bases Python</span>
 
 ---

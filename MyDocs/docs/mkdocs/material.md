@@ -1,3 +1,8 @@
+---
+title: Material for MkDocs
+description: "Le thème Material for MkDocs : personnalisation, navigation et fonctionnalités avancées."
+---
+
 # <span class="h1">Material</span>
 
 <p class="intro">

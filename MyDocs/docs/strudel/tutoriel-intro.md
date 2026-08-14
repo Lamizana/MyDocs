@@ -1,5 +1,6 @@
 ---
 title: Introduction
+
 ---
 
 # <span class="h1">Introduction à Strudel</span>

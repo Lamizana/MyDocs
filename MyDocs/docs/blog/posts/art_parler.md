@@ -6,6 +6,7 @@ authors:
 categories:
   - 📚 Culture
 pin: true
+
 ---
 
 ???- info "Information"

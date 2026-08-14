@@ -1,3 +1,8 @@
+---
+title: Bases de MkDocs
+description: "Les fondamentaux de MkDocs : générateur de sites statiques pour la documentation de projets."
+---
+
 # <span class="h1">MkDocs</span>
 
 <p align="center"><em>MkDocs est un générateur de sites statiques <strong>rapide</strong>, <strong>simple</strong> et <strong>élégant</strong>,conçu pour la création de documentation de projet. Les fichiers sources de documentation sont écrits en Markdown et configurés à l'aide d'un unique fichier <strong>YAML</strong>.</em></p>

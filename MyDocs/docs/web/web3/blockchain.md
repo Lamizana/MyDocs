@@ -1,3 +1,8 @@
+---
+title: Blockchain
+description: "Comprendre la blockchain : stockage et transmission d'informations de manière transparente et décentralisée."
+---
+
 # <span class="h1">Blockchain</span>
 
 <p class="intro">

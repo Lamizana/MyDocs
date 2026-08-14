@@ -1,3 +1,7 @@
+---
+title: Exercices - Nombres
+description: "Exercices Python sur les nombres : opérations arithmétiques et nombre préféré."
+---
 
 ###############################################################################
 # Exercices: 2.8 à 2.9  source:"Petite lecon de python"                       #

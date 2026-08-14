@@ -1,4 +1,6 @@
 ---
+title: GitHub
+description: "GitHub, la plateforme de gestion de versions et de collaboration : dépôts, branches, pull requests."
 icon: material/github
 ---
 
@@ -27,7 +29,7 @@ Aujourd’hui, GitHub est un **standard de fait** dans le monde du développemen
 
 ---
 
-## <span class="h2">Est-t-il essentiel pour les développeurs ?</span>
+## <span class="h2">Est-il essentiel pour les développeurs ?</span>
 
 GitHub joue un rôle clé à plusieurs niveaux :
 

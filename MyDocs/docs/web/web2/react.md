@@ -1,3 +1,8 @@
+---
+title: Framework React
+description: "Comprendre la logique de React et de Redux pour construire une application interactive et dynamique."
+---
+
 # <span class="h1">Framework React</span>
 
  <p class="intro">
