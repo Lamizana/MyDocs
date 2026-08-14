@@ -2,7 +2,7 @@
 site_name: MyDocs
 site_author: Alex Lamizana
 site_url: https://lamizana.github.io/MyDocs/
-site_description: Documentation sur la programmation
+site_description: "Cours de programmation, projets 42, tutoriels Python, JavaScript, Web 3.0, Linux et blog — par Alex Lamizana."
 
 # =============================== NAVIGATION ==================================
 nav:
@@ -55,8 +55,6 @@ nav:
       - Windows:
           - systeme/windows/index.md
 
-#  - Dashboard: dashboard/index.md
-  
   - Web:
       - web/index.md
       - Web 2.0: 
@@ -120,6 +118,7 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.progress
+    - navigation.tracking
     - navigation.tabs
     - navigation.path
     - navigation.top
@@ -156,9 +155,6 @@ theme:
 
   favicon: favicon.png
 
-  # Dossier pour les fichiers personnalisés
-  custom_dir: overrides
-
 # ============================ EXTENSIONS MARKDOWN =============================
 markdown_extensions:
   # Python Markdown
@@ -186,7 +182,8 @@ extra_css:
   - css/custom.css
 
 plugins:
-  - search
+  - search:
+      lang: fr
   - social:
       cards_layout_options:
           font_family: Noto Sans

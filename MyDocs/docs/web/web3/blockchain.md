@@ -85,7 +85,7 @@ Exemple concret avec la blockchain Bitcoin fonctionnant avec le consensus Proof 
 **Validation et mise à jour de la blockchain**: Une fois le nouveau bloc ajouté, la blockchain Bitcoin est mise à jour sur tous les noeuds du réseau. Chaque copie de la blockchain est identique, ce qui rend les données immuables et vérifiable par n'importe qui, à n'importe quel moment.
 
 ***Fonctionnement d'une blockchain***
-![Fonctionnement d'une blockchain](https://cryptoast.fr/wp-content/uploads/2018/05/fonctionnement-blockchain1.png)
+![Schéma illustrant le fonctionnement d'une blockchain](./images/fonctionnement-blockchain1.webp)
 
 ---
 
@@ -112,7 +112,7 @@ Il existe aussi des sous types de blockchains privées nommées "**permissionné
 
 Le trilemme des blockchains aborde les défis de **sécurité**, **décentralisation** et une **scalabilité** auxquels font face ces dernières. La scalabilité se réfère à la capacité d'une blockchain à traiter efficacement un volume croissant de transactions et à s'adapter à une augmentation de la demande.
 
-![trilemme](https://cryptoast.fr/wp-content/uploads/2024/02/Trilemme-blockchain-1.png)
+![Schéma du trilemme des blockchains : sécurité, décentralisation et scalabilité](./images/Trilemme-blockchain-1.webp)
 
 Il souligne que **les développeurs ne peuvent cumuler les 3 aspects évoqués au-dessus et doivent par conséquent faire des compromis**.
 La blockchain Bitcoin est sécurisé et décentralisé mais peine en terme de scalabilité. A l'inverse, la **BNB Smart Chain** (BSC) allie scalabilité et sécurité, mais sacrifie la décentralisation.
