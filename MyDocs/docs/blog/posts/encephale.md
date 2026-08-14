@@ -1,5 +1,5 @@
 ---
-title: Capacité encéphallique
+title: Capacité encéphalique
 date: 2026-02-06
 authors:
   - zehd

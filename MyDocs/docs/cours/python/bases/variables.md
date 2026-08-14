@@ -6,7 +6,7 @@ title: Variables
 # <span class="h1">Variables et Affectation</span>
 
 <p class="intro">
-    Apprentissage des Variables et des diffèrents types de données en Python.
+    Apprentissage des variables et des différents types de données en Python.
 </p>
 
 ---
@@ -27,15 +27,15 @@ Les variables sont des **conteneurs** qui permettent de stocker des données en 
 
 ## <span class="h2">Données et variables</span>
 
-L'essentiel du travail effectue par un programme d'ordimnateur consisite à manipuler des **donnees**. Ces données 
-peuvent etre diverses, mais dans la mémoire de l'ordinateur, elles se ramènent toujours en definitive à **une suite 
+L'essentiel du travail effectué par un programme d'ordinateur consiste à manipuler des **données**. Ces données 
+peuvent être diverses, mais dans la mémoire de l'ordinateur, elles se ramènent toujours en définitive à **une suite 
 finie de nombres binaires**.
 
-Pour pouvoir y accéder, le programme fait usage de **variables** de differents types.
+Pour pouvoir y accéder, le programme fait usage de **variables** de différents types.
 
 !!! warning "Important"
-    - Une variable apparait dans la majorité des langages de programmations sous un **nom de variable** quelconque, mais pour l'ordinateur, **il s'agit d'une _référence_ designant une adresse mémoire**, c'est-à-dire un emplacement précis dans la mémoire vive.
-    - A cet emplacement est stocké une **valeur** bien déterminée, c'est la donnée qui est stocké sous la forme 
+    - Une variable apparaît dans la majorité des langages de programmation sous un **nom de variable** quelconque, mais pour l'ordinateur, **il s'agit d'une _référence_ désignant une adresse mémoire**, c'est-à-dire un emplacement précis dans la mémoire vive.
+    - À cet emplacement est stockée une **valeur** bien déterminée, c'est la donnée qui est stockée sous la forme 
     d'_une suite de nombres binaires_.
 
 ---
@@ -61,7 +61,7 @@ Nous allons voir à présent comment **définir** une variable et lui **affecter
 > Les termes "affecter une valeur" ou "assigner une valeur" à une variable sont équivalents. Ils désignent 
 l'opération par laquelle on établit un lien entre le nom de la variable et sa valeur.
 
-- En python comme dans beaucoup d'autres lngages de programmation, l'opération d'affectation est representé par le 
+- En Python comme dans beaucoup d'autres langages de programmation, l'opération d'affectation est représentée par le 
   signe égal (`=`)
 
 ``` py
@@ -69,19 +69,19 @@ l'opération par laquelle on établit un lien entre le nom de la variable et sa 
 >>> age = 25        # définir la variable "age" et lui donner la valeur 25
 >>> taille = 1.75   # assigner sa valeur à la variable "taille"
 ```
-Les exemples ci desssus montrent des _instructions d'affectation_ Python. Apres qu'on les ait exécutées, ils existent 
+Les exemples ci-dessus montrent des _instructions d'affectation_ Python. Après qu'on les a exécutées, elles existent 
 dans la mémoire de l'ordinateur, à des endroits différents :
 
 - 3 noms de variables : `nom`, `age` et `taille`.
 - 3 séquences d'octets où sont encodées les valeurs des variables.
 
 ???+ note "A savoir"
-    - Ces 3 instuctions ont pour effet de réaliser plusieurs actions dans la mémoire de l'ordinateur :
+    - Ces 3 instructions ont pour effet de réaliser plusieurs actions dans la mémoire de l'ordinateur :
 
           - Créer et mémoriser un **nom de variable**.
           - Attribuer un **type** bien déterminé.
           - Créer et mémoriser une **valeur** particulière.
-          - Etablir un lien (par un système de **pointeur**) entre le nom de la variable et l'emplacement mémoire de la 
+          - Établir un lien (par un système de **pointeur**) entre le nom de la variable et l'emplacement mémoire de la 
           valeur correspondante.
 
     !!! info
@@ -94,18 +94,18 @@ dans la mémoire de l'ordinateur, à des endroits différents :
 En Python, il n'est pas nécessaire de préciser le type de variables avant de pouvoir les utiliser. Il suffit 
 d'assigner une valeur à un nom de variable avant de pouvoir l'utiliser:
 
-- On dit alors que celle-ci est _automatiquement créé avec le type qui correspond au mieux à la valeur fournit_.
+- On dit alors que celle-ci est _automatiquement créée avec le type qui correspond au mieux à la valeur fournie_.
 
 De plus on dira que le _typage des variables sous Python est dynamique_, par opposition au _typage statique_ qui est de 
 mise en `C` ou `C++`.
 
 ???+ note "A savoir"
     === "Typage dynamique"
-        - Le typage statique est preférable dans les langages compilés tels que le `C`. Il permet _l'opération de 
+        - Le typage statique est préférable dans les langages compilés tels que le `C`. Il permet _l'opération de 
         compilation_.
 
     === "Typage statique"
-        - Le typage dynamique pernet d'écrire plus aisément des constructions logique de niveaux elevé, en particulier 
+        - Le typage dynamique permet d'écrire plus aisément des constructions logiques de niveaux élevés, en particulier 
         dans le contexte de la programmation orienté objet.
 
 ---
@@ -121,7 +121,7 @@ Python nous permet d'assigner une valeur à plusieurs variables simultanément :
 7
 ```
 
-On peut aussi faire des affectations paralléles ;
+On peut aussi faire des affectations parallèles ;
 ``` py
 >>> a, b = 4, 1.33
 >>> a
@@ -130,13 +130,13 @@ On peut aussi faire des affectations paralléles ;
 1.33
 ```
 
-> Dans cette exmple, les variables `a` et `b` prennent respectivement les valeurs `4` et `1.33`
+> Dans cet exemple, les variables `a` et `b` prennent respectivement les valeurs `4` et `1.33`
 
 ---
 
-## <span class="h2">Operateurs et expressions</span>
+## <span class="h2">Opérateurs et expressions</span>
 
-On manipule les valeurs et les variables qui les référence en les combinant avec des **opérateurs** pour former des 
+On manipule les valeurs et les variables qui les référencent en les combinant avec des **opérateurs** pour former des 
 **expressions** :
 
 ``` python
@@ -153,7 +153,7 @@ On manipule les valeurs et les variables qui les référence en les combinant av
 <div class="soft-skills-grid">
     <div class="soft-skill-card">
         <span class="soft-skill-title">Opérateurs</span><br><br>
-        <span class="soft-skill-desc">Symboles spéciaux utilisés pour representer les opérations mathématiques.</span>
+        <span class="soft-skill-desc">Symboles spéciaux utilisés pour représenter les opérations mathématiques.</span>
     </div>
     
     <div class="soft-skill-card">
@@ -162,7 +162,7 @@ On manipule les valeurs et les variables qui les référence en les combinant av
     </div>
 </div>
 
-### 1. Liste des opérateurs logique
+### 1. Liste des opérateurs logiques
 
 | Opérateur | Description      | Exemple   | Résultat |
 |-----------|------------------|-----------|----------|
@@ -176,20 +176,20 @@ On manipule les valeurs et les variables qui les référence en les combinant av
 
 ### 2. Priorité des opérations
 
-Lorsqu'il y a plus d'un opérateur dans une expression, l'ordre dans les opérations doivent s'effectuer suit un shéma 
-précis, on appelle ça les **régles de priorités**. En Python, elles sont les mêmes qui sont appliquées en 
+Lorsqu'il y a plus d'un opérateur dans une expression, l'ordre dans lequel les opérations doivent s'effectuer suit un schéma 
+précis, on appelle ça les **règles de priorités**. En Python, elles sont les mêmes que celles qui sont appliquées en 
 mathématique.
 
-!!! abstract "À connaitre"
+!!! abstract "À connaître"
     Pour les mémoriser à l'aide d'un moyen mnémotechnique, l'acronyme **`PEMDAS`**:
 
-    - ***`P` pour parenthése***. Ce sont elles qui ont la plus haute priorité. Elles permettent de "forcer" 
+    - ***`P` pour parenthèse***. Ce sont elles qui ont la plus haute priorité. Elles permettent de "forcer" 
     l'évaluation d'une expression dans l'ordre souhaité.
         - Ainsi: `2 * (3 - 1) = 4`, et `(1 + 1) ** (5 - 2) = 8`
-    - **_`E` pour exposants_**. Ils sont evalué ensuite, avant les autres opérations.
+    - **_`E` pour exposants_**. Ils sont évalués ensuite, avant les autres opérations.
         - Ainsi: `2 ** 1 + 1 = 3` (et non 4), et `3 * 1 ** 10 = 3` (et non 59049).
     - **`M` et `D` pour _multiplication_ et _division_**. Elles ont la même priorité. Elles sont evaluées avant 
-    _addition `A`_ et la _soustraction `S`_, ces dernière étant effectuées en dernier lieu.
+    _addition `A`_ et la _soustraction `S`_, ces dernières étant effectuées en dernier lieu.
         - Ainsi: `2 * 3 - 1 = 5` (et non 4), et `2 / 3 - 1 =  -0.33333...` (et non 1.0).
     - Si deux opérateurs ont la même priorité, l'évaluation est effectuée de gauche à droite.
         - Ainsi dans: `59 * 100 // 60`, la multiplication se fait en première, suivi de la division.
@@ -207,17 +207,17 @@ afficher une valeur, on peut donc combiner ses instructions en une seule :
 8
 ```
 
-Cette fonctionnalité va permettre de programmer des algorithmes complexes de facon claire et concise :
+Cette fonctionnalité va permettre de programmer des algorithmes complexes de façon claire et concise :
 
 ``` python
 >>> h, m, s = 15, 27, 34
->>> print("nombre de secondes ecoule depuis minuit = ", h * 3600 + m * 60 + s)
-nombre de secondes ecoule depuis minuit 55654
+>>> print("nombre de secondes écoulé depuis minuit = ", h * 3600 + m * 60 + s)
+nombre de secondes écoulé depuis minuit 55654
 ```
 
 !!! warning "Attention"
     Il y a une limite à ce que l'on peut combiner :
-    Dans une expression, ce qui est placé à gauche du signe égal et toujours une variable, et non une expression.
+    Dans une expression, ce qui est placé à gauche du signe égal est toujours une variable, et non une expression.
     
     - En programmation le signe égal (`=`) est un **symbole d'affectation et non un symbole d'égalité**.
         - Exemple: l'instruction `m + 1 = b` est fausse.
@@ -243,11 +243,11 @@ Une **constante** est une variable dont la valeur ne doit pas changer. Python n'
 
 ## <span class="h2">Commentaires</span>
 
-Les commentaires sont extrémement utile dans la majorité des langages de programmation.
-Dans les programmes plus long et complexe il est recommendé d'ajouter des notes expliquant la démarche que l'on a suivit.
+Les commentaires sont extrêmement utiles dans la majorité des langages de programmation.
+Dans les programmes plus longs et complexes, il est recommandé d'ajouter des notes expliquant la démarche que l'on a suivie.
 
 !!! note "Note"
-    Un commentaire permet d'écrire des notes dans un programme sans que cela affecte ce dernier>
+    Un commentaire permet d'écrire des notes dans un programme sans que cela affecte ce dernier.
 
 ---
 
@@ -258,7 +258,7 @@ Dans Python, le croisillon (#) ***désigne un commentaire***, l'interpréteur Py
 ```python
 # commentaires.py
 
-# Dire bonjour a tout le monde:
+# Dire bonjour à tout le monde:
 print("Bonjour tout le monde.")
 ```
 
@@ -268,7 +268,7 @@ Pour un commentaire sur plusieurs lignes:
 # commentaires.py
 
 """
-Commmentaire sur plusieurs lignes:
+Commentaire sur plusieurs lignes:
     - pour afficher plus d'informations.
     - Dire bonjour à tout le monde.
 """
