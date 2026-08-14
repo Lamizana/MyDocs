@@ -160,6 +160,10 @@ markdown_extensions:
   # Python Markdown
   - attr_list
   - md_in_html
+  - toc:
+      permalink: true
+  - footnotes
+  - def_list
 
   # Python Markdown Extensions
   - pymdownx.highlight:
@@ -192,6 +196,8 @@ plugins:
       authors_file: "{blog}/.authors.yml"
       blog_dir: blog
 
+  - tags
+
   - rss:
       match_path: blog/posts/.*
       date_from_meta:
@@ -199,6 +205,17 @@ plugins:
       categories:
         - categories
         - tags
+
+  - minify:
+      minify_html: true
+
+  - git-revision-date-localized:
+      type: date
+      locale: fr
+      enable_creation_date: true
+
+  - redirects:
+      redirect_maps: {}
 
 exclude_docs: |
   audrey/index.md
