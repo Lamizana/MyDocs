@@ -12,6 +12,8 @@ icon: material/home
 
 ---
 
+
+
 ## <span class="h2">Projets en vedette</span>
 
 <div class="grid cards" markdown>
