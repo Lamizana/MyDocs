@@ -22,9 +22,10 @@
     font-size: 1.2em !important;
 }
 
-/* Texte de presentation */
+/* Texte de presentation (adapté aux modes clair et sombre) */
 .presentation {
-    background-color:#f5f5f5;
+    background-color: var(--md-code-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);

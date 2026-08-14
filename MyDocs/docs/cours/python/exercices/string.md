@@ -14,13 +14,13 @@ description: "Exercices pratiques sur les chaînes de caractères (strings) en P
 ## <span class="h2">Présentation</span>
 
 <div class="presentation">
-    <p style="color: #333; line-height: 1.6;">
+    <p>
         Cette page contient quelques exercices simple pour la comprehension et l'utilisation des chaines de caractères.
     </p>
-    <p style="color: #333; line-height: 1.6;">
+    <p>
         Les chaines de caractères, Plus comunément appelees <strong>string</strong> sont une part importante dans la compréhension de la programmation.
     </p>
-    <p style="color: #333; line-height: 1.6;">
+    <p>
         Pour chaque exercices je fournit le sujet et la réponse.
         Cela va sans dire qu'il est preferables <strong>d'essayer par soi-meme avant de regarder la réponse ou d'aller sur ChatGpt</strong>.
     </p>

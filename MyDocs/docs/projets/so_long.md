@@ -22,10 +22,10 @@ description: "Jeu 2D en C avec la minilibx 42 : collecte d'objets, collisions et
 ## <span class="h2">:material-presentation: Présentation</span>
 
 <div class="presentation">
-    <p style="color: #333; line-height: 1.6;">
+    <p>
         <strong>So Long</strong> est un petit jeu 2D où le joueur doit collecter tous les objets sur une carte avant de sortir. Le projet a été développé en <strong>C</strong> en utilisant la bibliothèque graphique <strong>minilibx</strong>, fournie par l'école 42.
     </p>
-    <p style="color: #333; line-height: 1.6;">
+    <p>
         L'objectif principal est de gérer les entrées clavier, les collisions, et l'affichage graphique de manière fluide et optimisée.
     </p>
 </div>
@@ -116,4 +116,4 @@ Voici les cartes disponibles dans le projet :
 !!! note "Note"
     Ce projet a été réalisé dans le cadre de la formation à **l'école 42**. Il met en avant les compétences en gestion de projet, en programmation système, et en utilisation de bibliothèques graphiques.
     
-    N'hésitez pas à contribuer ou à signaler des bugs sur le <a href="https://github.com/Lamizana/So-long" style="color: #42a5f5;">dépôt GitHub</a> !
+    N'hésitez pas à contribuer ou à signaler des bugs sur le [dépôt GitHub](https://github.com/Lamizana/So-long) !
