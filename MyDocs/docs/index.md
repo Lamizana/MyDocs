@@ -44,9 +44,9 @@ icon: material/home
 
 <div align="center">
 
-[:fontawesome-solid-arrow-right: Voir tous les projets](projets/index.md){ .md-button .md-button--primary }
-
 </div>
+
+[:fontawesome-solid-arrow-right: Voir tous les projets](projets/index.md){ .md-button .md-button--primary }
 
 ---
 
