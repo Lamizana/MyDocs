@@ -1,9 +1,15 @@
 ---
 title: So Long
-
+description: "Jeu 2D en C avec la minilibx 42 : collecte d'objets, collisions et rendu graphique."
 ---
 
 # <span class="h1">So Long</span>
+
+<div class="project-hero">
+    <span class="tech-tag">C</span>
+    <span class="tech-tag">Minilibx</span>
+    <span class="tech-tag">Jeu 2D</span>
+</div>
 
 ![player](../images/player-solong.png){.player-solong}
 

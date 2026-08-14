@@ -12,7 +12,76 @@ icon: material/home
 
 ---
 
+## <span class="h2">Projets en vedette</span>
+
+<div class="grid cards" markdown>
+
+-   :material-gamepad-variant:{ .lg .middle } __Transcendance__
+
+    ---
+
+    Application web de **Pong multijoueur** en temps réel : WebSockets, OAuth 42, PostgreSQL.
+
+    [:octicons-arrow-right-24: Découvrir](projets/transcendance.md)
+
+-   :material-console:{ .lg .middle } __Minishell__
+
+    ---
+
+    **Interpréteur de commandes UNIX** en C, inspiré de bash : processus, pipes, signaux.
+
+    [:octicons-arrow-right-24: Découvrir](projets/minishell.md)
+
+-   :material-server-network:{ .lg .middle } __ft_irc__
+
+    ---
+
+    **Serveur IRC** en C++ conforme à la RFC 1459 : sockets BSD, canaux, multi-clients.
+
+    [:octicons-arrow-right-24: Découvrir](projets/ft_irc.md)
+
+</div>
+
+<div align="center">
+
+[:fontawesome-solid-arrow-right: Voir tous les projets](projets/index.md){ .md-button .md-button--primary }
+
+</div>
+
+---
+
+## <span class="h2">Explorer le site</span>
+
+<div class="grid cards" markdown>
+
+-   :material-school:{ .lg .middle } __Cours__
+
+    ---
+
+    Python, JavaScript, données et plus encore, avec une console interactive.
+
+    [:octicons-arrow-right-24: Les cours](cours/index.md)
+
+-   :material-web:{ .lg .middle } __Web__
+
+    ---
+
+    Du Web 2.0 au Web 3.0 : frameworks, blockchain, Etherscan.
+
+    [:octicons-arrow-right-24: Le web](web/index.md)
+
+-   :material-github:{ .lg .middle } __GitHub__
+
+    ---
+
+    Versionner, collaborer et partager le code avec Git et GitHub.
+
+    [:octicons-arrow-right-24: GitHub](github/index.md)
+
+</div>
+
+---
+
 !!! info "À propos de ce site"
     Ce site est conçu avec [MkDocs](https://www.mkdocs.org) et le thème [Material](https://squidfunk.github.io/mkdocs-material/).
     Il est hébergé sur GitHub Pages.
-

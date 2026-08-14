@@ -365,3 +365,68 @@
     align-items: center;
   }
 }
+
+/* =========================== VITRINE PROJETS =========================== */
+
+/* Étiquettes technologiques (badges) */
+.tech-tag {
+  display: inline-block;
+  padding: 4px 14px;
+  margin: 3px 4px 3px 0;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--md-primary-bg-color);
+  background: var(--md-primary-fg-color);
+}
+
+/* En-tête héro des fiches projet */
+.project-hero {
+  text-align: center;
+  margin: 0.4em 0 1.6em;
+  padding: 0.9em 1em;
+  border-radius: 14px;
+  background: linear-gradient(135deg,
+    var(--md-primary-fg-color--light),
+    var(--md-default-bg-color));
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Cartes de la grille Material : coins arrondis + effet de survol */
+.grid.cards > .card {
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid.cards > .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(96, 125, 139, 0.25);
+}
+
+/* Section badges de stack (page Projets) */
+.badge-section {
+  text-align: center;
+  margin: 0.5em 0 1.5em;
+}
+
+.badge-category {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+  margin-bottom: 0.4em;
+}
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.badge-row img {
+  height: 28px;
+  border-radius: 6px;
+}

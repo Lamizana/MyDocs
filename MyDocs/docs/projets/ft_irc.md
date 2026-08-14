@@ -1,9 +1,15 @@
 ---
 title: Irc
-
+description: "Serveur IRC en C++ conforme à la RFC 1459 : sockets BSD, canaux, multi-clients."
 ---
 
 # <span class="h1">Irc</span>
+
+<div class="project-hero">
+    <span class="tech-tag">C++</span>
+    <span class="tech-tag">Sockets BSD</span>
+    <span class="tech-tag">RFC 1459</span>
+</div>
 
 ## Description
 

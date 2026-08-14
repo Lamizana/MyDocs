@@ -1,9 +1,15 @@
 ---
 title: Push Swap
-
+description: "Algorithme de tri optimisé en C : deux piles et un nombre minimal d'opérations."
 ---
 
 # <span class="h1">:material-sort: Push Swap</span>
+
+<div class="project-hero">
+    <span class="tech-tag">C</span>
+    <span class="tech-tag">Algorithmique</span>
+    <span class="tech-tag">Optimisation</span>
+</div>
 
 <p class="intro">
     Algorithme de tri de nombres développé en <strong>C</strong>, basé sur la manipulation de piles.

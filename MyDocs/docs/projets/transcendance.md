@@ -1,9 +1,17 @@
 ---
 title: Transcendance
-
+description: "Application web Pong multijoueur en temps réel : WebSockets, OAuth 42, PostgreSQL, architecture microservices."
 ---
 
 # <span class="h1">Transcendance</span>
+
+<div class="project-hero">
+    <span class="tech-tag">JavaScript</span>
+    <span class="tech-tag">C++</span>
+    <span class="tech-tag">PostgreSQL</span>
+    <span class="tech-tag">WebSockets</span>
+    <span class="tech-tag">OAuth 42</span>
+</div>
 
 ## Description
 

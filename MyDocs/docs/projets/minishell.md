@@ -1,12 +1,19 @@
 ---
 title: Minishell
-
+description: "Interpréteur de commandes UNIX en C inspiré de bash : processus, redirections, pipes et signaux."
 ---
 
 # <span class="h1">Minishell</span>
 
+<div class="project-hero">
+    <span class="tech-tag">C</span>
+    <span class="tech-tag">UNIX</span>
+    <span class="tech-tag">Makefile</span>
+    <span class="tech-tag">Signaux</span>
+</div>
+
 <p class="intro">
-   Céation d'un <strong>terminal</strong> en <strong>C</strong>.
+   Création d'un <strong>terminal</strong> en <strong>C</strong>.
 </p>
 
 ---
