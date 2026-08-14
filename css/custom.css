@@ -5,13 +5,13 @@
     font-size: 1.8em;
     font-weight: 900; 
     display: block; 
-    color: #64b5f6 !important;
+    color: var(--md-primary-fg-color) !important;
 }
 
 /* Titre secondaire */
 .h2 {
     font-weight: 500 !important;
-    color: #64b5f6 !important;
+    color: var(--md-primary-fg-color) !important;
 }
 
 /* Texte d'intro */
