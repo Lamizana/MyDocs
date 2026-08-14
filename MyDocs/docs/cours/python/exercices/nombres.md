@@ -3,6 +3,9 @@ title: Exercices - Nombres
 description: "Exercices Python sur les nombres : opérations arithmétiques et nombre préféré."
 ---
 
+# <span class="h1">Exercices - Nombres</span>
+
+```python
 ###############################################################################
 # Exercices: 2.8 à 2.9  source:"Petite lecon de python"                       #
 # Gestion des nombres.                                       - 15/juin/2024 - #
@@ -41,3 +44,4 @@ message = f"Welcome {name} !\nVotre nombre est: {favorite_number}."
 
 print(message)
 print("---------------------------------------------------------------------")
+```
