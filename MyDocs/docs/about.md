@@ -113,7 +113,7 @@ icon: material/account
 
 </div>
 
-<div class="about-cta" markdown>
+<div class="about-cta" markdown="1">
 [:material-rocket-launch: Voir tous les projets](projets/index.md){ .md-button .md-button--primary }
 </div>
 
@@ -214,8 +214,8 @@ icon: material/account
 
 ## <span class="h2">Me Contacter</span>
 
-<div class="contact-buttons" markdown>
-    [:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary target="_blank" }
-    [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/alex-lamizana){ .md-button .md-button--primary target="_blank" }
-    [:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
+<div class="contact-buttons">
+    <a href="https://github.com/Lamizana" class="md-button md-button--primary" target="_blank" rel="noopener">:fontawesome-brands-github: GitHub</a>
+    <a href="https://linkedin.com/in/alex-lamizana" class="md-button md-button--primary" target="_blank" rel="noopener">:fontawesome-brands-linkedin: LinkedIn</a>
+    <a href="mailto:alex.lamizana@42angouleme.fr" class="md-button">:material-email: Email</a>
 </div>
