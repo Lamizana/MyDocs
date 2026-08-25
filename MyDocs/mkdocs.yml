@@ -46,7 +46,7 @@ nav:
 
       - Javascript:
           - cours/javascript/index.md
-      
+
   - Système:
       - systeme/index.md
       - systeme/nettoyage-disque.md
@@ -57,14 +57,16 @@ nav:
 
   - Web:
       - web/index.md
-      - Web 2.0: 
-        - web/web2/index.md
-        - Framework React: web/web2/react.md
+      - Web 2.0:
+          - web/web2/index.md
+          - Framework React: web/web2/react.md
 
       - Web 3.0:
-        - web/web3/index.md
-        - web/web3/blockchain.md
-        - web/web3/etherscan.md
+          - web/web3/index.md
+          - web/web3/blockchain.md
+          - web/web3/etherscan.md
+          - web/web3/bscscan.md
+          - Tokeniser: web/web3/tokenizer.md
 
   - GitHub:
       - github/index.md
@@ -190,7 +192,7 @@ plugins:
       lang: fr
   - social:
       cards_layout_options:
-          font_family: Noto Sans
+        font_family: Noto Sans
 
   - blog:
       authors_file: "{blog}/.authors.yml"

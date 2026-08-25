@@ -431,3 +431,51 @@
   height: 28px;
   border-radius: 6px;
 }
+
+/* =========================== WEB 3.0 — CARTE VEDETTE =========================== */
+.project-card h2 {
+  color: var(--md-primary-fg-color);
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+.project-card p {
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 1em;
+}
+
+.project-card .md-button--primary {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border: none;
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.project-card .md-button--primary:hover {
+  background: var(--md-accent-fg-color);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(100, 181, 246, 0.35);
+}
+
+/* =========================== WEB 3.0 — GRID CARDS LIENS =========================== */
+.grid.cards .md-typeset a.md-link {
+  display: inline-block;
+  margin-top: 0.6em;
+  padding: 6px 18px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.85em;
+  color: var(--md-primary-fg-color);
+  border: 1px solid var(--md-primary-fg-color);
+  transition: all 0.2s ease;
+}
+
+.grid.cards .md-typeset a.md-link:hover {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(100, 181, 246, 0.3);
+}
