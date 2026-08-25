@@ -18,6 +18,7 @@ icon: material/rocket-launch
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
     <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
     <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+    <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity">
 </div>
 </div>
 
@@ -36,6 +37,16 @@ icon: material/rocket-launch
     `JavaScript` `C++` `PostgreSQL` `WebSockets`
 
     [:octicons-arrow-right-24: Découvrir](transcendance.md)
+
+-   :material-currency-ethereum:{ .lg .middle } __Tokeniser__
+
+    ---
+
+    **Token BEP-20** GOLD42 sur BNB Smart Chain : premier smart contract, comprendre la blockchain et la DeFi.
+
+    `Solidity` `BEP-20` `OpenZeppelin` `Remix`
+
+    [:octicons-arrow-right-24: Découvrir](tokeniser.md)
 
 -   :material-console:{ .lg .middle } __Minishell__
 
