@@ -228,6 +228,10 @@ plugins:
 extra:
   copyright: MyDocs Copyright (c) 2026 Alex Lamizana
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Lamizana
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/alex-lamizana/
     - icon: fontawesome/solid/paper-plane
       link: mailto:alex.lamizana@42angouleme.fr
   analytics:
@@ -247,3 +251,5 @@ extra:
         property: G-74MZWWS1RR
 
 repo_url: https://github.com/Lamizana/MyDocs
+repo_name: Lamizana/MyDocs
+edit_uri: edit/main/MyDocs/docs/
