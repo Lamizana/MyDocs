@@ -70,6 +70,9 @@ nav:
 
   - GitHub:
       - github/index.md
+      - Les bases: github/git-bases.md
+      - Branches & PR: github/git-branches-merge.md
+      - Avancé: github/git-avance.md
       - Commandes: github/commandes.md
 
   - Blog:
