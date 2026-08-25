@@ -222,10 +222,6 @@ plugins:
   - redirects:
       redirect_maps: {}
 
-exclude_docs: |
-  audrey/index.md
-  dashboard/index.md
-
 # ======================== Configuration des versions =========================
 extra:
   copyright: MyDocs Copyright (c) 2026 Alex Lamizana
