@@ -6,6 +6,10 @@ authors:
   - zehd
 categories:
   - 🧪 Science
+tags:
+  - insectes
+  - société animale
+  - communication animale
 
 ---
 

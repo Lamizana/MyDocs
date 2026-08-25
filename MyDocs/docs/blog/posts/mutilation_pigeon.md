@@ -6,6 +6,10 @@ authors:
   - zehd
 categories:
   - 📚 Culture
+tags:
+  - environnement
+  - faune urbaine
+  - déchets
 pin: true
 
 ---

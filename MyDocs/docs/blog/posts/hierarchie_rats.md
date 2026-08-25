@@ -6,6 +6,11 @@ authors:
   - zehd
 categories:
   - 🧪 Science
+tags:
+  - rats
+  - stress
+  - comportement animal
+  - éthologie
 
 ---
 

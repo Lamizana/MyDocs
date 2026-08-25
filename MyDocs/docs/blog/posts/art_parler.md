@@ -6,6 +6,10 @@ authors:
   - zehd
 categories:
   - 📚 Culture
+tags:
+  - communication
+  - écoute
+  - relations humaines
 pin: true
 
 ---
