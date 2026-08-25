@@ -20,7 +20,8 @@ description: "Interpréteur de commandes UNIX en C inspiré de bash : processus,
 
 ## <span class="h2">Description</span>
 
-Projet 42 visant à créer un **interpréteur de commandes** (shell) similaire à bash. Ce projet est une excellente introduction aux systèmes UNIX.
+!!! note "Contexte"
+    Projet 42 visant à créer un **interpréteur de commandes** (shell) similaire à bash. Ce projet est une excellente introduction aux systèmes UNIX.
 
 ---
 
@@ -67,10 +68,11 @@ Projet 42 visant à créer un **interpréteur de commandes** (shell) similaire �
 
 ## <span class="h2">Défis Relevés</span>
 
-1. **Boucle interactive** : Implémentation du read-eval-print loop (REPL)
-2. **Gestion des signaux** : Comportement comme bash (Ctrl+C, Ctrl+\)
-3. **Parsing complexe** : Gestion des quotes, redirections, pipes
-4. **Builtins** : Implémentation de cd, echo, env, export, unset, etc.
+!!! tip "Points clés"
+    1. **Boucle interactive** : Implémentation du read-eval-print loop (REPL)
+    2. **Gestion des signaux** : Comportement comme bash (Ctrl+C, Ctrl+\\)
+    3. **Parsing complexe** : Gestion des quotes, redirections, pipes
+    4. **Builtins** : Implémentation de cd, echo, env, export, unset, etc.
 
 ---
 

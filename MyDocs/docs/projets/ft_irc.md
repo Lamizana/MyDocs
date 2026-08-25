@@ -19,7 +19,8 @@ description: "Serveur IRC en C++ conforme à la RFC 1459 : sockets BSD, canaux, 
 
 ## <span class="h2">Description</span>
 
-Projet 42 consistant à implémenter un **serveur IRC** (Internet Relay Chat) en C++. Ce projet teaches les fondamentaux du réseau et de la programmation orientée objet.
+!!! note "Contexte"
+    Projet 42 consistant à implémenter un **serveur IRC** (Internet Relay Chat) en C++. Ce projet teaches les fondamentaux du réseau et de la programmation orientée objet.
 
 ---
 
@@ -43,10 +44,11 @@ Projet 42 consistant à implémenter un **serveur IRC** (Internet Relay Chat) en
 
 ## <span class="h2">Défis Relevés</span>
 
-1. **Protocole IRC** : Implémentation des commandes NICK, USER, JOIN, PRIVMSG, etc.
-2. **Multi-clients** : Gestion simultanée de plusieurs connexions
-3. **POO** : Conception propre avec classes
-4. **Gestion des canaux** : Création, join, part, topic
+!!! tip "Points clés"
+    1. **Protocole IRC** : Implémentation des commandes NICK, USER, JOIN, PRIVMSG, etc.
+    2. **Multi-clients** : Gestion simultanée de plusieurs connexions
+    3. **POO** : Conception propre avec classes
+    4. **Gestion des canaux** : Création, join, part, topic
 
 ---
 

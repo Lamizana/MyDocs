@@ -21,7 +21,8 @@ description: "Application web Pong multijoueur en temps réel : WebSockets, OAut
 
 ## <span class="h2">Description</span>
 
-Projet final du tronc commun de l'école 42. Le but était de créer une application web complète permettant de jouer au **Pong** en ligne contre d'autres joueurs.
+!!! note "Contexte"
+    Projet final du tronc commun de l'école 42. Le but était de créer une application web complète permettant de jouer au **Pong** en ligne contre d'autres joueurs.
 
 ---
 
@@ -47,10 +48,11 @@ Projet final du tronc commun de l'école 42. Le but était de créer une applica
 
 ## <span class="h2">Défis Relevés</span>
 
-1. **Communication temps réel** : Implémentation des WebSockets pour le gameplay fluide
-2. **Gestion des sessions** : Authentification avec OAuth 42
-3. **Architecture** : Conception d'une API RESTful
-4. **Multijoueur** : Gestion des rooms et match-making
+!!! tip "Points clés"
+    1. **Communication temps réel** : Implémentation des WebSockets pour le gameplay fluide
+    2. **Gestion des sessions** : Authentification avec OAuth 42
+    3. **Architecture** : Conception d'une API RESTful
+    4. **Multijoueur** : Gestion des rooms et match-making
 
 ---
 

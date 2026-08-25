@@ -12,6 +12,30 @@ icon: material/school
 
 ---
 
+## <span class="h2">Explorer</span>
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-python:{ .lg .middle } __Python__
+
+    ---
+
+    Bases, fonctions, Pandas, NumPy et Scikit-learn — du débutant au data science.
+
+    [:octicons-arrow-right-24: Python](python/index.md)
+
+-   :material-language-javascript:{ .lg .middle } __JavaScript__
+
+    ---
+
+    Les fondamentaux du langage web : syntaxe, DOM et manipulation événementielle.
+
+    [:octicons-arrow-right-24: JavaScript](javascript/index.md)
+
+</div>
+
+---
+
 ## <span class="h2">Console Interactive</span>
 
 Pour accéder à un terminal dans le navigateur, nous allons utiliser **Basthon**:
