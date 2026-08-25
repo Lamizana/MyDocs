@@ -173,4 +173,4 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 
 ## <span class="h2">Me Contacter</span>
 
-[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary } [:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
+[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary target="_blank" } [:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }

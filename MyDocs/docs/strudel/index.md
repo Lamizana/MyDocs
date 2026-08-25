@@ -37,4 +37,4 @@ Ce cours vous guidera à travers les bases de **Strudel**, un langage de musique
 Testez vos connaissances avec les exercices pratiques.
 
 !!! info "Documentation officielle"
-    Pour aller plus loin, consultez la [documentation Strudel](https://strudel.cc/).
+    Pour aller plus loin, consultez la [documentation Strudel](https://strudel.cc/){ target="_blank" }.

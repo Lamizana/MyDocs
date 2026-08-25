@@ -71,6 +71,6 @@ sound("<bd sd [bd bd] sd>*4").bank("bossdr110")
 ---
 
 !!! info "Lien officiel"
-    Ce cours est basé sur la documentation officielle de Strudel : [strudel.cc](https://strudel.cc/)
+    Ce cours est basé sur la documentation officielle de Strudel : [strudel.cc](https://strudel.cc/){ target="_blank" }
 
-    Pour aller plus loin, consultez la [documentation complète](https://strudel.cc/workshop/getting-started/).
+    Pour aller plus loin, consultez la [documentation complète](https://strudel.cc/workshop/getting-started/){ target="_blank" }.

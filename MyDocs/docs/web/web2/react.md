@@ -32,7 +32,7 @@ Redux est une **bibliothèque JavaScript de gestion d'état**. Elle permet de ce
 
 ## <span class="h2">Appréhender la logique React</span>
 
-[Cour OpenClassroom : Débuter avec React](https://openclassrooms.com/fr/courses/8710331-debutez-avec-react)
+[Cour OpenClassroom : Débuter avec React](https://openclassrooms.com/fr/courses/8710331-debutez-avec-react){ target="_blank" }
 
 C'est un **framework front-end**.
 

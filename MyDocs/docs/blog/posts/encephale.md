@@ -97,6 +97,6 @@ Elle émerge de la **complexité des connexions**, de l’**interaction avec l�
 ---
 
 ???+ abstract "Sources"
-    - [Wikipédia — **Encéphale**](https://fr.wikipedia.org/wiki/Enc%C3%A9phale)
-    - [Wikipédia — **Cerveau humain**](https://fr.wikipedia.org/wiki/Cerveau_humain)
-    - [Wikipédia — **Intelligence des cétacés**](https://fr.wikipedia.org/wiki/Intelligence_des_c%C3%A9tac%C3%A9s)
+    - [Wikipédia — **Encéphale**](https://fr.wikipedia.org/wiki/Enc%C3%A9phale){ target="_blank" }
+    - [Wikipédia — **Cerveau humain**](https://fr.wikipedia.org/wiki/Cerveau_humain){ target="_blank" }
+    - [Wikipédia — **Intelligence des cétacés**](https://fr.wikipedia.org/wiki/Intelligence_des_c%C3%A9tac%C3%A9s){ target="_blank" }

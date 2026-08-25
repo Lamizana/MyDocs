@@ -96,4 +96,4 @@ Nous allons voir ensemble les différentes informations contenues dans l'onglet 
 
 ---
 
-> Lien vers source: [cryptoast](https://cryptoast.fr/tutoriel-etherscan/)
+> Lien vers source: [cryptoast](https://cryptoast.fr/tutoriel-etherscan/){ target="_blank" }
