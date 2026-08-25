@@ -223,9 +223,6 @@ plugins:
       locale: fr
       enable_creation_date: true
 
-  - redirects:
-      redirect_maps: {}
-
 # ======================== Configuration des versions =========================
 extra:
   copyright: MyDocs Copyright (c) 2026 Alex Lamizana
