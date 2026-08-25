@@ -8,11 +8,25 @@ icon: material/account
 
 ---
 
+<div class="about-hero">
+<div class="about-avatar">
+    <span class="about-avatar-icon">👨‍💻</span>
+</div>
+<div class="about-intro">
+    <p class="about-name">Alex Lamizana</p>
+    <p class="about-tagline">Étudiant à <strong>42 Angoulême</strong> · Développeur Fullstack & Data</p>
+    <p class="about-meta">Ancien conducteur d'engins → Reconversion dans la tech</p>
+</div>
+</div>
+
+---
+
 ## <span class="h2">Mon Parcours</span>
 
-Ancien conducteur d'engins de terrassement et grutier, j'ai choisi de me reconvertir dans la programmation après avoir découvert ma passion pour la technologie et la résolution de problèmes logiques.
-
-Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours traditionnels où l'apprentissage par projets est au cœur de la méthode.
+!!! info "Mon histoire"
+    Ancien conducteur d'engins de terrassement et grutier, j'ai choisi de me reconversion dans la programmation après avoir découvert ma passion pour la technologie et la résolution de problèmes logiques.
+    
+    Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours traditionnels où l'apprentissage par projets est au cœur de la méthode.
 
 ---
 
@@ -53,8 +67,10 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 
 ## <span class="h2">Projets en Vedette</span>
 
+<div class="about-projects-grid">
+
 <div class="project-card">
-    <h3><a href="https://github.com/Lamizana/ft_transcendence" class="md-button md-button--primary">
+    <h3><a href="https://github.com/Lamizana/ft_transcendence" class="md-button md-button--primary" target="_blank">
         Transcendance
     </a></h3>
     <p class="project-desc">Application web - Pong multiplayer en temps réel avec chat et classements</p>
@@ -66,7 +82,7 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 </div>
 
 <div class="project-card">
-    <h3><a href="https://github.com/Lamizana/minishell" class="md-button md-button--primary">
+    <h3><a href="https://github.com/Lamizana/minishell" class="md-button md-button--primary" target="_blank">
         Minishell
     </a></h3>
     <p class="project-desc">Interpréteur de commandes en C - Projet 42 sur les bases des systèmes Unix</p>
@@ -76,7 +92,7 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 </div>
 
 <div class="project-card">
-    <h3><a href="https://github.com/Lamizana/ft_irc" class="md-button md-button--primary">
+    <h3><a href="https://github.com/Lamizana/ft_irc" class="md-button md-button--primary" target="_blank">
         Irc
     </a></h3>
     <p class="project-desc">Serveur IRC en C++ - Implémentation du protocole IRC avec gestion des channels</p>
@@ -86,13 +102,19 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 </div>
 
 <div class="project-card">
-    <h3><a href="https://github.com/Lamizana/Push-swap" class="md-button md-button--primary">
+    <h3><a href="https://github.com/Lamizana/Push-swap" class="md-button md-button--primary" target="_blank">
         Push Swap
     </a></h3>
     <p class="project-desc">Algorithme de tri optimisé - Résolution du tri avec un nombre minimal d'opérations</p>
     <div class="project-tech-badges">
         <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C">
     </div>
+</div>
+
+</div>
+
+<div class="about-cta" markdown>
+[:material-rocket-launch: Voir tous les projets](projets/index.md){ .md-button .md-button--primary }
 </div>
 
 ---
@@ -102,22 +124,26 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 <div class="soft-skills-grid">
 
 <div class="soft-skill-card">
-    <span class="soft-skill-title">Autonomie</span><br><br>
+    <span class="soft-skill-icon">🧠</span>
+    <span class="soft-skill-title">Autonomie</span><br>
     <span class="soft-skill-desc">Apprentissage autodidacte, capacité à résoudre des problèmes seul</span>
 </div>
 
 <div class="soft-skill-card">
-    <span class="soft-skill-title">Persévérance</span><br><br>
+    <span class="soft-skill-icon">💪</span>
+    <span class="soft-skill-title">Persévérance</span><br>
     <span class="soft-skill-desc">Parcours de reconversion, détermination face aux défis</span>
 </div>
 
 <div class="soft-skill-card">
-    <span class="soft-skill-title">Travail d'équipe</span><br><br>
+    <span class="soft-skill-icon">🤝</span>
+    <span class="soft-skill-title">Travail d'équipe</span><br>
     <span class="soft-skill-desc">Projets collaboratifs à 42, peer-learning</span>
 </div>
 
 <div class="soft-skill-card">
-    <span class="soft-skill-title">Adaptabilité</span><br><br>
+    <span class="soft-skill-icon">🔄</span>
+    <span class="soft-skill-title">Adaptabilité</span><br>
     <span class="soft-skill-desc">Transition d'un métier manuel vers le développement</span>
 </div>
 
@@ -144,6 +170,16 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 <span class="loisir-label">Lecture</span>
 </div>
 
+<div class="loisir-item">
+<span class="loisir-emoji">🎮</span>
+<span class="loisir-label">Jeux vidéo</span>
+</div>
+
+<div class="loisir-item">
+<span class="loisir-emoji">🎵</span>
+<span class="loisir-label">Musique</span>
+</div>
+
 </div>
 
 ---
@@ -167,10 +203,19 @@ Aujourd'hui, je suis **étudiant à 42 Angoulême**, une école sans cours tradi
 <span>Missions Freelance Base de donnée / IA</span>
 </div>
 
+<div class="objectif-badge objectif-badge--next">
+<span class="check">🎯</span>
+<span>CDI Développeur Fullstack</span>
+</div>
+
 </div>
 
 ---
 
 ## <span class="h2">Me Contacter</span>
 
-[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary target="_blank" } [:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
+<div class="contact-buttons">
+    [:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary target="_blank" }
+    [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/alex-lamizana){ .md-button .md-button--primary target="_blank" }
+    [:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
+</div>
