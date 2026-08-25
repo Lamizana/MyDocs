@@ -1,5 +1,5 @@
-# Dépendances du site MyDocs — installer avec : pip install -r requirements.txt
-mkdocs==1.6.1
+# Dépendances CI du site MyDocs — installer avec : pip install -r requirements-ci.txt
+properdocs==1.6.7
 # [imaging] ajoute pillow + cairosvg, requis par le plugin social (cartes de partage)
 mkdocs-material[imaging]==9.7.1
 mkdocs-rss-plugin==1.17.9

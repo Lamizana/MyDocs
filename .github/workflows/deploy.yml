@@ -35,7 +35,7 @@ jobs:
           sudo apt-get install -y libcairo2-dev libpango1.0-dev libgdk-pixbuf2.0-dev libffi-dev
 
       - name: Install Python dependencies
-        run: pip install -r MyDocs/requirements.txt
+        run: pip install -r MyDocs/requirements-ci.txt
 
       - name: Build site (strict)
         run: properdocs build -f MyDocs/properdocs.yml --strict
