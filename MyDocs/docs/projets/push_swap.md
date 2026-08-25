@@ -3,7 +3,7 @@ title: Push Swap
 description: "Algorithme de tri optimisé en C : deux piles et un nombre minimal d'opérations."
 ---
 
-# <span class="h1">:material-sort: Push Swap</span>
+# <span class="h1">Push Swap</span>
 
 <div class="project-hero">
     <span class="tech-tag">C</span>
@@ -17,32 +17,49 @@ description: "Algorithme de tri optimisé en C : deux piles et un nombre minimal
 
 ---
 
-## <span class="h2">:material-brain: Principe de l’algorithme</span>
+## <span class="h2">Description</span>
 
-push_swap consiste à trier une liste de nombres en utilisant deux piles
-et un ensemble restreint d’instructions.
-
----
-
-## <span class="h2">:material-language-c: Implémentation en C</span>
-
-Le projet met l’accent sur :
-- la gestion mémoire
-- la structuration du code
-- l’optimisation des performances
+!!! note "Contexte"
+    Projet 42 visant à trier une liste de nombres entiers en utilisant **deux piles** et un ensemble restreint d'opérations (`sa`, `sb`, `ss`, `pa`, `pb`, `ra`, `rb`, `rr`, `rra`, `rrb`, `rrr`). L'objectif est de minimiser le nombre total d'opérations.
 
 ---
 
-## <span class="h2">:material-speedometer: Optimisation et performances</span>
+## <span class="h2">Compétences Acquises</span>
 
-L’objectif est de réduire au maximum le nombre d’opérations nécessaires
-pour trier une grande quantité de nombres.
+- **Algorithmique** : conception de stratégies de tri adaptées
+- **Optimisation** : réduction du nombre d'opérations à chaque taille de liste
+- **Gestion mémoire** : allocation et libération en C
+- **Structuration du code** : séparation parsing / logique / opérations
 
 ---
 
-## <span class="h2">:material-chart-bar: Résultats</span>
+## <span class="h2">Stack Technique</span>
 
-Les performances sont évaluées selon le nombre de coups générés
-en fonction de la taille de la liste.
+- **Langage** : C
+- **Norme** : 42 (norminette)
+- **Concepts** : piles, algorithmes de tri, complexité
 
-:material-sort:
+---
+
+## <span class="h2">Défis Relevés</span>
+
+!!! tip "Points clés"
+    1. **Choix de l'algorithme** : adapter la stratégie selon la taille de la liste (tri petit pour 3-5 éléments, tri radix pour les grandes listes)
+    2. **Optimisation** : trouver le nombre minimal d'opérations pour chaque cas
+    3. **Gestion des doublons** : traitement correct des valeurs identiques
+    4. **Norme 42** : respecter les contraintes de la norminette
+
+---
+
+## <span class="h2">Fonctionnalités</span>
+
+- Tri de listes de n'importe quelle taille
+- Détection automatique de la stratégie optimale
+- Gestion des erreurs (arguments invalides, doublons)
+- Affichage du nombre total d'opérations
+
+---
+
+## <span class="h2">Lien</span>
+
+[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/Push-swap){ .md-button .md-button--primary }
