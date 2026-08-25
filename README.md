@@ -1,12 +1,12 @@
 # MyDocs
 
-Site documentaire sur la programmation - Propulsé par MkDocs et Material theme.
+Site documentaire sur la programmation - Propulsé par ProperDocs et Material theme.
 
 ---
 
 ## Stack Technique
 
-- **Site**: MkDocs + Material for MkDocs
+- **Site**: ProperDocs + Material for MkDocs
 - **Hébergement**: GitHub Pages
 - **Cours**: Python, JavaScript, React, Git, Data/IA
 
@@ -52,23 +52,19 @@ pip freeze > requirements.txt
 
 ## Commandes
 
-| Commande           | Description                   |
-|--------------------|-------------------------------|
-| `mkdocs serve`     | Serveur local avec hot-reload |
-| `mkdocs build`     | Générer le site statique      |
-| `mkdocs gh-deploy` | Déployer sur GitHub Pages     |
+| Commande              | Description                   |
+|-----------------------|-------------------------------|
+| `properdocs serve`    | Serveur local avec hot-reload |
+| `properdocs build`    | Générer le site statique      |
+| `properdocs gh-deploy`| Déployer sur GitHub Pages     |
 
 ```bash
 # Serveur local
-mkdocs serve --dev-addr=127.0.0.1:8001
-mkdocs serve --dev-addr=127.0.0.1:8001 --livereload
-
-# Si les commandes ne fonctionne pas, essayer :
-python3 -m mkdocs serve --dev-addr=127.0.0.1:8001
-python3 -m mkdocs serve --dev-addr=127.0.0.1:8001 --livereload
+properdocs serve --dev-addr=127.0.0.1:8001
+properdocs serve --dev-addr=127.0.0.1:8001 --livereload
 
 # Déploiement
-mkdocs gh-deploy
+properdocs gh-deploy
 ```
 
 ---

@@ -1,4 +1,4 @@
-name: Deploy MkDocs site to GitHub Pages
+name: Deploy ProperDocs site to GitHub Pages
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
         run: pip install -r MyDocs/requirements.txt
 
       - name: Build site (strict)
-        run: mkdocs build -f MyDocs/mkdocs.yml --strict
+        run: properdocs build -f MyDocs/properdocs.yml --strict
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
