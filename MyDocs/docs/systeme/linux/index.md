@@ -5,8 +5,8 @@ description: "Connaissances Linux : commandes, administration et astuces du syst
 
 # <span class="h1">Linux</span>
 
-<p align="center">
-  <em>Ici est regroupé les connaissances Linux</em><br>
+<p class="intro">
+    Ici est regroupé les connaissances Linux.
 </p>
 
 ---

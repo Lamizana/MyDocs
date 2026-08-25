@@ -5,7 +5,9 @@ description: "Exercices pratiques en Python pour consolider vos acquis."
 
 # <span class="h1">Exercices Python</span>
 
-<p align="center"><em>Pratiquez pour consolider vos connaissances.</em></p>
+<p class="intro">
+    Pratiquez pour consolider vos connaissances.
+</p>
 
 ---
 

@@ -6,12 +6,11 @@ icon: material/home
 
 # <span class="h1">MyDocs</span>
 
-<p align="center">
-  <em>Le pouvoir du savoir...</em><br>
+<p class="intro">
+    Le pouvoir du savoir...
 </p>
 
 ---
-
 
 
 ## <span class="h2">Projets en vedette</span>
@@ -41,10 +40,6 @@ icon: material/home
     **Serveur IRC** en C++ conforme à la RFC 1459 : sockets BSD, canaux, multi-clients.
 
     [:octicons-arrow-right-24: Découvrir](projets/ft_irc.md)
-
-</div>
-
-<div align="center">
 
 </div>
 
@@ -79,6 +74,22 @@ icon: material/home
     Versionner, collaborer et partager le code avec Git et GitHub.
 
     [:octicons-arrow-right-24: GitHub](github/index.md)
+
+-   :material-server:{ .lg .middle } __Système__
+
+    ---
+
+    Linux, Windows, nettoyage de disque et administration.
+
+    [:octicons-arrow-right-24: Système](systeme/index.md)
+
+-   :material-music:{ .lg .middle } __Strudel__
+
+    ---
+
+    Musique algorithmique : composition dynamique avec JavaScript.
+
+    [:octicons-arrow-right-24: Strudel](strudel/index.md)
 
 </div>
 

@@ -6,7 +6,9 @@ icon: fontawesome/solid/blog
 
 # <span class="h1">MyBlog</span>
 
-<p align="center"><em>Le pouvoir du savoir...</em></p>
+<p class="intro">
+    Le pouvoir du savoir...
+</p>
 
 ---
 !!! info "Information"

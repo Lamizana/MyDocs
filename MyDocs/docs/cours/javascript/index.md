@@ -6,7 +6,9 @@ icon: material/language-javascript
 
 # <span class="h1">Javascript</span>
 
-<p align="center"><em>Découverte de <strong>javascript</strong> et réalisation d'un site fonctionnel et dynamique avec openclassroom</em></p>
+<p class="intro">
+    Découverte de <strong>JavaScript</strong> et réalisation d'un site fonctionnel et dynamique avec OpenClassroom.
+</p>
 
 ---
 

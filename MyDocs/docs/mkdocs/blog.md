@@ -6,7 +6,9 @@ icon: fontawesome/solid/blog
 
 # <span class="h1">Mise en place d'un Blog</span>
 
-<p align="center"><em>Ajouter un blog à votre site MkDocs avec le plugin Blog de Material for MkDocs.</em></p>
+<p class="intro">
+    Ajouter un blog à votre site MkDocs avec le plugin Blog de Material for MkDocs.
+</p>
 
 ---
 
