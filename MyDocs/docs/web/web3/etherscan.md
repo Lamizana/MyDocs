@@ -97,8 +97,3 @@ Nous allons voir ensemble les différentes informations contenues dans l'onglet 
 ---
 
 > Lien vers source: [cryptoast](https://cryptoast.fr/tutoriel-etherscan/)
-
----
-
-> Date de création: 30.06.2026
-> Mise à jour: 30.06.2026

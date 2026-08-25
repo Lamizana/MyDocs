@@ -156,7 +156,3 @@ Actuellement, dans le cas du Bitcoin, cette électricité est principalement iss
 ---
 
 > Lien vers source: [cryptoast](https://cryptoast.fr/qu-est-ce-que-la-blockchain/){ target="_blank" }
-
----
-
-> *Date de création: 29.06.2026 / Mise à jour: 30.06.2026*
