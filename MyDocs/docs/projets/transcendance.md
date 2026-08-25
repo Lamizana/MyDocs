@@ -13,13 +13,19 @@ description: "Application web Pong multijoueur en temps réel : WebSockets, OAut
     <span class="tech-tag">OAuth 42</span>
 </div>
 
-## Description
+<p class="intro">
+    Projet final du tronc commun de l'école 42 : créer une application web complète permettant de jouer au **Pong** en ligne.
+</p>
+
+---
+
+## <span class="h2">Description</span>
 
 Projet final du tronc commun de l'école 42. Le but était de créer une application web complète permettant de jouer au **Pong** en ligne contre d'autres joueurs.
 
 ---
 
-## Compétences Acquises
+## <span class="h2">Compétences Acquises</span>
 
 - **Full-stack Web Development**
 - **Temps réel** avec WebSockets
@@ -29,7 +35,7 @@ Projet final du tronc commun de l'école 42. Le but était de créer une applica
 
 ---
 
-## Stack Technique
+## <span class="h2">Stack Technique</span>
 
 | Frontend | Backend | Base de données |
 |----------|---------|-----------------|
@@ -39,7 +45,7 @@ Projet final du tronc commun de l'école 42. Le but était de créer une applica
 
 ---
 
-## Défis Relevés
+## <span class="h2">Défis Relevés</span>
 
 1. **Communication temps réel** : Implémentation des WebSockets pour le gameplay fluide
 2. **Gestion des sessions** : Authentification avec OAuth 42
@@ -48,7 +54,7 @@ Projet final du tronc commun de l'école 42. Le but était de créer une applica
 
 ---
 
-## Fonctionnalités
+## <span class="h2">Fonctionnalités</span>
 
 - Inscription/connexion via OAuth 42
 - Parties 1v1 en temps réel
@@ -58,6 +64,6 @@ Projet final du tronc commun de l'école 42. Le but était de créer une applica
 
 ---
 
-## Lien
+## <span class="h2">Lien</span>
 
 [:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/ft_transcendence){ .md-button .md-button--primary }

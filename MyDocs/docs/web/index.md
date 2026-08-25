@@ -6,8 +6,8 @@ icon: material/web
 
 # <span class="h1">Web</span>
 
-<p align="center">
-  <em>Explorons le développement web, du Web 2.0 au Web 3.0.</em><br>
+<p class="intro">
+    Explorons le développement web, du Web 2.0 au Web 3.0.
 </p>
 
 ---

@@ -13,11 +13,11 @@ icon: material/music
 
 ---
 
-## Bienvenue
+## <span class="h2">Bienvenue</span>
 
 Ce cours vous guidera à travers les bases de **Strudel**, un langage de musique algorithmique.
 
-## Pour commencer
+## <span class="h2">Pour commencer</span>
 
 1. **Lisez les tutoriels** dans l'ordre indiqué ci-dessous
 2. **Pratiquez** avec les exercices
@@ -25,14 +25,14 @@ Ce cours vous guidera à travers les bases de **Strudel**, un langage de musique
 
 [Ouvrir Strudel REPL](https://strudel.cc/){ target="_blank" .md-button }
 
-## Tutoriels disponibles
+## <span class="h2">Tutoriels disponibles</span>
 
 - **Premier Sons** : Apprendre à jouer des sons
 - **Notes** : Créer des mélodies
 - **Patterns** : Maîtriser la mini-notation
 - **Effets** : Transformer vos sons
 
-## Exercices
+## <span class="h2">Exercices</span>
 
 Testez vos connaissances avec les exercices pratiques.
 

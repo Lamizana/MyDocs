@@ -6,6 +6,10 @@ icon: material/school
 
 # <span class="h1">Cours sur la programmation</span>
 
+<p class="intro">
+    Cours de programmation : Python, JavaScript, données et plus encore, avec une console interactive.
+</p>
+
 ---
 
 ## <span class="h2">Console Interactive</span>

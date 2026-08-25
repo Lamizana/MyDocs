@@ -6,8 +6,8 @@ icon: material/language-javascript
 
 # <span class="h1">Web 2.0</span>
 
-<p align="center">
-  <em>Le web dynamique, interactif et social.</em><br>
+<p class="intro">
+    Le web dynamique, interactif et social.
 </p>
 
 ---

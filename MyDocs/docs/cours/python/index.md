@@ -1,7 +1,7 @@
 ---
 title: Python
+description: "Cours de programmation en Python : bases, fonctions, librairies et exercices pratiques."
 icon: fontawesome/brands/python
-
 ---
 
 # <span class="h1">Programmation en Python</span>

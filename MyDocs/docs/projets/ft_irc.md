@@ -11,13 +11,19 @@ description: "Serveur IRC en C++ conforme à la RFC 1459 : sockets BSD, canaux, 
     <span class="tech-tag">RFC 1459</span>
 </div>
 
-## Description
+<p class="intro">
+    Projet 42 : implémenter un <strong>serveur IRC</strong> en C++ conforme à la RFC 1459.
+</p>
+
+---
+
+## <span class="h2">Description</span>
 
 Projet 42 consistant à implémenter un **serveur IRC** (Internet Relay Chat) en C++. Ce projet teaches les fondamentaux du réseau et de la programmation orientée objet.
 
 ---
 
-## Compétences Acquises
+## <span class="h2">Compétences Acquises</span>
 
 - **Programmation réseau** (sockets TCP/UDP)
 - **Programmation Orientée Objet** (C++)
@@ -27,7 +33,7 @@ Projet 42 consistant à implémenter un **serveur IRC** (Internet Relay Chat) en
 
 ---
 
-## Stack Technique
+## <span class="h2">Stack Technique</span>
 
 - **Langage**: C++
 - **Standard**: C++98 (norme 42)
@@ -35,7 +41,7 @@ Projet 42 consistant à implémenter un **serveur IRC** (Internet Relay Chat) en
 
 ---
 
-## Défis Relevés
+## <span class="h2">Défis Relevés</span>
 
 1. **Protocole IRC** : Implémentation des commandes NICK, USER, JOIN, PRIVMSG, etc.
 2. **Multi-clients** : Gestion simultanée de plusieurs connexions
@@ -44,7 +50,7 @@ Projet 42 consistant à implémenter un **serveur IRC** (Internet Relay Chat) en
 
 ---
 
-## Fonctionnalités
+## <span class="h2">Fonctionnalités</span>
 
 - Connexion/déconnexion des utilisateurs
 - Création de canaux (channels)
@@ -54,6 +60,6 @@ Projet 42 consistant à implémenter un **serveur IRC** (Internet Relay Chat) en
 
 ---
 
-## Lien
+## <span class="h2">Lien</span>
 
 [:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/ft_irc){ .md-button .md-button--primary }
