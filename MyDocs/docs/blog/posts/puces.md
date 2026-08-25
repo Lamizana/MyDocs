@@ -9,8 +9,6 @@ categories:
 
 ---
 
-# <span class="h1">Autolimitation des puces</span>
-
 Des puces sont disposées dans un bocal. Le bord de ce bocal est juste à la hauteur qui leur permet de sauter par dessus.
 
 On dispose ensuite une plaque de verre pour boucher le bocal.

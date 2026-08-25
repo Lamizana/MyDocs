@@ -9,8 +9,6 @@ categories:
 
 ---
 
-# <span class="h1"> Hiérarchie chez les rats</span>
-
 
 > L'expérience des rats plongeurs, réalisée par l'éthologue Didier Desor à l'université de Nancy en 1994, met en lumière la différenciation sociale induite par le stress et la peur au sein d'un groupe
 

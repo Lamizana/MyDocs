@@ -10,8 +10,6 @@ pin: true
 
 ---
 
-# <span class="h1">L'homme et ses déchets</span>
-
 
 ## <span class="h2">Mutilation des pattes de pigeons</span>
 

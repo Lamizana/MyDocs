@@ -183,6 +183,8 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
@@ -233,7 +235,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/alex-lamizana/
     - icon: fontawesome/solid/paper-plane
-      link: mailto:alex.lamizana@42angouleme.fr
+      link: mailto:lamizana1987@yahoo.fr
   analytics:
     provider: google
     property: G-74MZWWS1RR

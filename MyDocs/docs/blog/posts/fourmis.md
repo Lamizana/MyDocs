@@ -9,8 +9,6 @@ categories:
 
 ---
 
-# <span class="h1">Histoire de Fourmis</span>
-
 <p class="intro">
     Une Civilisation Parallèle.
 </p>
