@@ -47,6 +47,22 @@ nav:
       - Javascript:
           - cours/javascript/index.md
 
+      - MkDocs:
+          - mkdocs/index.md
+          - Bases: mkdocs/bases.md
+          - Material: mkdocs/material.md
+
+      - Strudel:
+          - strudel/index.md
+          - Cours:
+              - Introduction: strudel/tutoriel-intro.md
+              - Premier Sons: strudel/tutoriel-sons.md
+              - Notes: strudel/tutoriel-notes.md
+              - Patterns: strudel/tutoriel-patterns.md
+              - Effets: strudel/tutoriel-effets.md
+          - Exercices:
+              - strudel/exercice-strudel.md
+
   - Système:
       - systeme/index.md
       - systeme/nettoyage-disque.md
@@ -77,23 +93,6 @@ nav:
 
   - Blog:
       - blog/index.md
-
-  - Mkdocs:
-      - mkdocs/index.md
-      - Bases: mkdocs/bases.md
-      - Material: mkdocs/material.md
-      - Blog: mkdocs/blog.md
-
-  - Strudel:
-      - strudel/index.md
-      - Cours:
-          - Introduction: strudel/tutoriel-intro.md
-          - Premier Sons: strudel/tutoriel-sons.md
-          - Notes: strudel/tutoriel-notes.md
-          - Patterns: strudel/tutoriel-patterns.md
-          - Effets: strudel/tutoriel-effets.md
-      - Exercices:
-          - strudel/exercice-strudel.md
 
   - About: about.md
 

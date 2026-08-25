@@ -32,12 +32,4 @@ icon: simple/materialformkdocs
 
     [:octicons-arrow-right-24: Material](material.md)
 
--   :material-post:{ .lg .middle } __Blog__
-
-    ---
-
-    Mettre en place un blog avec posts, auteurs et flux RSS.
-
-    [:octicons-arrow-right-24: Blog](blog.md)
-
 </div>
