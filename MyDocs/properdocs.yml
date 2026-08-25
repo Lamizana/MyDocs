@@ -207,7 +207,8 @@ plugins:
       authors_file: "{blog}/.authors.yml"
       blog_dir: blog
 
-  - tags
+  - tags:
+      enabled: true
 
   - rss:
       match_path: blog/posts/.*
@@ -215,8 +216,6 @@ plugins:
         as_creation: date
       categories:
         - categories
-  - tags:
-      enabled: true
 
   - minify:
       minify_html: true

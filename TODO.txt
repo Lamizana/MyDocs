@@ -1,0 +1,94 @@
+================================================================================
+  TODO — MyDocs — Choses à faire
+  Dernière mise à jour : 25 août 2026
+================================================================================
+
+📌 IMMÉDIAT (à faire avant le prochain push)
+─────────────────────────────────────────────
+[ ] Commiter les changements tags.md (pas encore fait)
+[ ] Vérifier dans le navigateur que les liens de la page /tags/ fonctionnent
+    Les slugs de blog posts ont des accents dans les vrais dossiers mais
+    sans accents dans le HTML généré — risque de liens cassés
+
+
+🔒 SÉCURITÉ
+─────────────────────────────────────────────
+[ ] ✅ Fait — rel="noopener" ajouté aux 55 liens target="_blank" (commit 7747f26)
+
+
+🔍 SEO & RÉFÉRENCEMENT
+─────────────────────────────────────────────
+[ ] ✅ Fait — Plugin tags activé dans properdocs.yml (commit 0099794)
+[ ] ✅ Fait — robots.txt créé (commit 0099794)
+[ ] ✅ Fait — Tags ajoutés aux 6 posts blog (commit 0099794)
+[ ] ✅ Fait — Page tags.md créée manuellement
+[ ] Vérifier que le sitemap.xml est bien généré et indexé
+[ ] Envisager d'ajouter des meta descriptions plus spécifiques par page projet
+
+
+📄 CONTENU & STRUCTURE
+─────────────────────────────────────────────
+[ ] Corriger les 19 fichiers avec plusieurs H1 (changer # en ##)
+    Fichiers concernés :
+      - cours/python/bases/chaines.md (8 H1)
+      - cours/python/bases/mise-en-place.md (3 H1)
+      - cours/python/bases/operateurs.md (15 H1)
+      - cours/python/bases/variables.md (4 H1)
+      - cours/python/exercices/nombres.md (5 H1)
+      - cours/python/numpy/exercice-dice.md (9 H1)
+      - cours/python/numpy/index.md (48 H1)
+      - cours/python/pandas/index.md (9 H1)
+      - cours/python/pandas/tutoriel-meteo.md (27 H1)
+      - cours/python/scikit-learn.md (12 H1)
+      - github/git-branches-merge.md (13 H1)
+      - github/git-avance.md (7 H1)
+      - github/git-bases.md (20 H1)
+      - mkdocs/bases.md (3 H1)
+      - mkdocs/plugins.md (2 H1)
+      - mkdocs/deploiement.md (3 H1)
+      - projets/so_long.md (5 H1)
+      - systeme/nettoyage-disque.md (3 H1)
+      - web/web2/react.md (5 H1)
+
+[ ] Ajouter Tokeniser aux projets vedettes de la page d'accueil (index.md)
+    Actuellement : Transcendance, Minishell, ft_irc
+    À ajouter : Tokeniser (projet blockchain, premier smart contract)
+
+[ ] Résoudre la duplication :
+      - web/web3/tokenizer.md (401 lignes) — page de cours/veille
+      - projets/tokeniser.md (82 lignes) — fiche projet
+    → Ajouter des liens croisés entre les deux pages
+
+
+🎨 DESIGN & CSS
+─────────────────────────────────────────────
+[ ] Supprimer le doublon .badge-section dans custom.css
+    Défini 2 fois (lignes 91-93 et 527-529) avec des styles différents
+    La seconde écrase la première
+
+[ ] Ajouter loading="lazy" sur les images (performance mobile)
+
+[ ] Mettre à jour la mention "MkDocs" dans l'accueil → "ProperDocs"
+    Fichier : docs/index.md (ligne 99)
+
+
+⚙️ CONFIGURATION
+─────────────────────────────────────────────
+[ ] Évaluer l'ajout de navigation.top (bouton "retour en haut")
+[ ] Évaluer l'ajout de content.tooltips ( tooltips au survol)
+
+
+🌐 DÉPLOIEMENT & CI/CD
+─────────────────────────────────────────────
+[ ] Vérifier que le deploy.yml fonctionne bien après les changements
+[ ] Vérifier que Google Analytics (G-74MZWWS1RR) collecte bien des données
+    après acceptation du consent cookie
+
+
+📋 IDÉES FUTURES
+─────────────────────────────────────────────
+[ ] Ajouter une page "Changelog" ou "Journal" pour suivre les évolutions
+[ ] Ajouter des tags aux pages de cours (Python, JavaScript, etc.)
+    pour améliorer la découverte via la page /tags/
+[ ] Créer une page "Contact" dédiée (au lieu de la section dans About)
+[ ] Envisager un filtre par tag sur la page d'accueil du blog
