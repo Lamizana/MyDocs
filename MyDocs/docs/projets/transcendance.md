@@ -14,7 +14,7 @@ description: "Application web Pong multijoueur en temps réel : WebSockets, OAut
 </div>
 
 <p class="intro">
-    Projet final du tronc commun de l'école 42 : créer une application web complète permettant de jouer au **Pong** en ligne.
+    Projet final du tronc commun de l'école 42 : créer une application web complète permettant de jouer au <strong>Pong</strong> en ligne.
 </p>
 
 ---
@@ -39,7 +39,7 @@ description: "Application web Pong multijoueur en temps réel : WebSockets, OAut
 ## <span class="h2">Stack Technique</span>
 
 | Frontend | Backend | Base de données |
-|----------|---------|-----------------|
+| ---------- |--------- |----------------- |
 | JavaScript | C++ | PostgreSQL |
 | HTML/CSS | | |
 | Socket.io | | |
@@ -68,4 +68,4 @@ description: "Application web Pong multijoueur en temps réel : WebSockets, OAut
 
 ## <span class="h2">Lien</span>
 
-[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/ft_transcendence){ .md-button .md-button--primary }
+[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/ft_transcendence){ .md-button .md-button--primary }{ target="_blank" }
