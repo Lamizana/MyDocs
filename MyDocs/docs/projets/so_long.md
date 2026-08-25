@@ -116,4 +116,4 @@ Voici les cartes disponibles dans le projet :
 !!! note "Note"
     Ce projet a été réalisé dans le cadre de la formation à **l'école 42**. Il met en avant les compétences en gestion de projet, en programmation système, et en utilisation de bibliothèques graphiques.
     
-    N'hésitez pas à contribuer ou à signaler des bugs sur le [dépôt GitHub](https://github.com/Lamizana/So-long){ target="_blank" } !
+    N'hésitez pas à contribuer ou à signaler des bugs sur le [dépôt GitHub](https://github.com/Lamizana/So-long){ target="_blank" rel="noopener" } !

@@ -78,5 +78,5 @@ description: "Token BEP-20 GOLD42 sur BNB Smart Chain : premier smart contract, 
 
 ## <span class="h2">Lien</span>
 
-[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/Tokeniser){ .md-button .md-button--primary target="_blank" }
-[:octicons-verified-24: Contrat sur BscScan](https://testnet.bscscan.com/address/0xa3B9A3eb3F2aE8ed3a6788F4Ccbdb1e503FE6aaD){ .md-button target="_blank" }
+[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/Tokeniser){ .md-button .md-button--primary target="_blank" rel="noopener" }
+[:octicons-verified-24: Contrat sur BscScan](https://testnet.bscscan.com/address/0xa3B9A3eb3F2aE8ed3a6788F4Ccbdb1e503FE6aaD){ .md-button target="_blank" rel="noopener" }

@@ -368,4 +368,4 @@ np.split(arr, 3)  # [[1, 2], [3, 4], [5, 6]]
 
 Essayer ***NumPy*** directement:
 
-[:fontawesome-brands-python: Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" .md-button }
+[:fontawesome-brands-python: Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" rel="noopener" .md-button }

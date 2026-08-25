@@ -453,7 +453,7 @@ print(previsions)
 
 Essayer le projet directement:
 
-[Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" .md-button }
+[Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" rel="noopener" .md-button }
 
 !!! info "Note"
     Pour un usage en production, vous pouvez utiliser l'API OpenWeatherMap qui offre plus de données (prévisions horaires, UV, etc.) mais nécessite une clé API gratuite sur https://openweathermap.org/

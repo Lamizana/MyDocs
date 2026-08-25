@@ -21,7 +21,7 @@ Les variables sont des **conteneurs** qui permettent de stocker des données en 
 ???+ note "Note"
     Comme d'habitude, si vous n'avez pas ou la flemme de créer un environnement python :
 
-    [Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" .md-button }
+    [Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" rel="noopener" .md-button }
 
 ---
 

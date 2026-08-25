@@ -32,7 +32,7 @@ description: "Exercices pratiques sur les chaînes de caractères (strings) en P
 
 Pour accéder à un terminal python dans le navigateur nous allons utiliser **Basthon**:
 
-[:material-play-circle: Ouvrir le terminal dans Basthon](https://console.basthon.fr/){ target="_blank" .md-button .md-button--primary }
+[:material-play-circle: Ouvrir le terminal dans Basthon](https://console.basthon.fr/){ target="_blank" rel="noopener" .md-button .md-button--primary }
 
 ---
 

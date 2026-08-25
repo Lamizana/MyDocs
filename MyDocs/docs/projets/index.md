@@ -38,7 +38,7 @@ icon: material/rocket-launch
 
     [:octicons-arrow-right-24: Découvrir](transcendance.md)
 
--   :material-currency-ethereum:{ .lg .middle } __Tokeniser__
+-   :simple-blockchaindotcom:{ .lg .middle } __Tokeniser__
 
     ---
 

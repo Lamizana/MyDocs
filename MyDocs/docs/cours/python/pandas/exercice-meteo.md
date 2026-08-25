@@ -38,7 +38,7 @@ description: Exercices pratiques pour maîtriser Pandas avec des données mété
 
 Essayer l'exercice directement sur:
 
-[Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" .md-button }
+[Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" rel="noopener" .md-button }
 
 ---
 

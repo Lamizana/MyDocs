@@ -21,7 +21,7 @@ Le REPL (Read-Eval-Print Loop) est l'endroit où vous allez coder avec Strudel.
 4. Appuyez sur `Ctrl` + `Enter` pour mettre à jour
 5. Appuyez sur `Ctrl` + `.` pour arrêter
 
-[Ouvrir Strudel REPL](https://strudel.cc/){ target="_blank" .md-button }
+[Ouvrir Strudel REPL](https://strudel.cc/){ target="_blank" rel="noopener" .md-button }
 
 ---
 

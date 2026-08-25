@@ -88,4 +88,4 @@ df.fillna(0)
 
 Essayer Pandas directement dans votre navigateur:
 
-[:fontawesome-brands-python: Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" .md-button }
+[:fontawesome-brands-python: Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" rel="noopener" .md-button }

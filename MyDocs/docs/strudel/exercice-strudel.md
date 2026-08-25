@@ -15,7 +15,7 @@ description: Exercices pratiques pour consolider vos acquis en musique algorithm
 
 Ces exercices sont conçus pour vous aider à progresser avec Strudel. Essayez par vous-même avant de regarder les solutions !
 
-[Ouvrir Strudel REPL](https://strudel.cc/){ target="_blank" .md-button }
+[Ouvrir Strudel REPL](https://strudel.cc/){ target="_blank" rel="noopener" .md-button }
 
 ---
 

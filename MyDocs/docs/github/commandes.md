@@ -60,4 +60,4 @@ description: "Récapitulatif de toutes les commandes Git et les bonnes pratiques
 
 ---
 
-> Lien vers source : [Git Documentation](https://git-scm.com/doc){ target="_blank" }
+> Lien vers source : [Git Documentation](https://git-scm.com/doc){ target="_blank" rel="noopener" }

@@ -124,4 +124,4 @@ y_encoded = encoder.fit_transform(y)
 
 Essayer scikit-learn directement:
 
-[:fontawesome-brands-python: Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" .md-button }
+[:fontawesome-brands-python: Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" rel="noopener" .md-button }

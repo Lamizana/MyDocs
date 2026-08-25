@@ -52,4 +52,4 @@ Pour les différents exercices, vous aurez un lien qui vous permettra d'accéder
 
 Basthon permet aussi le format ***Jupyter Notebook***.
 
-[:material-play-circle: Ouvrir Basthon](https://basthon.fr/){ target="_blank" .md-button .md-button--primary }
+[:material-play-circle: Ouvrir Basthon](https://basthon.fr/){ target="_blank" rel="noopener" .md-button .md-button--primary }

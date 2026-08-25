@@ -13,7 +13,7 @@ description: "Explorateur de blocs officiel de la BNB Smart Chain : suivre ses t
 
 ## <span class="h2">Qu'est-ce que BscScan ?</span>
 
-[BscScan](https://bscscan.com){ target="_blank" } est le **BlockExplorer** de la ***BNB Smart Chain***.
+[BscScan](https://bscscan.com){ target="_blank" rel="noopener" } est le **BlockExplorer** de la ***BNB Smart Chain***.
 Un BlockExplorer est **un moteur de recherche** qui permet à ses utilisateurs de chercher
 facilement les transactions qui transitent sur la blockchain.
 
@@ -22,7 +22,7 @@ facilement les transactions qui transitent sur la blockchain.
     d'Ethereum) et reprend exactement les mêmes fonctionnalités, adaptées à la BNB Chain.
 
 Il existe une version dédiée au réseau de test :
-**[testnet.bscscan.com](https://testnet.bscscan.com){ target="_blank" }** — c'est celle utilisée pour ce projet.
+**[testnet.bscscan.com](https://testnet.bscscan.com){ target="_blank" rel="noopener" }** — c'est celle utilisée pour ce projet.
 
 ---
 
@@ -80,8 +80,8 @@ C'est via BscScan Testnet que le token **GOLD42 (G42)** est consultable publique
 
 | Élément | Lien |
 |---|---|
-| Contrat G42 | [0xa3B9A3eb3F2aE8ed3a6788F4Ccbdb1e503FE6aaD](https://testnet.bscscan.com/address/0xa3B9A3eb3F2aE8ed3a6788F4Ccbdb1e503FE6aaD){ target="_blank" } |
-| Transaction de déploiement | [0x8646886e694e70d679d8bd5a46eb8429528b1ed63ae7288799f597d643ad830d](https://testnet.bscscan.com/tx/0x8646886e694e70d679d8bd5a46eb8429528b1ed63ae7288799f597d643ad830d){ target="_blank" } |
+| Contrat G42 | [0xa3B9A3eb3F2aE8ed3a6788F4Ccbdb1e503FE6aaD](https://testnet.bscscan.com/address/0xa3B9A3eb3F2aE8ed3a6788F4Ccbdb1e503FE6aaD){ target="_blank" rel="noopener" } |
+| Transaction de déploiement | [0x8646886e694e70d679d8bd5a46eb8429528b1ed63ae7288799f597d643ad830d](https://testnet.bscscan.com/tx/0x8646886e694e70d679d8bd5a46eb8429528b1ed63ae7288799f597d643ad830d){ target="_blank" rel="noopener" } |
 
 On y retrouve notamment les événements émis par le contrat — `Mint`, `Burn`, `Transfer`,
 `OwnershipTransferred` — ce qui rend le fonctionnement du token **entièrement traçable** :
@@ -89,4 +89,4 @@ chaque création, destruction ou transfert de G42 est public et vérifiable par 
 
 ---
 
-> Lien vers source : [BscScan](https://bscscan.com){ target="_blank" }
+> Lien vers source : [BscScan](https://bscscan.com){ target="_blank" rel="noopener" }

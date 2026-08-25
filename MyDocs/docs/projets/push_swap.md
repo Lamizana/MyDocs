@@ -62,4 +62,4 @@ description: "Algorithme de tri optimisé en C : deux piles et un nombre minimal
 
 ## <span class="h2">Lien</span>
 
-[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/Push-swap){ .md-button .md-button--primary target="_blank" }
+[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/Push-swap){ .md-button .md-button--primary target="_blank" rel="noopener" }

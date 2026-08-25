@@ -64,4 +64,4 @@ description: "Serveur IRC en C++ conforme à la RFC 1459 : sockets BSD, canaux, 
 
 ## <span class="h2">Lien</span>
 
-[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/ft_irc){ .md-button .md-button--primary target="_blank" }
+[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/ft_irc){ .md-button .md-button--primary target="_blank" rel="noopener" }

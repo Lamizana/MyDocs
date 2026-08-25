@@ -29,7 +29,7 @@ Nous allons aborder dans ce chapitre la **séquence** et la **sélection**.
 ???+ note "Note"
     Comme d'habitude, si vous n'avez pas ou la flemme de créer un environnement python :
 
-    [Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" .md-button }
+    [Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" rel="noopener" .md-button }
 
 ---
 

@@ -70,7 +70,7 @@ icon: material/account
 <div class="about-projects-grid">
 
 <div class="project-card">
-    <h3><a href="https://github.com/Lamizana/Tokeniser" class="md-button md-button--primary" target="_blank">
+    <h3><a href="https://github.com/Lamizana/Tokeniser" class="md-button md-button--primary" target="_blank" rel="noopener">
         Tokeniser
     </a></h3>
     <p class="project-desc">Token BEP-20 GOLD42 sur BNB Smart Chain — premier smart contract, comprendre la blockchain et la DeFi</p>
@@ -81,7 +81,7 @@ icon: material/account
 </div>
 
 <div class="project-card">
-    <h3><a href="https://github.com/Lamizana/ft_transcendence" class="md-button md-button--primary" target="_blank">
+    <h3><a href="https://github.com/Lamizana/ft_transcendence" class="md-button md-button--primary" target="_blank" rel="noopener">
         Transcendance
     </a></h3>
     <p class="project-desc">Application web - Pong multiplayer en temps réel avec chat et classements</p>
@@ -93,7 +93,7 @@ icon: material/account
 </div>
 
 <div class="project-card">
-    <h3><a href="https://github.com/Lamizana/minishell" class="md-button md-button--primary" target="_blank">
+    <h3><a href="https://github.com/Lamizana/minishell" class="md-button md-button--primary" target="_blank" rel="noopener">
         Minishell
     </a></h3>
     <p class="project-desc">Interpréteur de commandes en C - Projet 42 sur les bases des systèmes Unix</p>
@@ -103,7 +103,7 @@ icon: material/account
 </div>
 
 <div class="project-card">
-    <h3><a href="https://github.com/Lamizana/ft_irc" class="md-button md-button--primary" target="_blank">
+    <h3><a href="https://github.com/Lamizana/ft_irc" class="md-button md-button--primary" target="_blank" rel="noopener">
         Irc
     </a></h3>
     <p class="project-desc">Serveur IRC en C++ - Implémentation du protocole IRC avec gestion des channels</p>
@@ -113,7 +113,7 @@ icon: material/account
 </div>
 
 <div class="project-card">
-    <h3><a href="https://github.com/Lamizana/Push-swap" class="md-button md-button--primary" target="_blank">
+    <h3><a href="https://github.com/Lamizana/Push-swap" class="md-button md-button--primary" target="_blank" rel="noopener">
         Push Swap
     </a></h3>
     <p class="project-desc">Algorithme de tri optimisé - Résolution du tri avec un nombre minimal d'opérations</p>
@@ -225,4 +225,4 @@ icon: material/account
 
 ## <span class="h2">Me Contacter</span>
 
-[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary target="_blank" } [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/alex-lamizana){ .md-button .md-button--primary target="_blank" } [:material-email: Email](mailto:lamizana1987@yahoo.fr){ .md-button .md-button--primary target="_blank"}
+[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary target="_blank" rel="noopener" } [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/alex-lamizana){ .md-button .md-button--primary target="_blank" rel="noopener" } [:material-email: Email](mailto:lamizana1987@yahoo.fr){ .md-button .md-button--primary target="_blank" rel="noopener"}

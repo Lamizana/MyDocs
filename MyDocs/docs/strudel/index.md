@@ -23,7 +23,7 @@ Ce cours vous guidera à travers les bases de **Strudel**, un langage de musique
 2. **Pratiquez** avec les exercices
 3. **Expérimentez** dans le REPL !
 
-[Ouvrir Strudel REPL](https://strudel.cc/){ target="_blank" .md-button }
+[Ouvrir Strudel REPL](https://strudel.cc/){ target="_blank" rel="noopener" .md-button }
 
 ## <span class="h2">Tutoriels disponibles</span>
 
@@ -37,4 +37,4 @@ Ce cours vous guidera à travers les bases de **Strudel**, un langage de musique
 Testez vos connaissances avec les exercices pratiques.
 
 !!! info "Documentation officielle"
-    Pour aller plus loin, consultez la [documentation Strudel](https://strudel.cc/){ target="_blank" }.
+    Pour aller plus loin, consultez la [documentation Strudel](https://strudel.cc/){ target="_blank" rel="noopener" }.

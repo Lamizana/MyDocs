@@ -71,7 +71,7 @@ GitHub est une **plateforme d'hébergement de dépôts Git en ligne**. Elle ajou
 
 === "Windows"
 
-    Télécharger sur [git-scm.com](https://git-scm.com){ target="_blank" }
+    Télécharger sur [git-scm.com](https://git-scm.com){ target="_blank" rel="noopener" }
 
 ### Configuration initiale (obligatoire)
 
@@ -274,4 +274,4 @@ Dans *Settings > Branches > Branch protection rules*, on peut configurer :
 
 ---
 
-> Lien vers source : [Git Documentation](https://git-scm.com/doc){ target="_blank" } · [GitHub Docs](https://docs.github.com){ target="_blank" }
+> Lien vers source : [Git Documentation](https://git-scm.com/doc){ target="_blank" rel="noopener" } · [GitHub Docs](https://docs.github.com){ target="_blank" rel="noopener" }

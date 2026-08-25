@@ -140,5 +140,5 @@ gh pr create --base main --head feature/ma-fonctionnalite \
 
 ---
 
-> Lien vers source : [Git Documentation — Branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){ target="_blank" } · [GitHub Docs — Pull Requests](https://docs.github.com/en/pull-requests){ target="_blank" }
+> Lien vers source : [Git Documentation — Branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){ target="_blank" rel="noopener" } · [GitHub Docs — Pull Requests](https://docs.github.com/en/pull-requests){ target="_blank" rel="noopener" }
 > 

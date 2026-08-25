@@ -68,4 +68,4 @@ description: "Application web Pong multijoueur en temps réel : WebSockets, OAut
 
 ## <span class="h2">Lien</span>
 
-[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/ft_transcendence){ target="_blank" .md-button .md-button--primary }
+[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/ft_transcendence){ target="_blank" rel="noopener" .md-button .md-button--primary }

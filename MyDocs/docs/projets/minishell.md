@@ -88,4 +88,4 @@ description: "Interpréteur de commandes UNIX en C inspiré de bash : processus,
 
 ## <span class="h2">Lien</span>
 
-[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/Minishell){ .md-button .md-button--primary target="_blank" }
+[:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/Minishell){ .md-button .md-button--primary target="_blank" rel="noopener" }

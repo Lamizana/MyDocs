@@ -84,10 +84,10 @@ et `XCAS` !), sans rien avoir à installer. Il suffit de disposer d'un navigateu
 
 Deux interfaces permettent d'utiliser **Basthon** :
 
-[:material-play-circle: Basthon-Console](https://console.basthon.fr){ target="_blank" } : Une interface de type 
+[:material-play-circle: Basthon-Console](https://console.basthon.fr){ target="_blank" rel="noopener" } : Une interface de type 
 **console**
 
-[:material-play-circle: Basthon-Notebook](https://notebook.basthon.fr){ target="_blank" } : Une interface de type 
+[:material-play-circle: Basthon-Notebook](https://notebook.basthon.fr){ target="_blank" rel="noopener" } : Une interface de type 
 **notebook**
 
 Vous avez un lien qui vous permet d'accéder directement à la console correspondante.

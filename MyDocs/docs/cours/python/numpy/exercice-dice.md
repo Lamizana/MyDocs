@@ -37,7 +37,7 @@ description: Projet pratique pour maîtriser les fondamentaux de NumPy à traver
 
 Essayer l'exercice directement sur:
 
-[Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" .md-button }
+[Ouvrir avec Basthon](https://basthon.fr/){ target="_blank" rel="noopener" .md-button }
 
 ---
 

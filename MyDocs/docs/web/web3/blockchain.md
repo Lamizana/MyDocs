@@ -70,7 +70,7 @@ Les avantages de la blockchain peuvent se résumer en 4 points :
 
 ## <span class="h2">Comment fonctionne une transaction sur la blockchain</span>
 
-[Vidéo - Comprendre la blockchain](https://www.youtube.com/watch?v=6uYRN6b5EMU&t=430s){ target="_blank" }
+[Vidéo - Comprendre la blockchain](https://www.youtube.com/watch?v=6uYRN6b5EMU&t=430s){ target="_blank" rel="noopener" }
 
 Exemple concret avec la blockchain Bitcoin fonctionnant avec le consensus Proof of Work
 
@@ -155,4 +155,4 @@ Actuellement, dans le cas du Bitcoin, cette électricité est principalement iss
 
 ---
 
-> Lien vers source: [cryptoast](https://cryptoast.fr/qu-est-ce-que-la-blockchain/){ target="_blank" }
+> Lien vers source: [cryptoast](https://cryptoast.fr/qu-est-ce-que-la-blockchain/){ target="_blank" rel="noopener" }

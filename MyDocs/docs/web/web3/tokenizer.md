@@ -397,5 +397,5 @@ Non. On ne travaille que sur la BSC Testnet avec des TBNB de test qui ne valent 
 
 ---
 
-> Lien vers source : [BNB Chain](https://www.bnbchain.org/){ target="_blank" } · [Remix IDE](https://remix.ethereum.org){ target="_blank" } · [BSCScan Testnet](https://testnet.bscscan.com){ target="_blank" } · [OpenZeppelin](https://docs.openzeppelin.com/contracts/){ target="_blank" }
+> Lien vers source : [BNB Chain](https://www.bnbchain.org/){ target="_blank" rel="noopener" } · [Remix IDE](https://remix.ethereum.org){ target="_blank" rel="noopener" } · [BSCScan Testnet](https://testnet.bscscan.com){ target="_blank" rel="noopener" } · [OpenZeppelin](https://docs.openzeppelin.com/contracts/){ target="_blank" rel="noopener" }
 

@@ -25,7 +25,7 @@ Etherscan propose aussi un ensemble de service comme des API permettant de crée
 
 ## <span class="h2">Utilisation d'Etherscan</span>
 
-- [lien vers Etherscan](https://etherscan.io/){ target="_blank" }
+- [lien vers Etherscan](https://etherscan.io/){ target="_blank" rel="noopener" }
 
 Voici un aperçu de la page d'accueil d'Etherscan :
 
@@ -96,4 +96,4 @@ Nous allons voir ensemble les différentes informations contenues dans l'onglet 
 
 ---
 
-> Lien vers source: [cryptoast](https://cryptoast.fr/tutoriel-etherscan/){ target="_blank" }
+> Lien vers source: [cryptoast](https://cryptoast.fr/tutoriel-etherscan/){ target="_blank" rel="noopener" }

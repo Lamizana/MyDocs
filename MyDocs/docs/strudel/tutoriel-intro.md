@@ -30,7 +30,7 @@ description: "Découvrez Strudel, un langage de musique algorithmique, et instal
 
 **Strudel** s'utilise directement dans le navigateur via le **REPL** (Read-Eval-Print Loop) :
 
-[Ouvrir Strudel REPL](https://strudel.cc/){ target="_blank" .md-button }
+[Ouvrir Strudel REPL](https://strudel.cc/){ target="_blank" rel="noopener" .md-button }
 
 !!! tip "Raccourcis clavier"
     - `Ctrl` + `Enter` : Lancer le code
@@ -71,6 +71,6 @@ sound("<bd sd [bd bd] sd>*4").bank("bossdr110")
 ---
 
 !!! info "Lien officiel"
-    Ce cours est basé sur la documentation officielle de Strudel : [strudel.cc](https://strudel.cc/){ target="_blank" }
+    Ce cours est basé sur la documentation officielle de Strudel : [strudel.cc](https://strudel.cc/){ target="_blank" rel="noopener" }
 
-    Pour aller plus loin, consultez la [documentation complète](https://strudel.cc/workshop/getting-started/){ target="_blank" }.
+    Pour aller plus loin, consultez la [documentation complète](https://strudel.cc/workshop/getting-started/){ target="_blank" rel="noopener" }.

@@ -128,4 +128,4 @@ Explique comment contribuer au projet (style de code, process de PR, tests requi
 
 ---
 
-> Lien vers source : [Git Documentation](https://git-scm.com/doc){ target="_blank" } · [GitHub Actions](https://docs.github.com/en/actions){ target="_blank" }
+> Lien vers source : [Git Documentation](https://git-scm.com/doc){ target="_blank" rel="noopener" } · [GitHub Actions](https://docs.github.com/en/actions){ target="_blank" rel="noopener" }

@@ -96,5 +96,5 @@ icon: material/home
 ---
 
 !!! info "À propos de ce site"
-    Ce site est conçu avec [MkDocs](https://www.mkdocs.org){ target="_blank" } et le thème [Material](https://squidfunk.github.io/mkdocs-material/){ target="_blank" }.
+    Ce site est conçu avec [MkDocs](https://www.mkdocs.org){ target="_blank" rel="noopener" } et le thème [Material](https://squidfunk.github.io/mkdocs-material/){ target="_blank" rel="noopener" }.
     Il est hébergé sur GitHub Pages.
