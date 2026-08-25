@@ -1,204 +1,115 @@
 ---
 title: Bases de MkDocs
-description: "Les fondamentaux de MkDocs : générateur de sites statiques pour la documentation de projets."
+description: "Les fondamentaux de ProperDocs/MkDocs : installation, commandes et structure du projet."
 ---
 
-# <span class="h1">MkDocs</span>
+# <span class="h1">Bases</span>
 
 <p class="intro">
-    MkDocs est un générateur de sites statiques <strong>rapide</strong>, <strong>simple</strong> et <strong>élégant</strong>, conçu pour la création de documentation de projet.
+    Installation, premiers pas et structure d'un projet ProperDocs (fork de MkDocs 1.x).
 </p>
-
----
-
-## <span class="h2">Caractéristiques</span>
-
-* De superbes thèmes disponibles.
-* Facile à personaliser.
-* Previsualiser votre site pendant que vous travaillez.
-* Hébergé n'importe ou.
 
 ---
 
 ## <span class="h2">Installation</span>
 
-Pour installer **Mkdocs**, exécuter la commande suivante depuis la ligne de commande :
-
 ```bash
-> pip install mkdocs
+pip install properdocs
 ```
 
-???+ warning "Attention"
-    Si mkdocs n'est pas disponible alors il faut passer par python :
+!!! tip "Alternative"
+    Si la commande n'est pas reconnue :
     ```bash
-    > python -m pip install mkdocs        # installe la commande
-    > python -m mkdocs                    # préface de chaque commande mkdocs
+    python -m pip install properdocs
+    python -m properdocs --version
     ```
 
-Pour vérifier la version :
+---
+
+## <span class="h2">Créer un projet</span>
 
 ```bash
-> python -m mkdocs --version
+properdocs new mon-projet
+cd mon-projet
+```
+
+Cela génère la structure suivante :
+
+```
+mon-projet/
+├── properdocs.yml    # Fichier de configuration
+└── docs/
+    └── index.md      # Page d'accueil
 ```
 
 ---
 
-## <span class="h2">Création d'un nouveau projet</span>
+## <span class="h2">Commandes essentielles</span>
 
-Pour créer un nouveau projet, exécuter la commande suivante :
-
-```bash
-> mkdocs new my-project
-```
-
-Mkdocs intègre un serveur de développement qui permet de prévisualiser votre documentation pendant que vous travaillez dessus.
-Pour ce faire, assurez-vous d'étre dans le meme repertoire que le fichier ***mkdocs.yml*** (*qui est le fichier de configuration*).
-
-```bash
-> python -m mkdocs serve
-> mkdocs serve
-INFO    -  Building documentation...
-INFO    -  Cleaning site directory
-INFO    -  Documentation built in 0.22 seconds
-INFO    -  [15:50:43] Watching paths for changes: 'docs', 'mkdocs.yml'
-INFO    -  [15:50:43] Serving on http://127.0.0.1:8000/
-```
-
-Pour le chargement automatique :
+| Commande | Description |
+|---|---|
+| `properdocs new [dossier]` | Créer un nouveau projet |
+| `properdocs serve` | Lancer le serveur de dev (hot-reload) |
+| `properdocs build` | Générer le site statique |
+| `properdocs build --strict` | Build avec erreurs fatales (liens cassés, etc.) |
+| `properdocs gh-deploy` | Déployer sur GitHub Pages |
 
 ```bash
-python -m mkdocs serve --livereload
+# Serveur local avec port personnalisé
+properdocs serve --dev-addr=127.0.0.1:8001
+
+# Build optimisé
+properdocs build --strict
 ```
 
 ---
 
-## <span class="h2">Commandes</span>
+## <span class="h2">Fichier de configuration</span>
 
-* `mkdocs new [nom-dossier]` - Créez un nouveau projet.
-* `mkdocs serve` - Démarrez le serveur de documentation avec rechargement en direct.
-* `mkdocs build` - Générez le site de documentation.
-* `mkdocs -h` - Affichez le message d'aide et quittez.
-
-```bash
-> mkdocs serve --dev-addr=127.0.0.1:8001    # Lance le serveur.
-> mkdocs build                              # Génére le site de documentation.
-```
-
----
-
-## <span class="h2">Structure du projet</span>
-
-```bash
-    mkdocs.yml    # Le fichier de configuration.
-    docs/
-        index.md  # La page d'accueil de la documentation.
-        ...       # Autres pages markdown, images et autres fichiers.
-```
-
-Voici la liste des thèmes disponibles par défaut avec MkDocs :
-
-```bash
-    mkdocs (thème par défaut)
-    readthedocs
-    material (nécessite une installation supplémentaire)
-    windmill
-    bootstrap
-    slate
-    cyborg
-    simplex
-    superhero
-    united
-    cosmo
-    yeti
-    cerulean
-    flatly
-    journal
-    lumen
-    paper
-    sandstone
-    spacelab
-```
-
-Pour installer un théme :
-
-```bash
-pip install mkdocs-material     #instale le theme material
-```
-
----
-
-## <span class="h2">Personnaliser le footer Mkdocs</span>
-
-* Crée un dossier **overrides/** à la racine de ton projet
-
-```bash
-mkdir overrides
-```
-
-* Dans ce dossier, crée le chemin
-
-```bash
-overrides/main.html
-```
-
-* Ajoute ce contenu dans overrides/main.html
-
-```html
-{% extends "base.html" %}
-
-{% block footer %}
-<!-- Footer désactivé -->
-{% endblock %}
-```
-
-* Dans ton mkdocs.yml, indique l’override
+Le fichier `properdocs.yml` est le cœur du projet. Il contient :
 
 ```yaml
+site_name: MonSite
+site_url: https://exemple.github.io/mon-site/
+
 theme:
-  name: mkdocs  # ou readthedocs
-  custom_dir: overrides
+  name: material
+  language: fr
+
+nav:
+  - Accueil: index.md
+  - Guide: guide.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
 ```
 
-!!! note "Note"
-    Texte de la note.
+!!! info "Migration depuis MkDocs"
+    Si vous veniez de MkDocs, remplacez simplement :
+    - `pip install mkdocs` → `pip install properdocs`
+    - `mkdocs build` → `properdocs build`
+    - `mkdocs.yml` → `properdocs.yml`
+    - Le reste est identique (mêmes plugins, thèmes et extensions).
 
-!!! tip "Astuce"
-    Texte de l'astuce.
+---
 
-!!! warning "Attention"
-    Texte d'avertissement.
+## <span class="h2">Structure recommandée</span>
 
-!!! danger "Danger"
-    Texte de danger.
+```
+mon-projet/
+├── properdocs.yml
+├── docs/
+│   ├── index.md
+│   ├── css/
+│   │   └── custom.css
+│   ├── images/
+│   └── ...
+└── site/              # Généré automatiquement (à gitignorer)
+```
 
-!!! info "Information"
-    Texte informatif.
-
-??? note "Titre du bloc"
-    Contenu caché par défaut.
-
-???+ warning "Titre du bloc"
-    Contenu visible par défaut.
-
-
-=== "C"
-
-    ``` c
-    #include <stdio.h>
-
-    int main(void) {
-      printf("Hello world!\n");
-      return 0;
-    }
-    ```
-
-=== "C++"
-
-    ``` c++
-    #include <iostream>
-
-    int main(void) {
-      std::cout << "Hello world!" << std::endl;
-      return 0;
-    }
-    ```
+!!! warning "Ne pas commit le dossier `site/`"
+    Ajoutez `site/` à votre `.gitignore` — c'est le build généré.

@@ -51,6 +51,9 @@ nav:
           - mkdocs/index.md
           - Bases: mkdocs/bases.md
           - Material: mkdocs/material.md
+          - Plugins: mkdocs/plugins.md
+          - Extensions: mkdocs/extensions.md
+          - Déploiement: mkdocs/deploiement.md
 
       - Strudel:
           - strudel/index.md
