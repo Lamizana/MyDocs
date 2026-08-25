@@ -214,7 +214,7 @@ icon: material/account
 
 ## <span class="h2">Me Contacter</span>
 
-<div class="contact-buttons">
+<div class="contact-buttons" markdown>
     [:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary target="_blank" }
     [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/alex-lamizana){ .md-button .md-button--primary target="_blank" }
     [:material-email: Email](mailto:alex.lamizana@42angouleme.fr){ .md-button }
