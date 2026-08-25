@@ -1,5 +1,6 @@
 ---
 title: MyBlog
+description: Articles sur la culture, la science et la réflexion personnelle.
 icon: fontawesome/solid/blog
 
 ---

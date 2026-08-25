@@ -1,5 +1,6 @@
 ---
 title: Les puces
+description: L'expérience de l'autolimitation des puces et la notion de conditionnement comportemental.
 date: 2026-03-22
 authors:
   - zehd

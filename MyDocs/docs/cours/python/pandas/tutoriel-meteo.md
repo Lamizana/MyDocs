@@ -1,6 +1,6 @@
 ---
 title: Analyse Météo
-
+description: Tutoriel complet pour analyser des données météo avec Pandas et l'API Open-Meteo.
 ---
 
 # <span class="h1">Analyse Météo avec Pandas</span>

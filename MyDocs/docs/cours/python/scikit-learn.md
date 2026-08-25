@@ -1,6 +1,6 @@
 ---
 title: Scikit-learn
-
+description: Introduction à Scikit-learn — classification, régression, clustering et machine learning en Python.
 ---
 
 # <span class="h1">Scikit-learn</span>

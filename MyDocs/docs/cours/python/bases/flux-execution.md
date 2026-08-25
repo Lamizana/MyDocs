@@ -1,6 +1,6 @@
 ---
 title: Flux d'exécution
-
+description: Comprendre les conditions (if/elif/else) et le contrôle du flux d'exécution en Python.
 ---
 
 # <span class="h1">Contrôle du flux d'exécution</span>
