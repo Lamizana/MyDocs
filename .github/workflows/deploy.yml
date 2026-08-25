@@ -29,7 +29,12 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
+      - name: Install system dependencies (Cairo for social plugin)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libpango1.0-dev libgdk-pixbuf2.0-dev libffi-dev
+
+      - name: Install Python dependencies
         run: pip install -r MyDocs/requirements.txt
 
       - name: Build site (strict)

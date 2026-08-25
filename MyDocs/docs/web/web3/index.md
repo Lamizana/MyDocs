@@ -28,7 +28,7 @@ Un guide complet pas à pas — de zéro jusqu'à un token publié sur la blockc
 
 <div class="grid cards" markdown>
 
--   :material-chain:{ .lg .middle } **Blockchain**
+-   :simple-blockchaindotcom:{ .lg .middle } **Blockchain**
 
     ---
 

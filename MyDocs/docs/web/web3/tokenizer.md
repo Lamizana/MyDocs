@@ -41,7 +41,7 @@ La **BNB Chain** (réseau du partenaire du projet 42) existe en deux versions :
 ### A.3 Le vocabulaire à connaître
 
 | Terme | Définition |
-|---|---|
+| --- | --- |
 | **Wallet (portefeuille)** | Applis comme MetaMask qui détiennent tes adresses et tes fonds. |
 | **Adresse** | Une longue chaîne (`0x...`) qui identifie un compte, un peu comme un numéro de compte bancaire. |
 | **Smart contract** | Un programme qui vit sur la blockchain (ici : ton token). |
