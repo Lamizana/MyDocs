@@ -1,6 +1,7 @@
 ---
 title: Hiérarchie chez les rats
 description: L'expérience des rats plongeurs de Desor et la différenciation sociale induite par le stress.
+slug: hierarchie-chez-les-rats
 date: 2026-06-27
 authors:
   - zehd

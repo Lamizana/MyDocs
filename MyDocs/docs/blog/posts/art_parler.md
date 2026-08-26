@@ -1,6 +1,7 @@
 ---
 title: L'art de parler et d'écouter
 description: Réflexion sur l'importance de la communication et de l'écoute active dans les relations humaines.
+slug: lart-de-parler-et-ecouter
 date: 2026-02-06
 authors:
   - zehd

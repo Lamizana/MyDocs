@@ -1,6 +1,7 @@
 ---
 title: Capacité encéphalique
 description: Exploration de l'encéphale, ses structures et son rôle dans le système nerveux central.
+slug: capacite-encephalique
 date: 2026-02-06
 authors:
   - zehd

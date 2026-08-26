@@ -1,6 +1,7 @@
 ---
 title: Les Fourmis
 description: Découverte des sociétés de fourmis, leur organisation complexe et leurs modes de communication.
+slug: les-fourmis
 date: 2026-03-23
 authors:
   - zehd
