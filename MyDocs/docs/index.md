@@ -41,6 +41,14 @@ icon: material/home
 
     [:octicons-arrow-right-24: Découvrir](projets/ft_irc.md)
 
+-   :simple-blockchaindotcom:{ .lg .middle } __Tokenizer__
+
+    ---
+
+    **Token BEP-20** GOLD42 sur BNB Smart Chain : premier smart contract, blockchain et DeFi.
+
+    [:octicons-arrow-right-24: Découvrir](projets/tokeniser.md)
+
 </div>
 
 [:fontawesome-solid-arrow-right: Voir tous les projets](projets/index.md){ .md-button .md-button--primary }
@@ -96,5 +104,5 @@ icon: material/home
 ---
 
 !!! info "À propos de ce site"
-    Ce site est conçu avec [MkDocs](https://www.mkdocs.org){ target="_blank" rel="noopener" } et le thème [Material](https://squidfunk.github.io/mkdocs-material/){ target="_blank" rel="noopener" }.
+    Ce site est conçu avec [ProperDocs](https://www.mkdocs.org){ target="_blank" rel="noopener" } et le thème [Material](https://squidfunk.github.io/mkdocs-material/){ target="_blank" rel="noopener" }.
     Il est hébergé sur GitHub Pages.
