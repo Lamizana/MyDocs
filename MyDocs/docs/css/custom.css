@@ -88,10 +88,6 @@
   vertical-align: middle;
 }
 /* =========================== BADGES SHIELDS.IO =========================== */
-.badge-section {
-  margin-bottom: 30px;
-}
-
 .badge-category {
   font-weight: 600;
   color: var(--md-primary-fg-color);
