@@ -10,7 +10,7 @@ nav:
 
   - Projets:
       - projets/index.md
-      - Tokeniser: projets/tokeniser.md
+      - Tokenizer: projets/tokeniser.md
       - Transcendance: projets/transcendance.md
       - Minishell: projets/minishell.md
       - Irc: projets/ft_irc.md
@@ -86,7 +86,7 @@ nav:
           - web/web3/blockchain.md
           - web/web3/etherscan.md
           - web/web3/bscscan.md
-          - Tokeniser: web/web3/tokenizer.md
+          - Tokenizer: web/web3/tokenizer.md
 
   - GitHub:
       - github/index.md
@@ -142,6 +142,7 @@ theme:
     - search.highlight
     - content.code.copy
     - header.autohide
+    - content.tooltips
 
   font:
     text: Roboto

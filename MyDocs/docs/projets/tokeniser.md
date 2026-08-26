@@ -1,9 +1,9 @@
 ---
-title: Tokeniser
+title: Tokenizer
 description: "Token BEP-20 GOLD42 sur BNB Smart Chain : premier smart contract, défi de compréhension blockchain et DeFi."
 ---
 
-# <span class="h1">Tokeniser</span>
+# <span class="h1">Tokenizer</span>
 
 <div class="project-hero">
     <span class="tech-tag">Solidity</span>
@@ -80,3 +80,8 @@ description: "Token BEP-20 GOLD42 sur BNB Smart Chain : premier smart contract, 
 
 [:fontawesome-brands-github: Voir le code](https://github.com/Lamizana/Tokeniser){ .md-button .md-button--primary target="_blank" rel="noopener" }
 [:octicons-verified-24: Contrat sur BscScan](https://testnet.bscscan.com/address/0xa3B9A3eb3F2aE8ed3a6788F4Ccbdb1e503FE6aaD){ .md-button target="_blank" rel="noopener" }
+
+---
+
+!!! info "Tutoriel complet"
+    Tu veux reproduire ce projet ? Consulte le [tutoriel pas à pas : créer un token BEP-20](../web/web3/tokenizer.md){ target="_blank" rel="noopener" } qui couvre l'intégralité du processus, de l'installation de MetaMask à la vérification sur BSCScan.

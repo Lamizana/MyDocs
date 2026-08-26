@@ -1,9 +1,9 @@
 ---
-title: Tokeniser
+title: Tokenizer
 description: "Tutoriel pas à pas : créer, déployer et vérifier votre premier token BEP-20 sur la BNB Smart Chain."
 ---
 
-# <span class="h1">Tokeniser</span>
+# <span class="h1">Tokenizer</span>
 
 <p class="intro">
     Tutoriel complet pour créer votre premier token BEP-20 sur la BNB Smart Chain — de zéro jusqu'à un token publié et vérifié sur BSCScan.
@@ -15,6 +15,9 @@ description: "Tutoriel pas à pas : créer, déployer et vérifier votre premier
     **Niveau** : débutant · **Durée estimée** : 2 à 3 h · **0 € requis**
 
     Ce tutoriel couvre l'intégralité du processus : concepts de base, installation de MetaMask, écriture du smart contract en Solidity, compilation, déploiement sur le BSC Testnet, tests et vérification sur BSCScan.
+
+!!! abstract "Voir aussi"
+    Ce tutoriel est lié à la [fiche projet Tokenizer](../../projets/tokeniser.md){ target="_blank" rel="noopener" } qui présente le résultat final, la stack technique et les compétences acquises.
 
 ---
 
