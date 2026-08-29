@@ -12,20 +12,11 @@ icon: material/home
 
 ---
 
-
 ## <span class="h2">Projets en vedette</span>
 
 <div class="grid cards" markdown>
 
--   :material-gamepad-variant:{ .lg .middle } __Transcendance__
-
-    ---
-
-    Application web de **Pong multijoueur** en temps réel : WebSockets, OAuth 42, PostgreSQL.
-
-    [:octicons-arrow-right-24: Découvrir](projets/transcendance.md)
-
--   :material-console:{ .lg .middle } __Minishell__
+- :material-console:{ .lg .middle } __Minishell__
 
     ---
 
@@ -33,7 +24,15 @@ icon: material/home
 
     [:octicons-arrow-right-24: Découvrir](projets/minishell.md)
 
--   :material-server-network:{ .lg .middle } __ft_irc__
+- :material-gamepad-variant:{ .lg .middle } __Transcendance__
+
+    ---
+
+    Application web de **Pong multijoueur** en temps réel : WebSockets, OAuth 42, PostgreSQL.
+
+    [:octicons-arrow-right-24: Découvrir](projets/transcendance.md)
+
+- :material-server-network:{ .lg .middle } __ft_irc__
 
     ---
 
@@ -41,7 +40,7 @@ icon: material/home
 
     [:octicons-arrow-right-24: Découvrir](projets/ft_irc.md)
 
--   :simple-blockchaindotcom:{ .lg .middle } __Tokenizer__
+- :simple-blockchaindotcom:{ .lg .middle } __Tokenizer__
 
     ---
 
@@ -59,7 +58,7 @@ icon: material/home
 
 <div class="grid cards" markdown>
 
--   :material-school:{ .lg .middle } __Cours__
+- :material-school:{ .lg .middle } __Cours__
 
     ---
 
@@ -67,7 +66,7 @@ icon: material/home
 
     [:octicons-arrow-right-24: Les cours](cours/index.md)
 
--   :material-web:{ .lg .middle } __Web__
+- :material-web:{ .lg .middle } __Web__
 
     ---
 
@@ -75,7 +74,7 @@ icon: material/home
 
     [:octicons-arrow-right-24: Le web](web/index.md)
 
--   :material-github:{ .lg .middle } __GitHub__
+- :material-github:{ .lg .middle } __GitHub__
 
     ---
 
@@ -83,7 +82,7 @@ icon: material/home
 
     [:octicons-arrow-right-24: GitHub](github/index.md)
 
--   :material-server:{ .lg .middle } __Système__
+- :material-server:{ .lg .middle } __Système__
 
     ---
 
@@ -91,7 +90,7 @@ icon: material/home
 
     [:octicons-arrow-right-24: Système](systeme/index.md)
 
--   :material-music:{ .lg .middle } __Strudel__
+- :material-music:{ .lg .middle } __Strudel__
 
     ---
 
