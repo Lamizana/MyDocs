@@ -225,4 +225,6 @@ icon: material/account
 
 ## <span class="h2">Me Contacter</span>
 
-[:fontawesome-brands-github: GitHub](https://github.com/Lamizana){ .md-button .md-button--primary target="_blank" rel="noopener" } [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/alex-lamizana){ .md-button .md-button--primary target="_blank" rel="noopener" } [:material-email: Email](mailto:lamizana1987@yahoo.fr){ .md-button .md-button--primary target="_blank" rel="noopener"}
+Toutes mes coordonnées sont réunies sur une page dédiée.
+
+[:material-email: Prendre contact](contact.md){ .md-button .md-button--primary }

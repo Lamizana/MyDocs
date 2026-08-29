@@ -1,14 +1,13 @@
 ================================================================================
   TODO — MyDocs — Choses à faire
-  Dernière mise à jour : 25 août 2026
+  Dernière mise à jour : 29 août 2026
 ================================================================================
 
 📌 IMMÉDIAT (à faire avant le prochain push)
 ─────────────────────────────────────────────
-[ ] Commiter les changements tags.md (pas encore fait)
-[ ] Vérifier dans le navigateur que les liens de la page /tags/ fonctionnent
-    Les slugs de blog posts ont des accents dans les vrais dossiers mais
-    sans accents dans le HTML généré — risque de liens cassés
+[ ] ✅ Fait — Corrections tags.md commitées (commits a0f50a3, 7453556)
+[ ] ✅ Fait — Liens /tags/ vérifiés : 6/6 corrects vers les URLs blog ASCII
+    (build --strict propre le 2026-08-29, slugs du frontmatter respectés)
 
 
 🔒 SÉCURITÉ
@@ -22,65 +21,42 @@
 [ ] ✅ Fait — robots.txt créé (commit 0099794)
 [ ] ✅ Fait — Tags ajoutés aux 6 posts blog (commit 0099794)
 [ ] ✅ Fait — Page tags.md créée manuellement
-[ ] Vérifier que le sitemap.xml est bien généré et indexé
+[ ] Confirmer l'indexation du sitemap dans Google Search Console
+    (généré : 71 URLs, lastmod 2026-08-29, référencé dans robots.txt)
 [ ] Envisager d'ajouter des meta descriptions plus spécifiques par page projet
 
 
 📄 CONTENU & STRUCTURE
 ─────────────────────────────────────────────
-[ ] Corriger les 19 fichiers avec plusieurs H1 (changer # en ##)
-    Fichiers concernés :
-      - cours/python/bases/chaines.md (8 H1)
-      - cours/python/bases/mise-en-place.md (3 H1)
-      - cours/python/bases/operateurs.md (15 H1)
-      - cours/python/bases/variables.md (4 H1)
-      - cours/python/exercices/nombres.md (5 H1)
-      - cours/python/numpy/exercice-dice.md (9 H1)
-      - cours/python/numpy/index.md (48 H1)
-      - cours/python/pandas/index.md (9 H1)
-      - cours/python/pandas/tutoriel-meteo.md (27 H1)
-      - cours/python/scikit-learn.md (12 H1)
-      - github/git-branches-merge.md (13 H1)
-      - github/git-avance.md (7 H1)
-      - github/git-bases.md (20 H1)
-      - mkdocs/bases.md (3 H1)
-      - mkdocs/plugins.md (2 H1)
-      - mkdocs/deploiement.md (3 H1)
-      - projets/so_long.md (5 H1)
-      - systeme/nettoyage-disque.md (3 H1)
-      - web/web2/react.md (5 H1)
+[ ] ✅ Fait — Fausse alerte "19 fichiers avec plusieurs H1" : le décompte
+    initial comptait les commentaires Python (#) dans les blocs de code comme
+    des titres. Vérifié le 29/08 : les 19 fichiers ont tous 1 seul H1 réel ✅
+    (recherche à refaire si besoin : exclure les blocs ``` du grep ^#)
 
-[ ] Ajouter Tokeniser aux projets vedettes de la page d'accueil (index.md)
-    Actuellement : Transcendance, Minishell, ft_irc
-    À ajouter : Tokeniser (projet blockchain, premier smart contract)
-
-[ ] Résoudre la duplication :
-      - web/web3/tokenizer.md (401 lignes) — page de cours/veille
-      - projets/tokeniser.md (82 lignes) — fiche projet
-    → Ajouter des liens croisés entre les deux pages
+[ ] ✅ Fait — Tokenizer ajouté aux projets vedettes de l'accueil (commit 25477be)
+[ ] ✅ Fait — Duplication tokenizer résolue : liens croisés ajoutés
+    projets/tokeniser.md ↔ web/web3/tokenizer.md (commit b230c18)
 
 
 🎨 DESIGN & CSS
 ─────────────────────────────────────────────
-[ ] Supprimer le doublon .badge-section dans custom.css
-    Défini 2 fois (lignes 91-93 et 527-529) avec des styles différents
-    La seconde écrase la première
-
+[ ] ✅ Fait — Doublon .badge-section supprimé (une seule définition restante,
+    utilisée par 6 pages — commit 2dd9395)
 [ ] Ajouter loading="lazy" sur les images (performance mobile)
-
-[ ] Mettre à jour la mention "MkDocs" dans l'accueil → "ProperDocs"
-    Fichier : docs/index.md (ligne 99)
+[ ] ✅ Fait — Mention "MkDocs" → "ProperDocs" dans l'accueil (footer ligne 106)
+    + meta description corrigée le 29/08/2026 (non commitée)
 
 
 ⚙️ CONFIGURATION
 ─────────────────────────────────────────────
-[ ] Évaluer l'ajout de navigation.top (bouton "retour en haut")
-[ ] Évaluer l'ajout de content.tooltips ( tooltips au survol)
+[ ] ✅ Fait — navigation.top actif dans properdocs.yml
+[ ] ✅ Fait — content.tooltips actif dans properdocs.yml (commit 2dd9395)
 
 
 🌐 DÉPLOIEMENT & CI/CD
 ─────────────────────────────────────────────
-[ ] Vérifier que le deploy.yml fonctionne bien après les changements
+[ ] Vérifier le run GitHub Actions du push du 29/08 (build strict + deploy)
+    → vérifiable en CLI après `gh auth login`, ou via l'interface GitHub
 [ ] Vérifier que Google Analytics (G-74MZWWS1RR) collecte bien des données
     après acceptation du consent cookie
 
@@ -90,5 +66,6 @@
 [ ] Ajouter une page "Changelog" ou "Journal" pour suivre les évolutions
 [ ] Ajouter des tags aux pages de cours (Python, JavaScript, etc.)
     pour améliorer la découverte via la page /tags/
-[ ] Créer une page "Contact" dédiée (au lieu de la section dans About)
+[ ] ✅ Fait — Page "Contact" dédiée créée : docs/contact.md (grid cards + styles
+    .contact-btn existants), nav mise à jour, About pointe vers la page (29/08/2026)
 [ ] Envisager un filtre par tag sur la page d'accueil du blog
